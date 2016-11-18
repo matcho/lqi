@@ -1,4 +1,8 @@
-<?php include "entete.php" ?>
+<?php
+	include "entete.php";
+	include "../lib/email.php";
+?>
+
 <body>
 	<?php
 		$page = "participer";
@@ -74,8 +78,7 @@
 					<!-- Indication du type d'action -->
 					<input name="cmd" type="hidden" value="_xclick" />
 					<!-- Indication de l'adresse e-mail test du vendeur (a remplacer par l'e-mail de votre compte Paypal en production) -->
-					<!--<input name="business" type="hidden" value="office-facilitator@laquatriemeimage.com" />-->
-					<input name="business" type="hidden" value="office@laquatriemeimage.com" />
+					<input name="business" type="hidden" value="<?php echo $email_vendeur ?>" />
 					<!-- Indication du libellé de la commande qui apparaitra sur Paypal -->
 					<input name="item_name" type="hidden" value="Inscription LaQuatriemeImage - Exposants" />
 					<!-- Indication permettant à l'acheteur de laisser un message lors du paiement -->
@@ -145,8 +148,7 @@
 					<!-- Indication du type d'action -->
 					<input name="cmd" type="hidden" value="_xclick" />
 					<!-- Indication de l'adresse e-mail test du vendeur (a remplacer par l'e-mail de votre compte Paypal en production) -->
-					<!--<input name="business" type="hidden" value="office-facilitator@laquatriemeimage.com" />-->
-					<input name="business" type="hidden" value="office@laquatriemeimage.com" />
+					<input name="business" type="hidden" value="<?php echo $email_vendeur ?>" />
 					<!-- Indication du libellé de la commande qui apparaitra sur Paypal -->
 					<input name="item_name" type="hidden" value="Inscription LaQuatriemeImage - Prix Photos" />
 					<!-- Indication permettant à l'acheteur de laisser un message lors du paiement -->
@@ -206,8 +208,7 @@
 					<!-- Indication du type d'action -->
 					<input name="cmd" type="hidden" value="_xclick" />
 					<!-- Indication de l'adresse e-mail test du vendeur (a remplacer par l'e-mail de votre compte Paypal en production) -->
-					<!--<input name="business" type="hidden" value="office-facilitator@laquatriemeimage.com" />-->
-					<input name="business" type="hidden" value="office@laquatriemeimage.com" />
+					<input name="business" type="hidden" value="<?php echo $email_vendeur ?>" />
 					<!-- Indication du libellé de la commande qui apparaitra sur Paypal -->
 					<input name="item_name" type="hidden" value="Inscription LaQuatriemeImage - Jeunes Talents" />
 					<!-- Indication permettant à l'acheteur de laisser un message lors du paiement -->

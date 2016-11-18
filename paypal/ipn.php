@@ -5,10 +5,6 @@
 
 include "../lib/email.php";
 
-// email de notre compte business
-//$email_vendeur = "office-facilitator@laquatriemeimage.com";
-$email_vendeur = "office@laquatriemeimage.com";
-
 // Envoi des infos a Paypal
 $req = "cmd=_notify-validate";
 
