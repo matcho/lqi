@@ -9,10 +9,10 @@ ini_set("error_reporting", E_ALL ^ E_DEPRECATED);
 
 // Connexion à la BD
 function connexion() {
-	$hostname = "mysql51-82.perso";
-	$username = "laquatrimod1";
-	$password = "jrWjEkgS";
-	$database = "laquatrimod1";
+	$hostname = "";
+	$username = "";
+	$password = "";
+	$database = "";
 	$link = mysql_connect($hostname, $username, $password);
 	mysql_select_db($database);
 	mysql_query("SET NAMES utf8");
