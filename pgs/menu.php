@@ -13,7 +13,7 @@
 		</ul>
 		<nav>
 		    <ul>
-		        <li><a <?php echo ($page == "salon" ? 'class="active"' : '') ?> href="le_salon.php"><?php trad("Le salon", "Photo fair") ?></a></li>
+		        <li><a <?php echo ($page == "salon" ? 'class="active"' : '') ?> href="le_salon.php"><?php trad("Le Festival", "The Festival") ?></a></li>
 		        <li><a <?php echo ($page == "participer" ? 'class="active"' : '') ?> href="participer.php"><?php trad("Participer", "Participate") ?></a></li>
 		        <li><a class="<?php echo ($page == "exposants" ? 'active ' : '') ?>active-red" href="exposants.php"><?php trad("Les exposants", "Exhibitors") ?></a></li>
 		        <li><a class="<?php echo ($page == "prix_photo" ? 'active ' : '') ?>active-blue" href="le_prix_photo.php"><?php trad("Le Prix Photo", "Photo Prizes") ?></a></li>

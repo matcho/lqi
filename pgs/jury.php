@@ -8,11 +8,10 @@
     	<div id="content">
     		<h1><?php trad("Le jury", "Jury"); ?><span id="title_line"></span></h1>
             <ul id="nav_concour">
-				<li><a href="#" data-annee="2015" class="active">2015</a></li>
-            	<li><a href="#" data-annee="2014">2014</a></li>
-                <li><a href="#" data-annee="2013">2013</a></li>
+            <li><a href="#" data-annee="2016" class="active">2016</a></li>
+				
             </ul>
-			<div id="presentation" data-annee="2015" style="display: none;">
+			<div id="presentation" data-annee="201" style="display: none;">
 				<?php if($langue == 'fr'): ?>
                 <p class="colspe">
                 	Les candidatures sont évaluées par un jury international d'experts : directeur de rédaction, photographes, artistes, critiques… 
@@ -69,6 +68,13 @@
 				<?php endif; ?>
             </div>
         </div>
+        
+                 </div>
+        </div>
+        
+        
+        
+        
     </section>
 	<section class="jury equipe content">
     	<div id="content" data-annee="2015">
@@ -77,152 +83,167 @@
             		<div class="texte-badge">
             			©
             		</div>
-                	<img src="../img/jury/jury-2015-06.jpg" />
+                	<img src="../img/jury/jury-2016-01.jpg" />
 					<div class="fond-rouge"></div>
                 </a>
                 <div class="text">
-                	<h4>Anne CARTIER-BRESSON</h4>
+                	<h4>Jean-François LEROY</h4>
 					<?php if($langue == 'fr'): ?>
-					<h5>Conservatrice générale du patrimoine, est directrice de l'Atelier de Restauration et de Conservation des Photographies de la Ville de Paris (ARCP) depuis sa création en 1983</h5>
-                    <p>
-						Docteure en histoire de l'art (option Art contemporain, recherches historiques et techniques de l'Université de Paris I), elle est également diplômée de la Maîtrise de Sciences 
-                        et techniques en Conservation-Restauration des Biens Culturels et licenciée en histoire et en archéologie de l'Université de Paris I.<br/>
-                     <br/>Elle est responsable du département Photographie du département des restaurateurs de l'Institut National du Patrimoine (Inp), et enseigne auprès de divers organismes de 
-                         formation en France ou à l'étranger. <br/>
-                     <br/>Elle a publié de nombreux articles et contribué à divers ouvrages sur l'histoire, les techniques et les méthodes de conservation des photographies.<br/>
-                     <br/>Depuis 1994, elle a assuré le commissariat d'expositions sur les collections photographiques parisiennes ou étrangères.<br/>
-                     <br/>Elle est administratrice de la Fondation Henri Cartier-Bresson, et de la Société française de Photographie. 
-                    </p>
+				  <h5>Photographe journalistique, directeur et fondateur du festival Visa pour l&rsquo;Image</h5>
+                  <p>Né le 3 octobre 1956, Journaliste, passionné de photographie, il a  collaboré aux magazines Photo-Reporter, Le Photographe, Photo-Revue et  Photo Magazine.</p>
+                    <p>Dans les mêmes temps, il fait des reportages pour l&rsquo;agence Sipa Press.</p>
+                    <p>En 1988, il devient agent de Dominique Issermann.</p>
+                    <p>En 1989, aux côtés de Yann Arthus-Bertrand, il réalise « Trois jours  en France », une opération qui peint le portrait de la France en 1989,  150 ans après l&rsquo;invention de la photographie.</p>
+                  <p>Depuis septembre 1989, il organise le Festival International de Photojournalisme « Visa pour l&rsquo;Image – Perpignan ».</p>
+                    <p>De 1997 à 2009, il s&rsquo;associe au groupe Hachette Filipacchi à travers  la société Images-Evidence  qu&rsquo;il rachète en juillet 2009 et dont il est  président.
 					<?php endif; ?>
 					<?php if($langue == 'en'): ?>
-					<h5>Heritage general curator, the director of the ARCP (City of Paris Photographic Conservation and Restoration Workshop) since its creation in 1983</h5>
+				  </p>
+                  <h5>Photo-Reporter, director of the Festival Visa pour l'Image</h5>
                     <p>
-						Ph.D in Art History at the Université Paris 1 (specialized in contemporary arts, historical research and techniques), she graduated from the Master's degree in Sciences and techniques in conservation-restoration of cultural property and from the undergraduate program of History and archaeology                        at the same university.<br/>
-                     <br/She is head of the Photographic section of the restoration department of the National Heritage Institute (Institut National du Patrimoine). She is a teacher within multiple training organisations in France or abroad.<br/>
-                     <br/>She published numerous articles and contributed in various works about History, photographic techniques and conservation methods.<br/>
-                     <br/>Since 1994, she carries out exhibition curating functions in Parisian or international photographic collections.<br/>
-                     <br/>She is administrator of the Henri Cartier-Bresson Foundation, and of the French Society of Photography. 
-                    </p>
+						Born in 1956, as a journalist and passionate enthusiast of photography, Jean-François Leroy worked for Photo-Reporter, Le Photographe, Photo-Revue and Photo Magazine.<br/>
+
+At the same time, he produced photo reports for the agency Sipa-Press. In 1988, he became Dominique Issermann’s agent. In 1989, in collaboration with Yann Arthus-Bertrand, he carried out the project « 3 days in France » profiling a portrait of France, 150 years after the invention of photography.<br/>
+
+Since September 1989 he has been running the international photojournalism festival Visa pour l’image. From 1997 to 2009, he partnered with Hachette-Filipacchi through the company Images Evidence, that he bought in July 2009 and of which he is now chairman.<br/>
+                     
+                  </p>
 					<?php endif; ?>
                     
                     <span class="deco"></span>
-                </div>
-                </div>
+              </div>
+          </div>
             <div class="box">
             	<a href="#" class="profil_jury">
             		<div class="texte-badge">
             			© 
             		</div>
-                	<img src="../img/jury/jury-2014-01.jpg" />
+                	<img src="../img/jury/jury-2016-02.jpg" />
 					<div class="fond-rouge"></div>
                 </a>
                 <div class="text">
-                	<h4>Dimitri Beck</h4>
+                	<h4><strong>Laura SERANI</strong></h4>
 					<?php if($langue == 'fr'): ?>
-					<h5>Rédacteur en chef de Polka Magazine</h5>
-                    <p>
-						Rédacteur en chef de Polka magazine depuis 2008. En tant que membre fondateur de Polka (magazine, galerie de photos, iPad et web) au côté de la famille Genestar, il participe également à son développement.<br/>
-                        <br/> Il participe régulièrement à des jurys photos et donne des cours et des conférences sur le photojournalisme. De septembre 2004 à fin 2006, il a dirigé en Afghanistan l'agence Aina Photo et Les Nouvelles de Kaboul, un magazine illustré                                                  d'actualités en français-anglais, réalisé avec des collaborateurs afghans et internationaux. <br/>
-                        <br/>En 2004, Dimitri était rédacteur en chef de l'agence photo de Reza, Webistan. De 1998 à 2004, il a notamment réalisé des reportages en Asie centrale et au Caucase en tant que journaliste indépendant. Ses reportages ont été publiés                                                  dans la presse française et internationale. 
-                    </p>
+				  <h5>Commissaire indépendante et ex-directrice du mois de la Photo à Paris</h5>
+                    <p>Directrice artistique des dernières Rencontres de Bamako, Biennale  africaine de la Photographie, au Mali en 2009 et 2011, après avoir été  Déléguée artistique du Mois de la Photo à Paris en 2008 et directrice du  Si Fest en Italie en 2007 et 2008.<br/>
+                    <br/>Auparavant, elle a dirigé les Galeries photographiques de la Fnac à  Paris et à l&rsquo;étranger, ainsi que la Collection Fnac de 1985 à 2006.<br/>
+                   <br/> Auteur de nombreux ouvrages, parmi lesquels La photographie entre  histoire et poésie (Mazzotta),  La vie en rose de Malick Sidibé (Silvana  Editoriale), Frontières en 2009 et Pour un monde durable en 2011 (catalogues des Rencontres de Bamako, Actes Sud), Inside Niger de Nicola  Lo Calzo (Kehrer Verlag), et Malick Sidibé, (Collection Photo Poche /  Actes Sud).<br/>
+                   <br/> Laura Serani vit à Paris.</p>
 					<?php endif; ?>
 					<?php if($langue == 'en'): ?>
-					<h5>Dimitri Beck is the editor-in-chief Polka</h5>
-                    <p>
-						Dimitri Beck is the editor-in-chief of the Paris based photojournalism magazine, Polka. Dimitri has been part of the executive management of Polka since the beginning of the company in 2008, contributing to the development of the magazine, gallery and website. During his spare time Dimitri                        gives lectures on photojournalism at conferences and educational institutes.<br/>
-                        <br/> Prior to working at Polka, Dimitri was the Director and the editor of the Aina Photo Agency based in the Afghan capital Kabul from September 2004 to December 2006, where he was also the Editor-in-chief for the Anglo-French feature magazine Les Nouvelles de Kaboul - New Afghanistan. His                          thirst to travel to Afghanistan was inspired when he was working as editor-in-chief of Reza Deghati's photo agency "Webistan". <br/>
-                        <br/>He started out as an independent journalist filing reports to French and international media outlets from trips he did in the Caucasus area and across Central Asia in particular 
-                    </p>
+				  <h5>Freelance curator; art director of the Le Mois de la Photo</h5>
+                    <p>Curator, critic and consultant, Laura Serani is the art director of  the two latest Rencontres de Bamako, African biennial of photography,  held in Mali in 2009 and 2011.<br/>
+                     <br/>Artistic director for the 2008 edition of  the Mois de la Photo in Paris, director of the Si Fest in Italy, in  2007 and 2008, previously she was in charge of the Collection and  of  the Fnac Galleries  (in Europe, Brazil and Taiwan).<br/>
+                    <br/>She is the author of several books, including: La fotografia tra  storia e poesia (Mazzotta), Malick Sidibé, La vie en rose (Silvana  Editoriale), Borders in 2009 as well as For a sustainable world in 2011  (catalogs of the Rencontres de Bamako, Actes Sud), Inside Niger of  Nicola Lo Calzo (Kehrer Verlag) and Malick Sidibé (Collection Photo  Poche / Actes Sud).<br/>
+                  <br/>Laura Serani lives in Paris.</p>
 					<?php endif; ?>
                     <span class="deco"></span>
-                </div>
+              </div>
             </div>
             <div class="box">
             	<a href="#" class="profil_jury">
             		<div class="texte-badge">
             			©
             		</div>
-                	<img src="../img/jury/jury-2015-05.jpg" />
+                	<img src="../img/jury/jury-2016-03.jpg" />
 					<div class="fond-rouge"></div>
                 </a>
                 <div class="text">
-                	<h4>Claire Berger-Vachon</h4>
+               	  <h4><strong>Dimitri BECK</strong></h4>
 					<?php if($langue == 'fr'): ?>
-					<h5>Responsable des relations internationales à la Direction des affaires culturelles de la Ville de Paris</h5>
-                    <p>
-						Claire Berger-Vachon est responsable des relations internationales à la Direction des affaires culturelles de la Ville de Paris depuis 2011.  Elle a été chargée de différentes missions au sein de la Ville de Paris dans le domaine des arts de la scène et des arts visuels, et a occupé                                   précédemment le poste d'administrateur de l'Opéra de Lyon et de directrice du Palais des Congrès de Lyon. <br/>  
-                       <br/>Détachée auprès du Ministère des Affaires étrangères de 1999 à 2003, elle a successivement assuré la direction du Centre culturel français de Séoul ainsi que la direction de l'Alliance Française de Hong Kong, où, en liaison avec l'Institut Français elle a organisé différentes expositions                                             et événements, tout en assurant la promotion et le développement de la langue française. <br/>
-                    <br/>Elle a récemment signé l'exposition de vidéos et photographies contemporaines Paris Champ et Hors Champ. 
-                    </p>
+					<h5>Journaliste et Directeur de la Photographie de Polka Magazine</h5>
+                    <p>Directeur de la Photographie de Polka magazine depuis 2008. En tant  que membre fondateur de Polka (magazine, galerie de photos, iPad et web)  au côté de la famille Genestar, il participe également à son  développement.<br/>
+                    <br/>Il fait régulièrement partie de jurys photos et donne des cours et  des conférences sur le photojournalisme. De septembre 2004 à fin 2006,  il a dirigé en Afghanistan l&rsquo;agence Aina Photo et Les Nouvelles de  Kaboul, un magazine illustré d&rsquo;actualités en français-anglais, réalisé  avec des collaborateurs afghans et internationaux.<br/>
+                    <br/>En 2004, Dimitri était rédacteur en chef de l&rsquo;agence photo de Reza,  Webistan. De 1998 à 2004, il a notamment réalisé des reportages en Asie  centrale et au Caucase en tant que journaliste indépendant. Ses  reportages ont été publiés dans la presse française et internationale.<br/>
 					<?php endif; ?>
 					<?php if($langue == 'en'): ?>
-					<h5>Claire Berger-Vachon is head of the international relations division of the Paris Town Hall at the Cultural Services</h5>
-                    <p>
-						She has been in charge of multiple cultural and artistic missions for the City of Paris, specially in performing and visual arts. She is a former supervisor of the Opera de Lyon and was also the head of the Palais des Congrès de Lyon. <br/>  
-                       <br/>Serving under the French Ministry of Foreign Affairs from 1999 until 2003, she worked successively as the director of the French cultural centre of Seoul, and head of the Hong Kong Alliance Française where she promoted French culture and language through exhibitions and events in cooperation with the Institut Français. <br/>
-                    <br/>She recently participated to the exhibition "Paris Champ et Hors Champ", featuring both videos and contemporary photographs. 
-                    </p>
+				  <h5>Claire Berger-Vachon is head of the international relations division of the Paris Town Hall at the Cultural Services</h5>
+                    <p>Dimitri Beck is the Photo Directir of the Paris based photojournalism  magazine, Polka. Dimitri has been part of the executive management of  Polka since the beginning of the company in 2008, contributing to the  development of the magazine, gallery and website. During his spare time  Dimitri gives lectures on photojournalism at conferences and educational  institutes.<br/>
+                    <br/>Prior to working at Polka, Dimitri was the Director and the editor of  the Aina Photo Agency based in the Afghan capital Kabul from September  2004 to December 2006, where he was also the Editor-in-chief for the  Anglo-French feature magazine Les Nouvelles de Kaboul – New Afghanistan.  His thirst to travel to Afghanistan was inspired when he was working as  editor-in-chief of Reza Deghati&rsquo;s photo agency &ldquo;Webistan&rdquo;.<br/>
+                    <br/>He started out as an independent journalist filing reports to French  and international media outlets from trips he did in the Caucasus area  and across Central Asia in particular.</p>
 					<?php endif; ?>
                     <span class="deco"></span>
-                </div>
+              </div>
             </div>
         	<div class="box">
             	<a href="#" class="profil_jury">
             		<div class="texte-badge">
             			©
             		</div>
-                	<img src="../img/jury/jury-2015-02.jpg" />
+                	<img src="../img/jury/jury-2016-04.jpg" />
                 </a>
                 <div class="text">
-                	<h4>Jean-Yves LANGLAIS</h4>
+                	<h4><strong>Anne CARTIER-BRESSON</strong></h4>
 					<?php if($langue == 'fr'): ?>
-					<h5>Directeur de la Cité Internationale des Arts de Paris</h5>
-                    <p>
-					Jean-Yves LANGLAIS est né à Rennes en 1950. Titulaire d'un DEA en Histoire, l'essentiel de sa carrière, de 1980 à 2000, s'est déroulée dans le champ de la danse contemporaine, notamment aux côtés de Jean-Claude Gallotta où il a été co-directeur du Centre Chorégraphique National de Grenoble et                                                             d'Anne Teresa De Keersmaeker alors qu'il était directeur de la danse au Théâtre Royal de la Monnaie à Bruxelles. <br/>
-                   <br/>Pendant cette période, il a signé une vingtaine de productions en tant que costumier et décorateur. Depuis 2000, il s'est engagé dans la restructuration d'institutions culturelles en couplant rééquilibre financier et nouveau projet notamment en assurant la direction générale de Paris Ateliers                     dans le champ des métiers d'art puis de la Cité internationale des arts à Paris dans le champ des résidences d'artistes au sein des politiques culturelles françaises et étrangères.
-
-                    </p>
+				  <h5>Conservatrice générale du patrimoine et directrice de l&rsquo;Atelier de  Restauration et de Conservation des Photographies de la Ville de Paris  (ARCP) depuis sa création en 1983.</h5>
+                  <p>Docteure en histoire de l&rsquo;art (option Art contemporain, recherches  historiques et techniques de l&rsquo;Université de Paris I), elle est  également diplômée d&rsquo;une maîtrise des sciences et techniques en  conservation – restauration des biens culturels et licenciée en histoire  et en archéologie de l&rsquo;Université de Paris I.<br/>
+                 <br/>Elle est responsable du département Photographie du département des  restaurateurs de l&rsquo;Institut National du Patrimoine (INP), et enseigne  auprès de divers organismes de formation en France ou à l&rsquo;étranger.
+                  <br/>Elle a publié de nombreux articles et contribué à divers ouvrages sur  l&rsquo;histoire, les techniques et les méthodes de conservation des  photographies.
+                  <br/>Depuis 1994, elle a assuré le commissariat d&rsquo;expositions sur les collections photographiques parisiennes ou étrangères.<br/>
+                  Elle est administratrice de la Fondation Henri Cartier-Bresson et de la Société Française de Photographie.</p>
 					<?php endif; ?>
 					<?php if($langue == 'en'): ?>
-					<h5>General director of the Cité Internationale des Arts of Paris</h5>
-                    <p>
-					Jean-Yves LANGLAIS was born in Rennes in 1950. He graduated from a one-year curriculum post graduation program in History. He carried out most of his career, between 1980 and 2000, in the contemporary dance where he collaborated with Jean-Claude Gallotta as co-director of the Centre Chorégraphique National de Grenoble et d'Anne Teresa De Keersmaeker as he was Dance director of the Théâtre Royal de la Monnaie in Bruxels. <br/>
-                    <br/>During this period, he co-signed about twenty productions as costume-maker and decorator. Since 2000, he got involved in the restructuration of cultural institutions combining financial rebalancing and project innovation. We can highlight his achievements as general director of "Paris Atelier" in the field of art professions, or in the Cité Internationale des arts of Paris in the artistic residencies-related issues in the context of French or foreign cultural policies
-
-                    </p>
+					<h5>Heritage general curator, the director of the ARCP (City of Paris  Photographic Conservation and Restoration Workshop) since its creation  in 1983.</h5>
+                    <p>Ph.D in Art History at the Université Paris 1 (specialized in  contemporary arts, historical research and techniques), she graduated  from the Master&rsquo;s degree in Sciences and techniques in  conservation-restoration of cultural property and from the undergraduate  program of History and archaeology at the same university.<br/>
+                    <br/>She published numerous articles and contributed in various works  about History, photographic techniques and conservation methods.<br/>
+                   <br/>Since 1994, she carries out exhibition curating functions in Parisian or international photographic collections.<br/>
+                    <br/>She is administrator of the Henri Cartier-Bresson Foundation, and of the French Society of Photography.</p>
 					<?php endif; ?>
                     <span class="deco"></span>
-                </div>
+              </div>
             </div>
         	<div class="box">
-            	<a href="#" class="profil_jury">
+           	  <a href="#" class="profil_jury">
             		<div class="texte-badge">
             			©
             		</div>
-                	<img src="../img/jury/jury-2015-03.jpg" />
+                	<img src="../img/jury/jury-2016-05.jpg" />
                 </a>
-                <div class="text">
-                	<h4>Jyrki Parantainen</h4>
+              <div class="text">
+           	    <h4><strong>Claire BERGER-VACHON</strong></h4>
 					<?php if($langue == 'fr'): ?>
-					<h5>Artiste, photographe et professeur d'art photographique à Helsinki</h5>
-                    <p>				
-                        Jyrki Parantainen est un artiste finlandais né en 1962 qui appartient à l'École d'Helsinki dont il est l'une des forces motrices depuis sa création. Diplômé en 1992, il travaille à Helsinki en tant que Professeur d'Art Photographique à                                                                          l'Aalto University School of Arts, Design and Architecture.<br/>
-                        <br/> Son procédé créatif a évolué au cours de sa carrière qui recouvre une vingtaine d'années. Sa série Maa (1989 -1991) est constituée de photographies prises exclusivement de nuit qui reflètent une inspiration proche du Land Art ou                        Earth Art du début des années soixante en Amérique du Nord et en Europe. <br/>
-                        <br/> Il revendique de vouloir combiner son propre medium avec d'autres formes d'art. Les thèmes récurrents de ses photographies sont la vie et la mort, la chair et le sang et l'amour et la haine. A partir de paysages finlandais, il                             intègre différents medias organiques qui créent un effet de recyclage écologique.
-                    </p>
+				  <h5>Directrice des affaires culturelles internationales à la ville de Paris.Responsable des Relations Internationales à la Direction des Affaires Culturelles de la Ville de Paris</h5>
+                    <p>Claire Berger-Vachon est responsable des relations internationales à  la Direction des affaires culturelles de la Ville de Paris depuis 2011.  Elle a été chargée de différentes missions au sein de la Ville de Paris  dans le domaine des arts de la scène et des arts visuels, et a occupé précédemment le poste d&rsquo;administrateur de l&rsquo;Opéra de Lyon et de  directrice du Palais des Congrès de Lyon.<br/>	
+                    <br/>Détachée auprès du Ministère des Affaires étrangères de 1999 à 2003,  elle a successivement assuré la direction du Centre culturel français de  Séoul ainsi que la direction de l&rsquo;Alliance Française de Hong Kong. A  cette occasion, en liaison avec l&rsquo;Institut Français, elle a organisé  différentes expositions et événements, tout en assurant la promotion et  le développement de la langue française.<br/>
+                  <br/>Elle a récemment signé l&rsquo;exposition de vidéos et photographies contemporaines Paris Champ et Hors Champ.</p>
 					<?php endif; ?>
 					<?php if($langue == 'en'): ?>
-					<h5>Artist, photographer, professor of photographic art in Helsinki </h5>
-                    <p>				
-                        Jyrki Parantainen is a Finnish artist born in 1962 who belongs to Helsinki Schooland is one of its driving forces since its creation. Graduated in 1992, he is working in Helsinki as a Professor of Photographic Art at the Aalto University School of Arts, Design and Architecture.<br/>
-                        <br/> His creative process has changed throughout his now over twenty-year long career. His Maa Series (1989-1991) is made of photographies taken exclusively during the nighttime, which reflect inspiration of Land Art or Earth Art beginning in the 1960s in North America and Europe.<br/>
-                        <br/> He claims the combination of his own medium with other forms of art. The recurrent themes of his photographies are life and death, flesh and blood, love and hate. From finnish landscapes, he integrates various organic media which create an ecological effect of recycling.
-                    </p>
+				  <h5>Claire Berger-Vachon is head of the international relations division of the Paris Town Hall at the Cultural Services</h5>
+                  <p>She has been in charge of multiple cultural and artistic missions for  the City of Paris, specially in performing and visual arts. She is a  former supervisor of the Opera de Lyon and was also the head of the  Palais des Congrès de Lyon.<br/>
+                  <br/>Serving under the French Ministry of Foreign Affairs from 1999 until  2003, she worked successively as the director of the French cultural  centre of Seoul, and head of the Hong Kong Alliance Française where she  promoted French culture and language through exhibitions and events in  cooperation with the Institut Français.<br/>
+                  <br/>She recently participated to the exhibition &ldquo;Paris Champ et Hors Champ&rdquo;, featuring both videos and contemporary photographs.</p>
+				  <?php endif; ?>
+                  <span class="deco"></span>
+              </div>
+               </div>
+        	<div class="box">
+           	  <a href="#" class="profil_jury">
+            		<div class="texte-badge">
+            			©
+            		</div>
+                	<img src="../img/jury/jury-2016-06.jpg" />
+              </a>
+              <div class="text">
+           	    <h4><strong>Stanley GREENE</strong></h4>
+					<?php if($langue == 'fr'): ?>
+			    <h5>Photographe américain, Agence Noor</h5>
+                <p>Adolescent, Stanley Greene était membre des Black Panthers et  activiste au sein des mouvements anti-guerre du Vietnam. Il se fait  connaître au début de sa carrière via son projet « The Western Front »,  documentation inédite de la scène punk de San Francisco dans les années  70 et 80.<br/>
+                br/>En 1986, il s&rsquo;installe à Paris et couvre l&rsquo;actualité internationale.  Il photographie le déclin du communisme sous tous ses aspects ainsi que  l&rsquo;éclatement de l&rsquo;Union Soviétique. Il voyage ensuite au Soudan du Sud,  en Inde, au Rwanda, au Zaïre, en Iraq, au Soudan, au Darfour, en  Afghanistan, au Cachemire et au Liban. De 1994 à 2001, Stanley Greene se  concentre sur le conflit en Tchétchénie entre les rebelles et les  forces armées russes.<br/>
+                <br>Il a reçu le Katrina Media Fellowship de l&rsquo;Open Society Institute en  2006 et a été récompensé par cinq prix World Press Photo. Il a également  remporté les Prix W. Eugene Smith et Alicia Patterson en 2004, ainsi  que le Pipak (Prix International Albert Kahn Planet) en 2011. En 2013,  Stanley Greene s&rsquo;est vu remettre la Bourse Aftermath Project pour  poursuivre son travail dans le Caucase.</p>
 					<?php endif; ?>
-                    <span class="deco"></span>
-                </div>
+					<?php if($langue == 'en'): ?>
+				  <h5>Photographer, Noor Agency</h5>
+                  <p>Stanley Greene was as a teenager a member of the Black Panthers and  anti-Vietnam War activist, well known in the early years of his career  for his work The Western Front, a unique documentation of the 70s and  80s punk scene in San Francisco.<br/>
+                  <br/>In 1986, he moved to Paris and began covering events throughout the  world. He soon found himself photographing the myriad aspects of the  decline of communism and the break-up of the Soviet Union. In the  following years he photographed in Southern Sudan, India, Rwanda Zaire,  Iraq, Sudan, Darfur, Afghanistan, Kashmir and Lebanon. From 1994 to  2001, Greene photographed extensively the conflict in Chechnya, between  rebels and the Russian armed forces.<br/>
+                 <br/>Stanley was awarded a Katrina Media Fellowship from the Open Society  Institute in 2006, and he has won five World Press Photo awards. He also  won the W. Eugene Smith Award and the Alicia Patterson in 2004, and the  Pipak (International Price Albert Kahn Planet) in 2011. In 2013,  Stanley received the Aftermath Project Grant to continue his work in the  Caucasus.</p>
+				  <?php endif; ?>
+                  <span class="deco"></span>
+              </div>
+              
+              
             </div>
-        	
+        
+           
             
             </div>
         </div>

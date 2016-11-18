@@ -26,7 +26,7 @@
     </header>
     <section class="inscription intro content">
         <div id="content">
-			<?php
+          <?php
 			// vérification de l'existence de l'identifiant de commande
 			$req = "SELECT * FROM lqi_inscrits WHERE id_commande='" . prot($idCommande) . "';";
 			$res = requete($req);
@@ -43,14 +43,9 @@
 			}
 			$choix = $ligne['categorie'];
 			?>
-            <h1><?php trad("Votre<br/>candidature", "Your<br/>application") ?><span id="title_line"></span></h1>
+          <h1><?php trad("Votre<br/>candidature", "Your<br/>application") ?><span id="title_line"></span></h1>
             <ul id="choix-formule">
-                <li>
-                    <input <?php echo $choix == "exposants" ? 'checked="checked"' : ''; ?>
-						type="radio" name="radio-choix" id="radio-choix-exposants" data-choix="exposants" />
-                    <label><?php trad("Candidature pour la catégorie Exposants (location d'un stand)",
-							"Application for the Exhibitors competition (renting a booth)") ?> - 35 euros</label>
-                </li>
+                
                 <li>
                     <input <?php echo $choix == "prix_photos" ? 'checked="checked"' : ''; ?>
 						type="radio" name="radio-choix" id="radio-choix-prix_photos" data-choix="prix_photos" />
@@ -69,54 +64,7 @@
 			</div>
         </div>
     </section>
-    <section class="inscription explication content exposants" <?php echo $choix != "exposants" ? 'style="display: none;"' : ''; ?>>
-    	<div id="content">
-            <div id="explication-candidature">
-                <h3><?php trad("Candidature pour la catégorie Exposants (location d'un stand)",
-							"Application for the Exhibitors competition (renting a booth)") ?></h3>
-				<?php if ($langue == 'fr'): ?>
-                <p>
-					Candidature pour la location d'un stand d'exposition pendant
-					le salon La Quatrième Image, du 27 octobre 2015 au 1er novembre
-					2015 (inclus), à Paris.
-					<br/>Frais d'inscription non remboursables. 
-                </p>
-                <p>
-					Les candidats retenus s'engagent à fournir des photos haute
-					définition à la demande des organisateurs pour l'édition du
-					livre photo du salon. Les exposants retenus devront acquitter
-					le prix de la location du stand : 900 euros dans les 10 jours
-					suivant la réception de l'avis de leur sélection; en l'absence
-					de paiement ils seront disqualifiés. Le prix de la location
-					inclut la fourniture d'un stand en U d'environ 12m2 éclairé
-					par 3 spots, la communication presse et internet du salon,
-					et 2 catalogues du salon. Les photographes sélectionnés
-					s'engagent à produire les tirages et les encadrements des
-					photos qui seront exposées.
-                </p>
-				<?php endif; ?>
-				<?php if ($langue == 'en'): ?>
-				<p>
-					Application for renting a exhibition booth during La Quatrième
-					Image photo fair, from October 27 2015 to November 1st 2015
-					(included), in Paris.
-					<br/>Registration fees are not refundable.
-                </p>
-                <p>
-					Successful applicants commit to providing high-resolution photos,
-					on request of the organizers, for editing the Catalogue of
-					the fair. Selected exhibitors will have to pay the price for
-					the booth rental: 900 euros, within 10 days from the notification
-					of their selection; in the absence of payment, candidates will
-					be disqualified. The rental price is including a U-shaped booth
-					of about 12 m2, lighted by 3 spots, press release and communication,
-					and 2 catalogs of the fair. The selected photographers will
-					undertake to produce the prints and frames for photos that
-					will be exhibited.
-				</p>
-				<?php endif; ?>
-            </div>
-        </div>
+    
     </section>
     <section class="inscription explication content prix_photos" <?php echo $choix != "prix_photos" ? 'style="display: none;"' : ''; ?>>
     	<div id="content">
@@ -127,18 +75,18 @@
                 <p>
 					Candidature pour participer au concours en vue de gagner l'un
 					des 4 prix photos La Quatrième Image 2015, décerné par notre jury :
-					<br/>1er prix: résidence photo de 3 mois à la Cité Internationale
+					<br/>1<sup>er</sup> prix: résidence photo de 3 mois à la Cité Internationale
 					des Arts de Paris avec une bourse de 1300 euros par mois,
-					<br/>2è prix : 3000 euros,
-					<br/>3è prix : 1000 euros,
-					<br/>4è prix : exposition sur le salon
+					<br/>2<sup>e</sup> prix : 3000 euros,
+					<br/>3<sup>e</sup> prix : 1000 euros,
+					<br/>4<sup>e</sup> prix : exposition sur le salon
                 </p>
                 <p>
-					Tous les lauréats exposeront pendant le salon du 27 octobre
-					2015 au 1er novembre 2015 (inclus), et la production de leur
+					Tous les lauréats exposeront pendant le salon du 2 avril
+					2017 au 17a avril (inclus), et la production de leur
 					exposition (tirages et encadrements) sera prise en charge par
 					l’organisation. Les lauréats seront invités à la remise
-					officielle des prix en juin 2015 à Paris. 
+					officielle des prix XXX. 
 					<br/>Frais d'inscription non remboursables. Les candidats
 					retenus s'engagent à fournir des photos haute définition à
 					la demande des organisateurs pour l'édition du livre photo du salon.
@@ -148,18 +96,18 @@
 				<p>
 					Application for the competition for winning one of the 4
 					Photo Prizes La Quatrième Image 2015, awarded by our jury. 
-					<br/>1st prize : 3 months photography residency at Cité Internationale
+					<br/>1<sup>st</sup> prize : 3 months photography residency at Cité Internationale
 					des Arts de Paris, with grant   of 1300 EUR per month
-					<br/>2nd prize: 3.000 EUR 
-					<br/>3rd prize : 1.000 EUR
-					<br/>4th prize: Exhibition at LA QUATRIEME IMAGE Photo fair in Paris
+					<br/>2<sup>nd</sup> prize: 3.000 EUR 
+					<br/>3<sup>rd</sup> prize : 1.000 EUR
+					<br/>4<sup>th</sup> prize: Exhibition at LA QUATRIEME IMAGE Photo fair in Paris
                 </p>
                 <p>
 					The 4 winners will exhibit during La Quatrième Image photo
-					fair, from October 27 2015 to November 1st 2015 (included),
+					fair, from the 2<sup>nd</sup> of april to the 17 2017 (included),
 					and production of their exhibition (prints and frames) will
 					be will be borne by the organization. The winners will be
-					invited to the official awards ceremony in June 2015 in Paris.
+					invited to the official awards ceremony XXX.
 					<br/>Registration fees are not refundable. The winners commit
 					to providing high-resolution photos, on request of the organizers,
 					for editing the Catalogue of the fair.
@@ -177,7 +125,7 @@
                 <p>
 					Candidature pour être sélectionné par la direction artistique
 					du salon et gagner un stand d'exposition pendant le salon La
-					Quatrième Image, du 27 octobre 2015 au 1er novembre 2015
+					Quatrième Image, du 2 au 17 avril 2017
 					(inclus), à Paris.
 					<br/>Frais d'inscription non remboursables. 
                 </p>
@@ -186,14 +134,14 @@
 					définition à la demande des organisateurs pour l'édition du
 					livre photo du salon. Ils s'engagent à produire les tirages
 					et les encadrements des photos qui seront exposées. Les stands
-					en U ont une surface d'environ 12m2 et sont éclairés par 3 spots.
+					en U ont une surface d'environ 12m<sup>2</sup> et sont éclairés par 3 spots.
                 </p>
 				<?php endif; ?>
 				<?php if ($langue == 'en'): ?>
 				<p>
 					Application to be selected by the artistic direction of the
 					fair and winning an exhibition booth during La Quatrième Image
-					photo fair, from October 27 2015 to November 1st 2015 (included),
+					photo fair, from the 2<sup>nd</sup> of april to the 17 2017 (included),
 					in Paris.
 					<br/>Registration fees are not refundable.
                 </p>
@@ -202,7 +150,7 @@
 					photos, on request of the organizers, for editing the Catalogue
 					of the fair. They commit to producing the prints and frames
 					for the photos that will be exhibited. The U-shaped exhibition
-					booth are about 12m2 and lighted by 3 spots.
+					booth are about 12m<sup>2</sup> and lighted by 3 spots.
 				</p>
 				<?php endif; ?>
             </div>
