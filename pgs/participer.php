@@ -2,7 +2,6 @@
 	include "entete.php";
 	include "../lib/email.php";
 ?>
-
 <body>
 	<?php
 		$page = "participer";
@@ -168,23 +167,23 @@ A registration fee of 35 euros is applicable.<br />
 
                   <?php endif; ?>
               </p>
-				<!--<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">>-->
-				<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+				<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+				<!--<form action="https://www.paypal.com/cgi-bin/webscr" method="post">-->
 					<!-- Indication du montant HT du panier ou TTC si la TVA n'est pas détaillée -->
 					<input name="amount" type="hidden" value="35" />
 					<input name="currency_code" type="hidden" value="EUR" />
 					<!-- Indication du montant de la TVA (ou 0.00) -->
 					<input name="tax" type="hidden" value="0.00" />
 					<!-- Indication de l'URL de retour automatique -->
-					<input name="return" type="hidden" value="http://laquatriemeimage.com/pgs/paiement_recu.php?choix=prix_photos" />
+					<input name="return" type="hidden" value="https://laquatriemeimage.com/pgs/paiement_recu.php?choix=prix_photos" />
 					<!-- Indication de l'URL de retour si annulation du paiement -->
-					<input name="cancel_return" type="hidden" value="http://laquatriemeimage.com/pgs/participer.php" />
+					<input name="cancel_return" type="hidden" value="https://laquatriemeimage.com/pgs/participer.php" />
 					<!-- Indication de l'URL de retour pour contrôler le paiement -->
-					<input name="notify_url" type="hidden" value="http://laquatriemeimage.com/paypal/ipn.php" />
+					<input name="notify_url" type="hidden" value="https://laquatriemeimage.com/paypal/ipn.php" />
 					<!-- Indication du type d'action -->
 					<input name="cmd" type="hidden" value="_xclick" />
 					<!-- Indication de l'adresse e-mail test du vendeur (a remplacer par l'e-mail de votre compte Paypal en production) -->
-					<input name="business" type="hidden" value="<?php echo $email_vendeur ?>" />
+					<input name="business" type="hidden" value="<?php echo $email_vendeur; ?>" />
 					<!-- Indication du libellé de la commande qui apparaitra sur Paypal -->
 					<input name="item_name" type="hidden" value="Inscription LaQuatriemeImage - Prix Photos" />
 					<!-- Indication permettant à l'acheteur de laisser un message lors du paiement -->
@@ -196,7 +195,7 @@ A registration fee of 35 euros is applicable.<br />
 					<!-- Indication du numéro de la commande (très important) -->
 					<input name="custom" type="hidden" value="<?php echo $idCommande ?>||prix_photos" />
 					<!-- Bouton pour valider le paiement -->
-					<input class="bouton inscrire blue_achat" type="submit" value="<?php trad("Je m'inscris", "I apply")?>" disabled title="Les inscriptions sont closes" />
+					<input class="bouton inscrire blue_achat" type="submit" value="<?php trad("Je m'inscris", "I apply")?>" />
 				</form>
             </div>
             <div class="categories jeunes_talents">
@@ -288,23 +287,23 @@ Applications are made on-line.
                   
                   <?php endif; ?>
               </p>
-				<!--<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">>-->
-				<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+				<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+				<!--<form action="https://www.paypal.com/cgi-bin/webscr" method="post">-->
 					<!-- Indication du montant HT du panier ou TTC si la TVA n'est pas détaillée -->
 					<input name="amount" type="hidden" value="15" />
 					<input name="currency_code" type="hidden" value="EUR" />
 					<!-- Indication du montant de la TVA (ou 0.00) -->
 					<input name="tax" type="hidden" value="0.00" />
 					<!-- Indication de l'URL de retour automatique -->
-					<input name="return" type="hidden" value="http://laquatriemeimage.com/pgs/paiement_recu.php?choix=jeunes_talents" />
+					<input name="return" type="hidden" value="https://laquatriemeimage.com/pgs/paiement_recu.php?choix=jeunes_talents" />
 					<!-- Indication de l'URL de retour si annulation du paiement -->
-					<input name="cancel_return" type="hidden" value="http://laquatriemeimage.com/pgs/participer.php" />
+					<input name="cancel_return" type="hidden" value="https://laquatriemeimage.com/pgs/participer.php" />
 					<!-- Indication de l'URL de retour pour contrôler le paiement -->
-					<input name="notify_url" type="hidden" value="http://laquatriemeimage.com/paypal/ipn.php" />
+					<input name="notify_url" type="hidden" value="https://laquatriemeimage.com/paypal/ipn.php" />
 					<!-- Indication du type d'action -->
 					<input name="cmd" type="hidden" value="_xclick" />
 					<!-- Indication de l'adresse e-mail test du vendeur (a remplacer par l'e-mail de votre compte Paypal en production) -->
-					<input name="business" type="hidden" value="<?php echo $email_vendeur ?>" />
+					<input name="business" type="hidden" value="<?php echo $email_vendeur; ?>" />
 					<!-- Indication du libellé de la commande qui apparaitra sur Paypal -->
 					<input name="item_name" type="hidden" value="Inscription LaQuatriemeImage - Jeunes Talents" />
 					<!-- Indication permettant à l'acheteur de laisser un message lors du paiement -->
@@ -316,7 +315,7 @@ Applications are made on-line.
 					<!-- Indication du numéro de la commande (très important) -->
 					<input name="custom" type="hidden" value="<?php echo $idCommande ?>||jeunes_talents" />
 					<!-- Bouton pour valider le paiement -->
-					<input class="bouton inscrire yellow_achat" type="submit" value="<?php trad("Je m'inscris", "I apply")?>" disabled title="Les inscriptions sont closes" />
+					<input class="bouton inscrire yellow_achat" type="submit" value="<?php trad("Je m'inscris", "I apply")?>" />
 			  </form>
             </div>
         </div>

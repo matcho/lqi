@@ -1097,27 +1097,27 @@ section.concours div.prix_photo, div.jeunes_talents {
 	border-color: #a0a0a0;
 }
 .red_achat:hover {
-	/*color: #fd5a5d;
-	border-color: #fd5a5d;*/
-	cursor: initial;
+	color: #fd5a5d;
+	border-color: #fd5a5d;
+	/*cursor: initial;*/
 }
 .blue_achat {
 	color: #a0a0a0;
 	border-color: #a0a0a0;
 }
 .blue_achat:hover {
-	/*color: #00cbdc;
-	border-color: #00cbdc;*/
-	cursor: initial;
+	color: #00cbdc;
+	border-color: #00cbdc;
+	/*cursor: initial;*/
 }
 .yellow_achat {
 	color: #a0a0a0;
 	border-color: #a0a0a0;
 }
 .yellow_achat:hover {
-	/*color: #ffc025;
-	border-color: #ffc025;*/
-	cursor: initial;
+	color: #ffc025;
+	border-color: #ffc025;
+	/*cursor: initial;*/
 }
 section.condition.content {
 	padding-top: 60px;
