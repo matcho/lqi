@@ -1,0 +1,29 @@
+@media only screen and (max-width: 965px){
+	header ul#lang{margin-right:20px;}
+	
+	section.content{width:950px;}
+	footer.content{width:950px;}
+	
+	section.intro div#content{width:950px; padding:0;}
+	section.intro div#content ul#nav_concour{width:264px;}
+	section.intro div#content div#presentation{width:686px;}
+	
+	section.link_up{width:950px;}
+	section.link_up div.block{width:475px;}
+		section.link_up div.block img{width:475px;}
+	
+	section.exposant{width:950px;}
+	section.exposant div#slide_exposant{width:378px;}
+	section.exposant img.img_exposant{width:572px;}
+
+	section.pdt_salon{width:950px;}
+	section.pdt_salon div#content{padding:0;}
+	section.pdt_salon div.vide{width:200px;}
+	section.pdt_salon div.text{width:355px; margin-left:20px;}
+	
+	section.videos{width:950px;}
+		section.videos div#slide_videos{width:950px; padding:0;}
+	
+	section.gallerie{width:950px;}
+
+}

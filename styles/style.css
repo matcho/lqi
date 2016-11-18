@@ -1,0 +1,2893 @@
+*{margin:0; padding:0; font-family:'Merriweather Sans', sans-serif;}
+a{color:#000; text-decoration:none;}
+li{list-style-type:none; display:block;}
+img{border:none; display:block;}
+
+a:focus {
+	outline: none;
+}
+
+/*FONTS*/
+h1 {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #333333;
+	padding-bottom: 50px;
+}
+
+h2{font-family:'Merriweather Sans', sans-serif; font-size:24px; font-weight:bold; text-transform:uppercase; color:#333333; padding-bottom:30px;}
+h3{color:#333333; font-size:20px; }
+h4{font-weight:bold; font-size:20px; margin-bottom:25px;}
+
+.italique {
+	font-style: italic;
+}
+
+/*DECO*/
+span#title_line {
+	width:35px;
+	height:5px;
+	background-color:#333333;
+	display:block;
+	margin-top:10px;
+}
+span#title_line_h3 {
+	width: 30px;
+	height: 5px;
+	background-color:#333333;
+	display:block;
+	margin-top:10px;
+}
+span#title_line_h3.bg-red {
+	background-color:#fd5a5d;
+}
+span#title_line_h3.bg-blue {
+	background-color:#00cbdc;
+}
+span#title_line_h3.bg-yellow {
+	background-color:#ffc025;
+}
+
+
+/*CONFIG BLOC*/
+section.content {
+	padding: 50px 0;
+}
+div#content {
+	width:950px;
+	margin: 0 auto;
+}
+
+/* --------------- HEADER ----------------------- */
+#global {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	height: 100px;
+	z-index: 1000;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0 1px 5px 0 #d0d0d0;
+}
+header #barremenu {
+	margin: auto;
+	width: 950px;
+}
+header #logo {
+	float:left;
+}
+header #logo img {
+	/*width: 95px;*/
+}
+header #titre-formulaire {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+nav {
+}
+nav ul {
+	padding-top: 32px;
+}
+nav ul li {
+	display: inline;
+	padding-left: 15px;
+}
+nav ul li a {
+	line-height: 79px;
+	padding-bottom: 14px;
+}
+nav ul li a:hover, nav ul li a.active {
+	color:#ff0030;
+	border-bottom: solid red 5px;
+}
+
+nav ul li a.active-red:hover, nav ul li a.active.active-red {
+	color: #fd5a5d;
+	border-bottom: solid #fd5a5d 5px;
+}
+nav ul li a.active-blue:hover, nav ul li a.active.active-blue {
+	color: #00cbdc;
+	border-bottom: solid #00cbdc 5px;
+}
+nav ul li a.active-yellow:hover, nav ul li a.active.active-yellow {
+	color: #ffc025;
+	border-bottom: solid #ffc025 5px;
+}
+
+header #lang {
+	float: right;
+	padding-top: 32px;
+	font-weight: normal;
+}
+header #lang li {
+	float:left;
+	line-height:79px;
+}
+header #lang li a {
+	color: #d0d0d0;
+}
+header #lang li a:hover, header #lang li a.active {
+	font-weight: bold;
+	color: #000;
+}
+header #lang li span {
+	margin-left:5px;
+	margin-right:5px;
+}
+header #lang li.sep {
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+/* ATTENTION peut-être utilisé ailleurs ! */
+section.intro {
+	background-color: #f8f4ed;
+	overflow:hidden;
+	padding-top:175px;
+}
+section.intro div#content {
+	width: 950px;
+	margin: 0 auto;
+}
+
+
+/* --------------- LE SALON --------------- */
+
+section.lesalon.intro h1 {
+	font-size: 24px;
+	padding-bottom: 45px;
+}
+section.lesalon.intro.content {
+	padding-bottom: 95px;
+}
+section.lesalon.intro div#content ul#nav_concour {
+	width: 34%;
+	float: left;
+}
+section.lesalon.intro div#content ul#nav_concour li {
+	margin-top: 3px;
+}
+section.lesalon.intro div#content ul#nav_concour li a {
+	color: #aaaaaa;
+}
+section.lesalon.intro div#content ul#nav_concour li a.active {
+	color: #333;
+}
+section.lesalon.intro div#content ul#nav_concour li a:hover {
+	color: #333;
+}
+section.lesalon.intro div#content div#presentation {
+	width:64%;
+	float:left;
+}
+section.lesalon.intro div#content div#presentation p.doublecol {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+section.lesalon.intro div#content div#presentation p.colg {
+	width: 47%;
+	float: left;
+	font-size: 13px;
+	line-height: 18px;
+	color: #333333;
+	margin-right: 5%;
+}
+section.lesalon.intro div#content div#presentation p.cold {
+	width: 47%;
+	float: left;
+	font-size: 13px;
+	line-height: 18px;
+	color: #333333;
+}
+
+section.lesalon.p-j {
+	height: 480px;
+}
+section.lesalon.p-j .colg {
+	width: 44%;
+	margin-right: 12%;
+}
+section.lesalon.p-j .cold {
+	width: 43%;
+}
+section.lesalon.p-j .moitie {
+	padding-top: 5px;
+	float: left;
+}
+section.lesalon h2 {
+	font-size: 22px;
+}
+section.lesalon h2 #title_line {
+	margin-top: 7px;
+	width: 28px;
+}
+section.lesalon.p-j .moitie img {
+	margin-top: 7px;
+	margin-bottom: 33px;
+}
+section.lesalon.p-j .surimg {
+	width: 418px;
+	height: 280px;
+	position: absolute;
+	margin-top: 6px;
+}
+section.lesalon.p-j .moitie:hover .surimg {
+	display: block;
+	background-color: rgba(0,0,0,0.3);
+	background-image: url('../img/plus-info_blanc.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.sur-copyright {
+	position: absolute;
+	bottom: 7px;
+	left: 10px;
+	color: #e0e0e0;
+	line-height: 18px;
+	font-size: 13px;
+	display: none;
+}
+section.lesalon.p-j .moitie:hover .sur-copyright {
+	display: inline;
+}
+section.lesalon.p-j .moitie h4 {
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+section.lesalon.p-j .moitie:hover h4 {
+	color: #FF1738;
+}
+section.lesalon.p-j .moitie p {
+	font-size: 13px;
+	line-height: 18px;
+}
+
+
+section.lesalon.citation.content {
+	padding: 0;
+	height: 470px;
+}
+.bg-red {
+	background-color:#fd5a5d;
+}
+.bg-blue {
+	background-color:#00cbdc;
+}
+.bg-yellow {
+	background-color:#ffc025;
+}
+.red {
+	color:#fd5a5d;
+}
+.blue {
+	color:#00cbdc;
+}
+.yellow {
+	color:#ffc025;
+}
+section.lesalon.citation {
+	position: relative;
+}
+section.lesalon.citation .citation-centrale {
+	width: 740px;
+	margin: auto;
+	color: white;
+}
+/* mode manuel car centrage vertical de div à taille variable impossible */
+section.lesalon.citation .citation-centrale[data-idx="1"] {
+	padding-top: 60px;
+}
+section.lesalon.citation .citation-centrale[data-idx="2"] {
+	padding-top: 150px;
+}
+section.lesalon.citation .citation-centrale[data-idx="3"] {
+	padding-top: 175px;
+}
+section.lesalon.citation .citation-centrale p {
+	font-size: 28px;
+	font-family: 'Merriweather';
+	font-weight: lighter;
+	font-style: italic;
+	margin-bottom: 14px;
+}
+section.lesalon.citation .citation-centrale .citation-signature {
+	font-size: 12px;
+}
+section.lesalon.citation .controle {
+	position: absolute;
+	bottom: 42px;
+	left: 50%;
+	margin-left: -36px;
+}
+
+.controle {
+	width: 72px;
+	margin: auto;
+	margin-top: 25px;
+}
+.controle li {
+	float: left;
+	padding: 0 6px;
+}
+.controle li a {
+	display: block;
+	width: 12px;
+	height: 12px;
+	background-color: #FFF;
+	opacity: 0.3;
+}
+.controle li a:hover, .controle li a.active {
+	opacity: 1;
+}
+.controle-noir li a {
+	background-color: #000;
+	opacity: 0.2;
+}
+.controle-petit li a {
+	width: 10px;
+	height: 10px;
+}
+
+section.lesalon.programmes.content {
+	padding-bottom: 70px;
+}
+section.lesalon.programmes h2 {
+	padding-bottom: 35px;
+}
+section.lesalon.programmes h2.hover-blue:hover {
+	color:#00cbdc;
+}
+section.lesalon.programmes h2.hover-red:hover {
+	color:#fd5a5d;
+}
+section.lesalon.programmes h2.hover-yellow:hover {
+	color:#ffc025;
+}
+section.lesalon.programmes .colg {
+	color: #303030;
+	float: left;
+	width: 21%;
+	margin-right: 12%;
+	position: relative;
+	height: 420px;
+}
+section.lesalon.programmes .colg p {
+	font-size: 13px;
+	line-height: 18px;
+	margin-bottom: 30px;
+}
+section.lesalon.programmes .colg .annee-couleur {
+	font-size: 13px;
+	font-weight: bold;
+}
+section.lesalon.programmes .colg ul {
+	margin-top: 14px;
+}
+section.lesalon.programmes .colg ul li {
+	font-size: 13px;
+	font-weight: bold;
+}
+section.lesalon.programmes .colg .controle {
+	position: absolute;
+	bottom: 0;
+	left: -5px;
+}
+section.lesalon.programmes img {
+	padding-left: 8px;
+}
+section.lesalon.programmes .surimg {
+	position: absolute;
+	margin-left: 322px;
+	width: 628px;
+	height: 420px;
+}
+section.lesalon.programmes .lien-img:hover .surimg {
+	display: block;
+	background-color: rgba(0,0,0,0.3);
+	background-image: url('../img/plus-info_blanc.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+section.lesalon.programmes .lien-img:hover .sur-copyright {
+	display: inline;
+}
+
+
+section.lesalon.pendant {
+	background-color: #F7F6F2;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+section.lesalon.pendant .colg {
+	float: left;
+	margin-left: 34%;
+	width: 31%;
+	font-size: 13px;
+	color: #303030;
+}
+section.lesalon.pendant .colg p {
+	line-height: 18px;
+}
+section.lesalon.pendant .colg:hover,
+section.lesalon.pendant .cold:hover,
+section.lesalon.pendant .colg a:hover,
+section.lesalon.pendant .cold a:hover {
+	color: #fd5a5d;
+	cursor: pointer;
+}
+section.lesalon.pendant .cold {
+	float: left;
+	width: 31%;
+	margin-left: 3%;
+	font-size: 13px;
+	color: #303030;
+}
+section.lesalon.pendant .cold p {
+	line-height: 18px;
+}
+section.lesalon.pendant h4 {
+	margin-bottom: 60px;
+}
+
+
+section.lesalon.galerie {
+	height: 390px;
+	padding-top: 35px;
+	padding-bottom: 0;
+	background-image: url(../img/img_galerie.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+section.lesalon.galerie h2 {
+	color: #FFF;
+}
+section.lesalon.galerie h2 #title_line {
+	background-color: #FFF;
+}
+
+
+section.lesalon.videos {
+	padding-top: 35px;
+	padding-bottom: 40px;
+	background-color: #f6f5f0;
+}
+section.lesalon.videos #container-videos {
+	margin-top: 35px;
+}
+section.lesalon.videos #videos-gauche, section.lesalon.videos #videos-droite {
+	width: 93px;
+}
+section.lesalon.videos #videos-gauche {
+	float: left;
+}
+section.lesalon.videos #videos-gauche img {
+	margin-top: 52px;
+	margin-left: -2px;
+	cursor: pointer;
+}
+section.lesalon.videos #videos-droite {
+	float: right;
+	text-align: right;
+}
+section.lesalon.videos #videos-droite img {
+	margin-top: 52px;
+	display: inline;
+	cursor: pointer;
+}
+section.lesalon.videos .video-bloc {
+	width: 213px;
+	float: left;
+	color: #333333;
+}
+section.lesalon.videos .video-bloc.central {
+	margin-left: 61px;
+	margin-right: 61px;
+}
+section.lesalon.videos .video-bloc h4 {
+	font-size: 12px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+section.lesalon.videos .video-bloc:hover h4 {
+	color: #FD5A5D;
+}
+section.lesalon.videos .video-bloc p {
+	font-size: 13px;
+	line-height: 18px;
+}
+section.lesalon.videos .video-bloc .survid {
+	position: absolute;
+	width: 215px;
+	height: 135px;
+}
+section.lesalon.videos .video-bloc .lien-vid:hover .survid {
+	display: block;
+	background-color: rgba(0,0,0,0.3);
+	background-image: url('../img/play_blanc.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+section.lesalon.actualites {
+	background-color: #00C5B1;
+	padding-top: 40px;
+	padding-bottom: 60px;
+	height: 280px;
+}
+section.lesalon.actualites .colg {
+	float: left;
+	margin-left: 34%;
+	width: 31%;
+	height: 210px;
+	font-size: 13px;
+	color: #303030;
+}
+section.lesalon.actualites .colg p {
+	line-height: 18px;
+}
+section.lesalon.actualites .colg a:hover, section.lesalon.actualites .cold a:hover {
+	color: #fff;
+	cursor: pointer;
+}
+section.lesalon.actualites .cold {
+	float: left;
+	width: 31%;
+	height: 210px;
+	margin-left: 3%;
+	font-size: 13px;
+	color: #303030;
+}
+section.lesalon.actualites .cold p {
+	line-height: 18px;
+}
+section.lesalon.actualites .col2 {
+    width: 65%;
+	padding-top: 25px;
+	margin-left: 34%;
+	position: relative;
+}
+section.lesalon.actualites .col2 .controle {
+	position: absolute;
+	bottom: 0;
+	left: -5px;
+}
+section.lesalon.actualites .date-actu {
+	font-size: 16px;
+}
+section.lesalon.actualites h4 {
+	margin-bottom: 10px;
+	font-size: 16px;
+	/*height: 40px;*/
+}
+section.lesalon.actualites p {
+	margin-bottom: 16px;	
+}
+section.lesalon.actualites .lire-suite {
+	text-decoration: underline;
+}
+
+
+section.lesalon.partenaires {
+	padding-top: 40px;
+	padding-bottom: 60px;
+	height: 570px;
+	/*background-color: #fafafa;*/
+}
+/* préchargement logos couleur */
+section.lesalon:after{
+    display:none;
+    content: url('../img/logos/logo_part01.png')  url('../img/logos/logo_part02.png') 
+		url('../img/logos/logo_part03.png')  url('../img/logos/logo_part06.png') 
+		url('../img/logos/logo_part07.png')  url('../img/logos/logo_part10.png')
+        url('../img/logos/logo_part_mondiapress.png') url('../img/logos/logo_part_matphoto.png') url('../img/logos/logo_part_agence_revelateur.png');
+}
+section.lesalon.partenaires .logos-partenaires {
+	/*border: solid red 1px;*/
+	margin-top: 55px;
+}
+section.lesalon.partenaires .logos-partenaires div {
+	/*border: dotted blue 1px;*/
+	height: 120px;
+	width: 90px;
+	float: left;
+	margin-right: 35px;
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+section.lesalon.partenaires .logos-partenaires #logo-ministere {
+	background-image: url('../img/logos/logo_part01_nb.png');
+	width: 72px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-ministere:hover {
+	background-image: url('../img/logos/logo_part01.png');
+}
+section.lesalon.partenaires .logos-partenaires #logo-mairie {
+	background-image: url('../img/logos/logo_part02_nb.png');
+	width: 209px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-mairie:hover {
+	background-image: url('../img/logos/logo_part02.png');
+}
+section.lesalon.partenaires .logos-partenaires #logo-mairie-4 {
+	background-image: url('../img/logos/logo_part03_nb.jpg');
+	width: 52px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-mairie-4:hover {
+	background-image: url('../img/logos/logo_part03.jpg');
+}
+section.lesalon.partenaires .logos-partenaires #logo-maison-europeenne {
+	background-image: url('../img/logos/logo_part10_nb.png');
+	width: 138px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-maison-europeenne:hover {
+	background-image: url('../img/logos/logo_part10.png');
+}
+section.lesalon.partenaires .logos-partenaires #logo-mois-photo {
+	background-image: url('../img/logos/logo_part04_nb.jpg');
+	width: 55px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-mois-photo:hover {
+	background-image: url('../img/logos/logo_part04.jpg');
+}
+section.lesalon.partenaires .logos-partenaires #logo-bresil {
+	background-image: url('../img/logos/logo_part05_nb.jpg');
+	width: 60px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-bresil:hover {
+	background-image: url('../img/logos/logo_part05.jpg');
+}
+section.lesalon.partenaires .logos-partenaires #logo-arts-factory {
+	background-image: url('../img/logos/logo_part06_nb.png');
+	width: 68px;
+	margin-right: 0;
+}
+section.lesalon.partenaires .logos-partenaires #logo-arts-factory:hover {
+	background-image: url('../img/logos/logo_part06.png');
+}
+section.lesalon.partenaires .logos-partenaires #logo-polka {
+	background-image: url('../img/logos/logo_part07_nb.png');
+	width: 138px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-polka:hover {
+	background-image: url('../img/logos/logo_part07.png');
+}
+section.lesalon.partenaires .logos-partenaires #logo-infiniment-cadres {
+	background-image: url('../img/logos/logo_part08_nb.png');
+	width: 145px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-infiniment-cadres:hover {
+	background-image: url('../img/logos/logo_part08.png');
+}
+section.lesalon.partenaires .logos-partenaires #logo-gallery-locator {
+	background-image: url('../img/logos/logo_part09_nb.png');
+	width: 85px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-gallery-locator:hover {
+	background-image: url('../img/logos/logo_part09.png');
+}
+
+/* update 09/07/2015 + 21/09/2105 @happyend */
+section.lesalon.partenaires .logos-partenaires #logo-agence-revelateur {
+    background-image: url('../img/logos/logo_part_agence_revelateur_nb.png');
+    width: 138px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-agence-revelateur:hover {
+    background-image: url('../img/logos/logo_part_agence_revelateur.png');
+}
+
+section.lesalon.partenaires .logos-partenaires #logo-matphoto {
+    background-image: url('../img/logos/logo_part_matphoto_nb.png');
+    width: 138px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-matphoto:hover {
+    background-image: url('../img/logos/logo_part_matphoto.png');
+}
+
+section.lesalon.partenaires .logos-partenaires #logo-oxavocats {
+    background-image: url('../img/logos/logo_part_oxavocats_nb.jpg');
+    width: 125px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-oxavocats:hover {
+    background-image: url('../img/logos/logo_part_oxavocats.jpg');
+}
+
+section.lesalon.partenaires .logos-partenaires #logo-cci {
+    background-image: url('../img/logos/logo_part_cci_nb.jpg');
+    width: 75px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-cci:hover {
+    background-image: url('../img/logos/logo_part_cci.jpg');
+}
+
+section.lesalon.partenaires .logos-partenaires #logo-fca {
+    background-image: url('../img/logos/logo_part_fca_nb.jpg');
+    width: 195px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-fca:hover {
+    background-image: url('../img/logos/logo_part_fca.jpg');
+}
+
+section.lesalon.partenaires .logos-partenaires #logo-rasteau {
+    background-image: url('../img/logos/logo_part_rasteau_nb.jpg');
+    width: 104px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-rasteau:hover {
+    background-image: url('../img/logos/logo_part_rasteau.jpg');
+}
+
+section.lesalon.partenaires .logos-partenaires #logo-bbhotel {
+    background-image: url('../img/logos/logo_part_bbhotel_nb.jpg');
+    width: 75px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-bbhotel:hover {
+    background-image: url('../img/logos/logo_part_bbhotel.jpg');
+}
+
+section.lesalon.partenaires .logos-partenaires #logo-cdc {
+    background-image: url('../img/logos/logo_part_cdc_nb.jpg');
+    width: 75px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-cdc:hover {
+    background-image: url('../img/logos/logo_part_cdc.jpg');
+}
+
+section.lesalon.partenaires .logos-partenaires #logo-mondiapress {
+    background-image: url('../img/logos/logo_part_mondiapress_nb.png');
+    width: 99px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-mondiapress:hover {
+    background-image: url('../img/logos/logo_part_mondiapress.png');
+}
+section.lesalon.partenaires .logos-partenaires #logo-cc-algerien {
+    background-image: url('../img/logos/logo_part_cc_algerien_nb.png');
+    width: 140px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-cc-algerien:hover {
+    background-image: url('../img/logos/logo_part_cc_algerien.png');
+}
+section.lesalon.partenaires .logos-partenaires #logo-embassade-irlande {
+    background-image: url('../img/logos/logo_part_ambassade_irlande_nb.png');
+    width: 183px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-embassade-irlande:hover {
+    background-image: url('../img/logos/logo_part_ambassade_irlande.png');
+}
+section.lesalon.partenaires .logos-partenaires #logo-boesner {
+    background-image: url('../img/logos/logo_part_boesner_nb.png');
+    width: 142px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-boesner:hover {
+    background-image: url('../img/logos/logo_part_boesner.png');
+}
+section.lesalon.partenaires .logos-partenaires #logo-impossible {
+    background-image: url('../img/logos/logo_part_impossible_nb.png');
+    width: 125px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-impossible:hover {
+    background-image: url('../img/logos/logo_part_impossible.png');
+}
+section.lesalon.partenaires .logos-partenaires #logo-grolsch {
+    background-image: url('../img/logos/logo_part_grolsch_nb.png');
+    width: 112px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-grolsch:hover {
+    background-image: url('../img/logos/logo_part_grolsch.png');
+}
+section.lesalon.partenaires .logos-partenaires #logo-domaine {
+    background-image: url('../img/logos/logo_part_domaine_nb.png');
+    width: 126px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-domaine:hover {
+    background-image: url('../img/logos/logo_part_domaine.png');
+}
+
+
+
+
+section.lesalon.espace {
+	padding-top: 45px;
+	padding-bottom: 70px;
+	background-color: #908C87;
+}
+section.lesalon.espace h2 {
+	padding-bottom: 40px;
+	font-size: 24px;
+}
+section.lesalon.espace h2 #title_line {
+	margin-top: 17px;
+}
+section.lesalon.espace .colg {
+	color: #303030;
+	float: left;
+	width: 21%;
+	margin-right: 12%;
+	position: relative;
+	height: 420px;
+}
+section.lesalon.espace .colg p {
+	font-size: 13px;
+	line-height: 18px;
+	margin-bottom: 30px;
+}
+section.lesalon.espace .colg p.adresse {
+	margin-bottom: 20px;
+}
+section.lesalon.espace .colg .annee-couleur {
+	font-size: 13px;
+	font-weight: bold;
+}
+section.lesalon.espace .colg ul {
+	margin-top: 14px;
+}
+section.lesalon.espace .colg ul li {
+	font-size: 13px;
+	font-weight: bold;
+}
+section.lesalon.espace .colg .controle {
+	position: absolute;
+	bottom: 0;
+	left: -5px;
+}
+section.lesalon.espace img {
+	padding-left: 8px;
+}
+
+/* ---------- VIDEOS ------------------- */
+
+section.videos.lecteur {
+	padding-top: 167px;
+	padding-bottom: 60px;
+	background-color: #F6F5F0;
+}
+section.videos.lecteur h1 {
+	padding-bottom: 35px;
+}
+section.videos.lecteur .lecteur-vimeo {
+	margin-bottom: 35px;
+	width: 800px; /* @WARNING ajuster aux iframes de Vimeo */
+	margin: auto;
+}
+section.videos.lecteur .colg {
+	float: left;
+	width: 31%;
+	font-weight: lighter;
+}
+section.videos.lecteur .colg .date-video {
+	font-size: 16px;
+}
+section.videos.lecteur .colg .duree-video {
+	font-size: 14px;
+}
+section.videos.lecteur .colg .copyright-video {
+	font-size: 10px;
+}
+section.videos.lecteur .cold {
+	float: left;
+	width: 65%;
+	margin-left: 3%;
+}
+section.videos.lecteur .cold h4 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+section.videos.lecteur .cold p {
+	color: #333;
+	font-size: 13px;
+	line-height: 18px;
+	margin-bottom: 18px;
+}
+
+section.videos.toutes {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #333;
+}
+section.videos.toutes #container-videos {
+	margin-top: 40px;
+}
+section.videos.toutes .video-bloc {
+	width: 307px;
+	float: left;
+	color: #333333;
+	overflow: hidden;
+}
+section.videos.toutes .video-bloc a {
+	color: #333;
+}
+section.videos.toutes .video-bloc.central {
+	margin-left: 13px;
+	margin-right: 13px;
+}
+section.videos.toutes .video-bloc h4 {
+	font-size: 13px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color: #333;
+}
+section.videos.toutes .video-bloc:hover h4 {
+	color: #FD5A5D;
+}
+section.videos.toutes .video-bloc p {
+	font-size: 13px;
+	line-height: 18px;
+	margin-bottom: 40px;
+}
+
+
+section.videos.aller-plus-loin {
+	background-color: #FF5C60;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+section.videos.aller-plus-loin #container-videos {
+	margin-top: 63px;
+}
+section.videos.aller-plus-loin .video-bloc {
+	width: 202px;
+	float: left;
+	color: #333333;
+	overflow: hidden;
+	margin-right: 47px;
+}
+section.videos.aller-plus-loin .video-bloc:last-of-type {
+	margin-right: 0;
+}
+section.videos.aller-plus-loin .video-bloc a {
+	color: #333;
+}
+section.videos.aller-plus-loin .video-bloc h4 {
+	font-size: 13px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color: #333;
+}
+section.videos.aller-plus-loin .video-bloc:hover h4 {
+	color: #fff;
+}
+section.videos.aller-plus-loin .video-bloc p {
+	font-size: 13px;
+	line-height: 18px;
+	margin-bottom: 15px;
+}
+section.videos.aller-plus-loin .video-bloc a.savoir-plus {
+	text-decoration: underline;
+	font-size: 13px;
+}
+
+/* ---------- PAGE PARTICIPER -------------- */
+section.participer-bandeau {
+	padding-top: 100px;
+	height: 400px;
+	/*background-image: url(../img/img_participer.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	width: 950px;
+	margin: auto;
+}
+section.intro_participer{overflow:hidden;}
+section.intro_participer.content {
+	padding-top: 40px;
+}
+section.intro_participer span#title_line {
+	margin-top: 5px;
+}
+section.intro_participer #content {
+	padding: 0 50px;
+}
+section.intro_participer div.coll {
+	width:29%;
+	float:left;
+}
+section.intro_participer div.text {
+	margin-left:5%;
+	width: 60%;
+}
+section.intro_participer div.text p {
+	/*margin-top:25px;*/
+	float: left;
+	font-size: 13px;
+	line-height: 18px;
+	color: #333333;
+	margin-top: 60px;
+}
+section.intro_participer div.vide {
+	height: 100px;
+}
+section.intro_participer div.coll p {
+	font-size: 14px;
+	color: #333333;
+	line-height: 20px;
+}
+
+section.concours.content {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+section.concours.content #modale-email {
+	background-color: white;
+	padding: 20px;
+}
+section.concours.content #modale-email #email-valide {
+	width: 350px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+section.concours.content #modale-email #acceder-paiement {
+	margin-right: 10px;
+	cursor: pointer;
+}
+section.concours.content #modale-email #annuler-paiement {
+	cursor: pointer;
+}
+
+section.concours{width:100%; overflow:hidden; background-color:#f6f5f0;}	
+section.concours #content{padding:0 50px;}
+section.concours div.categories {
+	float:left;
+	width:30%;
+}
+section.concours div.categories h2 {
+	font-size: 20px;
+}
+section.concours div.categories p {
+	font-size: 13px;
+	margin-bottom: 90px;
+	line-height: 18px;
+	color: #333333;
+}
+section.concours div.prix_photo, div.jeunes_talents {
+	margin-left:4%;
+}
+.inscrire {
+	width: 175px;
+	cursor: pointer;
+	color: #343233;
+	background-color: transparent;
+	font-size: 20px;
+	padding: 10px 20px;
+	border: 1px solid #b3b3b1; /* changer de couleur */
+	display: block;
+	text-align: center;
+	line-height: 36px;
+}
+.red_achat {
+	color: #a0a0a0;
+	border-color: #a0a0a0;
+}
+.red_achat:hover {
+	/*color: #fd5a5d;
+	border-color: #fd5a5d;*/
+	cursor: initial;
+}
+.blue_achat {
+	color: #a0a0a0;
+	border-color: #a0a0a0;
+}
+.blue_achat:hover {
+	/*color: #00cbdc;
+	border-color: #00cbdc;*/
+	cursor: initial;
+}
+.yellow_achat {
+	color: #a0a0a0;
+	border-color: #a0a0a0;
+}
+.yellow_achat:hover {
+	/*color: #ffc025;
+	border-color: #ffc025;*/
+	cursor: initial;
+}
+section.condition.content {
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+section.condition span#title_line {
+	margin-top: 5px;
+}
+section.condition img.fleche-conditions {
+	float: right;
+}
+
+section.condition{background:#cfc7b2;}
+section.condition h2 {
+	font-size: 29px;
+}
+section.condition a.content {
+	display: block;
+	height: 41px;
+}
+section.condition a.content:focus {
+	outline: none;
+}
+section.condition #text_condition {
+	margin-top: 75px;
+}
+
+#text_condition .condition-col {
+	float: left;
+	margin-right: 30px;
+	width: 290px;
+	color: #333333;
+}
+#text_condition .condition-col img {
+	margin-bottom: 10px;
+}
+#text_condition .condition-col h4 {
+	text-transform: uppercase;
+	font-size: 15px;
+}
+#text_condition .condition-col h5 {
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: normal;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+#text_condition .condition-col p {
+	font-size: 13px;
+	line-height: 18px;
+	margin-bottom: 32px;
+}
+#text_condition .condition-col .desquestions {
+	margin-bottom: 10px;
+	font-weight: bold;
+	display: block;
+	font-size: 13px;
+	line-height: 18px;
+}
+#text_condition .condition-col .email {
+	text-decoration: underline;
+	font-size: 13px;
+	color: #333333;
+}
+#text_condition .condition-col.nomargin {
+	margin-right: 0;
+}
+#text_condition .condition-col.premiere {
+	margin-right: 120px;
+	width: 200px;
+}
+.clear {
+	clear: both;
+}
+
+/* -------------- JEUNES TALENTS --------------- */
+
+section.jeunes_talents.intro {
+	background-color: #fff;
+	padding-top: 165px;
+	padding-bottom: 125px;
+}
+section.jeunes_talents.intro h1 {
+	padding-bottom: 20px;
+}
+section.jeunes_talents.intro div#content ul#nav_concour {
+	width: 35%;
+	float: left;
+}
+section.jeunes_talents.intro div#content ul#nav_concour li a {
+	color:#aaaaaa;
+}
+section.jeunes_talents.intro div#content ul#nav_concour li a.active {
+	color:#333;
+}
+section.jeunes_talents.intro div#content div#presentation {
+	width:65%;
+	float:left;
+	max-width:1094px;
+}
+section.jeunes_talents.intro div#content div#presentation p {
+	width: 45%;
+	float: left;
+	font-size: 13px;
+	line-height: 18px;
+	line-height: 20px;
+	color: #333333;
+}
+section.jeunes_talents.intro div#content div#presentation p.colspe {
+	margin-right: 5%;
+}
+
+
+section.jeunes_talents.bandeau {
+	background-color: #FFBD47;
+	padding-top: 75px;
+	padding-bottom: 40px;
+}
+section.jeunes_talents.bandeau img.portrait {
+	float: left;
+	margin-top : -142px;
+	margin-right: 50px;
+}
+section.jeunes_talents.bandeau .titre-categorie {
+	font-weight: lighter;
+	font-size: 20px;
+}
+section.jeunes_talents.bandeau h1 {
+	text-transform: none;
+	padding-top: 4px;
+	padding-bottom: 10px;
+}
+section.jeunes_talents.bandeau .entete-photographe {
+	position: relative;
+}
+section.jeunes_talents.bandeau ul.controle {
+	width: 90px;
+	margin: 0;
+	display: inline;
+	position: absolute;
+	bottom: 0;
+	left: 317px;
+}
+
+section.jeunes_talents.diaporama {
+	background-color: #fff;
+	padding-top: 42px;
+	padding-bottom: 120px;
+}
+section.jeunes_talents.diaporama .conteneur-diaporama {
+	background-color: #EEEDED;
+	padding-top: 70px;
+	padding-bottom: 5px;
+	margin-bottom: 45px;
+}
+section.jeunes_talents.diaporama .image img {
+	height: 500px;
+	margin: auto;
+}
+section.jeunes_talents.diaporama .commandes {
+	margin-top: 15px;
+	margin-right: 95px;
+	margin-left: 95px;
+}
+section.jeunes_talents.diaporama .commandes .decompte {
+	float: right;
+	font-size: 20px;
+	font-weight: lighter;
+	padding-top: 8px;
+	font-family: merriweather;
+}
+section.jeunes_talents.diaporama .commandes .plein-ecran {
+	float: right;
+	padding-top: 8px;
+	margin-left: 20px;
+}
+section.jeunes_talents.diaporama .commandes .fleches {
+	width: 120px;
+	margin: auto;
+}
+section.jeunes_talents.diaporama .commandes .fleche-gauche {
+	display: inline;
+	margin-right: 10px;
+}
+section.jeunes_talents.diaporama .commandes .fleche-droite {
+	display: inline;
+}
+section.jeunes_talents.diaporama .commandes .fleche-gauche:hover,
+section.jeunes_talents.diaporama .commandes .fleche-droite:hover,
+section.jeunes_talents.diaporama .commandes .plein-ecran:hover {
+	cursor: pointer;
+}
+section.jeunes_talents.diaporama .commentaire-diaporama {
+	text-align: center;
+}
+section.jeunes_talents.diaporama .commentaire-diaporama h1 {
+	text-transform: none;
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+section.jeunes_talents.diaporama .commentaire-diaporama h4 {
+	font-size: 16px;
+	color: #989898;
+	margin-bottom: 17px;
+}
+section.jeunes_talents.diaporama .commentaire-diaporama p {
+	font-size: 13px;
+	line-height: 18px;
+	padding-right: 65px;
+	padding-left: 65px;
+	font-family: merriweather;
+	color: #333;
+}
+
+section.jeunes_talents.aller-plus-loin {
+	background-color: #FF5C60;
+	padding-top: 75px;
+	padding-bottom: 30px;
+}
+
+/* -------- ALLER PLUS LOIN (générique) ------------ */
+
+section.aller-plus-loin #container-liens {
+	margin-top: 63px;
+}
+section.aller-plus-loin .lien-bloc {
+	width: 202px;
+	float: left;
+	color: #333333;
+	overflow: hidden;
+	margin-right: 47px;
+}
+section.aller-plus-loin .lien-bloc:last-of-type {
+	margin-right: 0;
+}
+section.aller-plus-loin .lien-bloc a {
+	color: #333;
+}
+section.aller-plus-loin .lien-bloc h4 {
+	font-size: 13px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color: #333;
+}
+section.aller-plus-loin .lien-bloc:hover h4 {
+	color: #fff;
+}
+section.aller-plus-loin .lien-bloc p {
+	font-size: 13px;
+	line-height: 18px;
+	margin-bottom: 15px;
+}
+section.aller-plus-loin .lien-bloc a.savoir-plus {
+	text-decoration: underline;
+	font-size: 13px;
+}
+
+/* -------------- PRIX PHOTOS --------------- */
+
+section.prix_photos.intro {
+	background-color: #fff;
+	padding-top: 165px;
+	padding-bottom: 125px;
+}
+section.prix_photos.intro h1 {
+	padding-bottom: 20px;
+}
+section.prix_photos.intro div#content ul#nav_concour {
+	width: 35%;
+	float: left;
+}
+section.prix_photos.intro div#content ul#nav_concour li a {
+	color:#aaaaaa;
+}
+section.prix_photos.intro div#content ul#nav_concour li a.active {
+	color:#333;
+}
+section.prix_photos.intro div#content div#presentation {
+	width:65%;
+	float:left;
+	max-width:1094px;
+}
+section.prix_photos.intro div#content div#presentation p {
+	width: 45%;
+	float: left;
+	font-size: 13px;
+	line-height: 18px;
+	line-height: 20px;
+	color: #333333;
+}
+section.prix_photos.intro div#content div#presentation p.colspe {
+	margin-right: 5%;
+}
+
+
+section.prix_photos.bandeau {
+	background-color: #00C9D9;
+	padding-top: 75px;
+	padding-bottom: 40px;
+}
+section.prix_photos.bandeau img.portrait {
+	float: left;
+	margin-top : -142px;
+	margin-right: 50px;
+}
+section.prix_photos.bandeau .titre-categorie {
+	font-weight: lighter;
+	font-size: 20px;
+}
+section.prix_photos.bandeau h1 {
+	text-transform: none;
+	padding-top: 4px;
+	padding-bottom: 10px;
+}
+section.prix_photos.bandeau .entete-photographe {
+	position: relative;
+}
+section.prix_photos.bandeau ul.controle {
+	width: 90px;
+	margin: 0;
+	display: inline;
+	position: absolute;
+	bottom: 0;
+	left: 317px;
+}
+
+section.prix_photos.diaporama {
+	background-color: #fff;
+	padding-top: 42px;
+	padding-bottom: 120px;
+}
+section.prix_photos.diaporama .conteneur-diaporama {
+	background-color: #EEEDED;
+	padding-top: 70px;
+	padding-bottom: 5px;
+	margin-bottom: 45px;
+}
+section.prix_photos.diaporama .image img {
+	height: 500px;
+	margin: auto;
+}
+section.prix_photos.diaporama .commandes {
+	margin-top: 15px;
+	margin-right: 95px;
+	margin-left: 95px;
+}
+section.prix_photos.diaporama .commandes .decompte {
+	float: right;
+	font-size: 20px;
+	font-weight: lighter;
+	padding-top: 8px;
+	font-family: merriweather;
+}
+section.prix_photos.diaporama .commandes .plein-ecran {
+	float: right;
+	padding-top: 8px;
+	margin-left: 20px;
+}
+section.prix_photos.diaporama .commandes .fleches {
+	width: 120px;
+	margin: auto;
+}
+section.prix_photos.diaporama .commandes .fleche-gauche {
+	display: inline;
+	margin-right: 10px;
+}
+section.prix_photos.diaporama .commandes .fleche-droite {
+	display: inline;
+}
+section.prix_photos.diaporama .commandes .fleche-gauche:hover,
+section.prix_photos.diaporama .commandes .fleche-droite:hover,
+section.prix_photos.diaporama .commandes .plein-ecran:hover {
+	cursor: pointer;
+}
+section.prix_photos.diaporama .commentaire-diaporama {
+	text-align: center;
+}
+section.prix_photos.diaporama .commentaire-diaporama h1 {
+	text-transform: none;
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+section.prix_photos.diaporama .commentaire-diaporama h4 {
+	font-size: 16px;
+	color: #989898;
+	margin-bottom: 17px;
+}
+section.prix_photos.diaporama .commentaire-diaporama p {
+	font-size: 13px;
+	line-height: 18px;
+	padding-right: 65px;
+	padding-left: 65px;
+	font-family: merriweather;
+	color: #333;
+}
+
+section.prix_photos.aller-plus-loin {
+	background-color: #FF5C60;
+	padding-top: 75px;
+	padding-bottom: 30px;
+}
+
+/* --------------- EQUIPE ---------------- */
+section.equipe-bandeau {
+	padding-top: 100px;
+	height: 400px;
+	width: 950px;
+	margin: auto;
+}
+section.intro_equipe{overflow:hidden;}
+section.intro_equipe.content {
+	padding-top: 40px;
+	padding-bottom: 100px;
+}
+section.intro_equipe span#title_line {
+	margin-top: 5px;
+}
+section.intro_equipe #content {
+	padding: 0 50px;
+}
+section.intro_equipe div.coll {
+	width:29%;
+	float:left;
+}
+section.intro_equipe div.text {
+	margin-left:5%;
+	width: 60%;
+}
+section.intro_equipe div.text p {
+	float: left;
+	font-size: 13px;
+	line-height: 18px;
+	color: #333333;
+	margin-top: 70px;
+}
+section.intro_equipe div.vide {
+	height: 100px;
+}
+
+section.intro_equipe .nom-membre {
+	font-weight: bold;
+	font-family: Merriweather, serif;
+}
+section.intro_equipe .fonction-membre {
+	font-style: italic;
+	font-family: Merriweather, serif;
+}
+section.intro_equipe br.separateur {
+	margin-bottom: 19px;
+}
+
+section.equipe.aller-plus-loin {
+	background-color: #FF5C60;
+	padding-top: 75px;
+	padding-bottom: 30px;
+}
+
+
+/* ----------- ATELIERS PEDAGOGIQUES ------------ */
+section.ateliers_pedagogiques-bandeau {
+	padding-top: 100px;
+	height: 400px;
+	width: 950px;
+	margin: auto;
+}
+section.intro_ateliers_pedagogiques{overflow:hidden;}
+section.intro_ateliers_pedagogiques.content {
+	padding-top: 40px;
+	padding-bottom: 100px;
+}
+section.intro_ateliers_pedagogiques span#title_line {
+	margin-top: 5px;
+}
+section.intro_ateliers_pedagogiques #content {
+	padding: 0 50px;
+}
+section.intro_ateliers_pedagogiques div.coll {
+	width:35%;
+	float:left;
+}
+
+section.intro_ateliers_pedagogiques div#content div#presentation {
+	width:65%;
+	float:left;
+	max-width:1094px;
+	margin-top: 80px;
+}
+section.intro_ateliers_pedagogiques div#content div#presentation p {
+	width: 45%;
+	float: left;
+	font-size: 13px;
+	line-height: 18px;
+	line-height: 20px;
+	color: #333333;
+}
+section.intro_ateliers_pedagogiques div#content div#presentation p.colspe {
+	margin-right: 5%;
+}
+
+section.ateliers_pedagogiques.affiche {
+	background-color: #f6f5f0;
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+
+section.ateliers_pedagogiques.affiche .affiche-image {
+	margin: auto;
+	width: 650px;
+}
+section.ateliers_pedagogiques.affiche .affiche-image img {
+	width: 650px;
+}
+
+section.ateliers_pedagogiques.aller-plus-loin {
+	background-color: #FF5C60;
+	padding-top: 75px;
+	padding-bottom: 30px;
+}
+
+
+/* ------------------ ESPACE PRESSE ------------------ */
+
+section.espace_presse-bandeau {
+	padding-top: 100px;
+	height: 400px;
+	width: 950px;
+	margin: auto;
+}
+
+/* saXXperie de police sur "*" */
+section.espace_presse_intro div#content div#presentation p,
+section.espace_presse_intro div#content div#presentation p span,
+section.espace_presse_intro div#content div#presentation p strong {
+	font-family: Merriweather, serif;
+}
+
+section.espace_presse_intro {
+	background-color:#FFF; overflow:hidden;
+}
+section.espace_presse.content {
+	padding-top: 40px;
+}
+section.espace_presse {
+	background-color: #f8f4ed;
+	overflow: hidden;
+}
+
+section.espace_presse_intro div#content ul#nav_concour {
+	width: 35%;
+	float: left;
+}
+section.espace_presse_intro div#content ul#nav_concour li a {
+	color:#aaaaaa;
+}
+section.espace_presse_intro div#content ul#nav_concour li a.active {
+	color:#333;
+}
+section.espace_presse_intro div#content div#presentation {
+	width:65%;
+	float:left;
+	max-width:1094px;
+	margin-top: -50px;
+}
+section.espace_presse_intro div#content div#presentation p {
+	width: 45%;
+	float: left;
+	font-size: 13px;
+	line-height: 18px;
+	line-height: 20px;
+	color: #555555;
+}
+section.espace_presse_intro div#content div#presentation p.colspe {
+	margin-right: 5%;
+}
+section.espace_presse_intro .attention {
+	font-style: italic;
+}
+
+section.espace_presse_programme.content {
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+section.espace_presse_programme {
+	margin-top: 5px;
+	background-color: #eeeeee;
+}
+section.espace_presse_programme #content {
+	padding: 0 50px;
+}
+section.espace_presse_programme div.text {
+	margin-left: 332px;
+	width: 628px;
+	font-size: 13px;
+	line-height: 18px;
+	line-height: 20px;
+	color: #555555;
+	font-family: Merriweather, serif;
+	font-style: italic;
+}
+section.espace_presse_programme div.text h2 {
+	padding-bottom: 0;
+	color: #333333;
+	font-style: normal;
+}
+section.espace_presse_programme div.text h3 {
+	font-family: Merriweather, serif;
+	font-size: 16px;
+	padding-top: 36px;
+	padding-bottom: 5px;
+	color: #333333;
+	font-style: normal;
+}
+section.espace_presse_programme div.text strong {
+	font-family: Merriweather, serif;
+	color: #333333;
+	font-style: normal;
+}
+
+section.espace_presse.aller-plus-loin {
+	background-color: #FF5C60;
+	padding-top: 75px;
+	padding-bottom: 30px;
+}
+
+/* --------------- LECTURE PORTFOLIOS -------------- */
+
+section.lecture_portfolios-bandeau {
+	padding-top: 100px;
+	height: 400px;
+	width: 950px;
+	margin: auto;
+}
+
+/* saXXperie de police sur "*" */
+section.lecture_portfolios_intro div#content div#presentation p,
+section.lecture_portfolios_intro div#content div#presentation p span,
+section.lecture_portfolios_intro div#content div#presentation p strong {
+	font-family: Merriweather, serif;
+}
+
+section.lecture_portfolios_intro {
+	background-color:#FFF; overflow:hidden;
+}
+section.lecture_portfolios.content {
+	padding-top: 40px;
+}
+section.lecture_portfolios {
+	background-color: #f8f4ed;
+	overflow: hidden;
+}
+
+section.lecture_portfolios_intro div#content ul#nav_concour {
+	width: 35%;
+	float: left;
+}
+section.lecture_portfolios_intro div#content ul#nav_concour li a {
+	color:#aaaaaa;
+}
+section.lecture_portfolios_intro div#content ul#nav_concour li a.active {
+	color:#333;
+}
+section.lecture_portfolios_intro div#content div#presentation {
+	width:65%;
+	float:left;
+	max-width:1094px;
+	margin-top: -50px;
+}
+section.lecture_portfolios_intro div#content div#presentation p {
+	width: 45%;
+	float: left;
+	font-size: 13px;
+	line-height: 18px;
+	line-height: 20px;
+	color: #555555;
+}
+section.lecture_portfolios_intro div#content div#presentation p.colspe {
+	margin-right: 5%;
+}
+section.lecture_portfolios_intro .attention {
+	font-style: italic;
+}
+
+section.lecture_portfolios_programme.content {
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+section.lecture_portfolios_programme {
+	margin-top: 5px;
+	background-color: #eeeeee;
+}
+section.lecture_portfolios_programme #content {
+	padding: 0 50px;
+}
+section.lecture_portfolios_programme div.text {
+	margin-left: 332px;
+	width: 628px;
+	font-size: 13px;
+	line-height: 18px;
+	line-height: 20px;
+	color: #555555;
+	font-family: Merriweather, serif;
+	font-style: italic;
+}
+section.lecture_portfolios_programme div.text h2 {
+	padding-bottom: 0;
+	color: #333333;
+	font-style: normal;
+}
+section.lecture_portfolios_programme div.text h3 {
+	font-family: Merriweather, serif;
+	font-size: 16px;
+	padding-top: 36px;
+	padding-bottom: 5px;
+	color: #333333;
+	font-style: normal;
+}
+section.lecture_portfolios_programme div.text strong {
+	font-family: Merriweather, serif;
+	color: #333333;
+	font-style: normal;
+}
+
+section.lecture_portfolios_programme .nom-membre {
+	font-weight: bold;
+	font-family: Merriweather, serif;
+}
+section.lecture_portfolios_programme .fonction-membre {
+	font-style: italic;
+	font-family: Merriweather, serif;
+}
+section.lecture_portfolios_programme br.separateur {
+	margin-bottom: 19px;
+}
+
+section.lecture_portfolios.aller-plus-loin {
+	background-color: #FF5C60;
+	padding-top: 75px;
+	padding-bottom: 30px;
+}
+
+
+
+
+/* -------------- EXPOSANTS --------------- */
+
+section.exposants.intro {
+	background-color: #fff;
+	padding-top: 165px;
+	padding-bottom: 80px;
+}
+section.exposants.intro h1 {
+	padding-bottom: 20px;
+}
+section.exposants.intro div#content ul#nav_concour {
+	width: 35%;
+	float: left;
+}
+section.exposants.intro div#content ul#nav_concour li a {
+	color:#aaaaaa;
+}
+section.exposants.intro div#content ul#nav_concour li a.active {
+	color:#333;
+}
+section.exposants.intro div#content div#presentation {
+	width:65%;
+	float:left;
+	max-width:1094px;
+}
+section.exposants.intro div#content div#presentation p {
+	width: 45%;
+	float: left;
+	font-size: 13px;
+	line-height: 18px;
+	line-height: 20px;
+	color: #333333;
+}
+section.exposants.intro div#content div#presentation p.colspe {
+	margin-right: 5%;
+}
+
+section.exposants.liste {
+	background-color: #FF5C60;
+	padding-top: 80px;
+	padding-bottom: 90px;
+}
+section.exposants.liste h1 {
+	color: white;
+	padding-bottom: 30px;
+}
+section.exposants.liste h1 #title_line {
+	background-color: white;
+}
+section.exposants.liste ul.liste-exposants {
+	float: left;
+	width: 33%;
+}
+section.exposants.liste ul.liste-exposants li a {
+	color: #fff;
+}
+section.exposants.liste ul.liste-exposants li a:hover {
+	color: black;
+}
+
+section.exposants.diaporama {
+	background-color: #fff;
+	padding-top: 42px;
+	padding-bottom: 120px;
+}
+section.exposants.diaporama .conteneur-diaporama {
+	background-color: #EEEDED;
+	padding-top: 70px;
+	padding-bottom: 5px;
+	margin-bottom: 45px;
+}
+section.exposants.diaporama .image img {
+	max-height: 500px;
+	max-width: 800px;
+	margin: auto;
+}
+section.exposants.diaporama .commandes {
+	margin-top: 15px;
+	margin-right: 95px;
+	margin-left: 95px;
+}
+section.exposants.diaporama .commandes .decompte {
+	float: right;
+	font-size: 20px;
+	font-weight: lighter;
+	padding-top: 8px;
+	font-family: merriweather;
+}
+section.exposants.diaporama .commandes .plein-ecran {
+	float: right;
+	padding-top: 8px;
+	margin-left: 20px;
+}
+section.exposants.diaporama .commandes .fleches {
+	width: 120px;
+	margin: auto;
+}
+section.exposants.diaporama .commandes .fleche-gauche {
+	display: inline;
+	margin-right: 10px;
+}
+section.exposants.diaporama .commandes .fleche-droite {
+	display: inline;
+}
+section.exposants.diaporama .commandes .fleche-gauche:hover,
+section.exposants.diaporama .commandes .fleche-droite:hover,
+section.exposants.diaporama .commandes .plein-ecran:hover {
+	cursor: pointer;
+}
+section.exposants.diaporama .commentaire-diaporama {
+	text-align: center;
+}
+section.exposants.diaporama .commentaire-diaporama h1 {
+	text-transform: none;
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+section.exposants.diaporama .commentaire-diaporama h4 {
+	font-size: 16px;
+	color: #989898;
+	margin-bottom: 17px;
+}
+section.exposants.diaporama .commentaire-diaporama p {
+	font-size: 13px;
+	line-height: 18px;
+	padding-right: 65px;
+	padding-left: 65px;
+	font-family: merriweather;
+	color: #333;
+}
+
+/* --------------- ACTUALITES ---------------- */
+section.actu {
+	background-color: #00C3B2;
+	padding-top: 200px;
+}
+section.actu h1 {
+	color: #fff;
+	padding-bottom: 15px;
+}
+section.actu #nav_concour {
+	margin-bottom: 50px;
+}
+section.actu #nav_concour li a {
+	color: #fff;
+}
+section.actu #nav_concour li a.active {
+	font-weight: bold;
+}
+section.actu h1 #title_line {
+	background-color: #fff;
+	margin-top: 5px;
+}
+section.actu .pave-actu {
+	/*border: solid white 2px;*/
+	position: relative;
+	height: 480px;
+	margin-bottom: 60px;
+}
+section.actu .pave-actu .contenu-pave-actu {
+	position: absolute;
+	width: 840px;
+	height: 480px;
+}
+section.actu .pave-actu.gauche .contenu-pave-actu {
+	left: 0;
+}
+section.actu .pave-actu.droite .contenu-pave-actu {
+	right: 0;
+}
+section.actu .surimg {
+	width: 740px;
+	height: 480px;
+	position: absolute;
+}
+section.actu .sur-copyright {
+	z-index: 3000;
+}
+section.actu .pave-actu.gauche .surimg {
+	left: 0;
+}
+section.actu .pave-actu.droite .surimg {
+	right: 0;
+}
+section.actu .pave-actu.gauche .sur-copyright {
+	left: 10px;
+}
+section.actu .pave-actu.droite .sur-copyright {
+	right: 10px;
+	text-align: right;
+}
+section.actu .contenu-pave-actu:hover .sur-copyright {
+	display: inline;
+}
+section.actu .pave-actu img.image-actu {
+	position: absolute;
+	bottom: 0;
+	width: 740px;
+	height: 480px;
+}
+section.actu .pave-actu.gauche img.image-actu {
+	left: 0;
+}
+section.actu .pave-actu.droite img.image-actu {
+	right: 0;
+}
+section.actu .pave-actu .texte-actu {
+	position: absolute;
+	bottom: 0;
+	background-color: white;
+	width: 305px; /* conserver l'alignement vertical ! '*/
+	height: 317px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 65px;
+	padding-bottom: 70px;
+	overflow: hidden;
+}
+section.actu .pave-actu.gauche .texte-actu {
+	right: 0;
+}
+section.actu .pave-actu.droite .texte-actu {
+	left: 0;
+}
+section.actu .pave-actu .texte-actu .date {
+	font-weight: lighter;
+	font-size: 16px;
+}
+section.actu .pave-actu .texte-actu h2 {
+	text-transform: none;
+	font-size: 22px;
+	font-weight: normal;
+	padding-top: 2px;
+}
+section.actu .pave-actu .texte-actu p {
+	font-size: 13px;
+	line-height: 18px;
+	color: #333;
+}
+section.actu .pave-actu .texte-actu a.lien-actu {
+	color: #00C3B2;
+	margin-top: 30px;
+	display: inline-block;
+}
+section.actu .plus-d-actus {
+	width: 50px;
+	margin: auto;
+}
+section.actu a.ancre-actu {
+	position: relative;
+	top: -140px;
+	display: block;
+	visibility: hidden;
+}
+
+/* ------------- DIAPORAMA PLEIN ECRAN ---------- */
+
+.quatre-vingt-dix-neuf-pour-cent {
+	height: 99%;
+	width: 100%;
+}
+.cent-pour-cent {
+	height: 100%;
+	width: 100%;
+}
+#colonnemenu {
+	width: 200px;
+	height: 100%;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow: auto;
+}
+#colonnemenu #logo {
+	/*margin-left: 20px;*/
+}
+#colonnemenu h2 {
+	font-size: 20px;
+	text-transform: none;
+	margin-top: 65px;
+	padding-bottom: 20px;
+}
+#colonnemenu h2 #title_line {
+	height: 5px;
+	width: 30px;
+	margin-top: 8px;
+}
+#colonnemenu p {
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: lighter;
+	margin-bottom: 20px;
+}
+#diaporama-plein-ecran {
+	background-color: #F0F0F0;
+	height: 100%;
+	margin-left: 240px;
+}
+#diaporama-plein-ecran .controles {
+	height: 75px;
+	padding-top: 25px;
+	/*border: solid red 1px;*/
+}
+#diaporama-plein-ecran .controles .fermer,
+#diaporama-plein-ecran .controles .fleche-gauche,
+#diaporama-plein-ecran .controles .fleche-droite {
+	float: right;
+	margin-right: 20px;
+}
+#diaporama-plein-ecran .controles .fermer:hover,
+#diaporama-plein-ecran .controles .fleche-gauche:hover,
+#diaporama-plein-ecran .controles .fleche-droite:hover {
+	cursor: pointer;
+}
+#diaporama-plein-ecran .controles .decompte {
+	float: right;
+	margin-right: 40px;
+	font-size: 30px;
+	font-weight: lighter;
+	padding-top: 4px;
+	font-family: merriweather;
+}
+#diaporama-plein-ecran .copyright-image {
+	height: 50px;
+	padding-top: 50px;
+	/*border: solid red 1px;*/
+	text-align: center;
+	font-size: 13px;
+	color: #888;
+}
+#diaporama-plein-ecran .conteneur-image {
+	/*border: solid black 1px;*/
+	height: calc(100% - 200px);
+}
+#diaporama-plein-ecran img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+}
+
+/* --------------- JURY -------------- */
+
+section.jury_intro {
+	background-color:#FFF; overflow:hidden;
+}
+section.jury.content {
+	padding-top: 85px;
+}
+section.jury {
+	background-color: #f8f4ed;
+	overflow: hidden;
+}
+
+section.jury_intro div#content ul#nav_concour {
+	width: 35%;
+	float: left;
+}
+section.jury_intro div#content ul#nav_concour li a {
+	color:#aaaaaa;
+}
+section.jury_intro div#content ul#nav_concour li a.active {
+	color:#333;
+}
+section.jury_intro div#content div#presentation {
+	width:65%;
+	float:left;
+	max-width:1094px;
+}
+section.jury_intro div#content div#presentation p {
+	width: 45%;
+	float: left;
+	font-size: 13px;
+	line-height: 18px;
+	line-height: 20px;
+	color: #333333;
+}
+section.jury_intro div#content div#presentation p.colspe {
+	margin-right: 5%;
+}
+
+section.jury a.profil_jury {
+	float:left;
+	display:block;
+	width: 150px;
+	height: 150px;
+	margin-left: 85px;
+	margin-top: 5px;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	background-color: red;
+}
+section.jury a.profil_jury img {
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+}
+section.jury a.profil_jury .texte-badge {
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 30px;
+	color: white;
+	font-size: 12px;
+	display: none;
+}
+section.jury a.profil_jury:hover img {
+	display: none;
+}
+section.jury a.profil_jury:hover .texte-badge {
+	display: inline;
+}
+section.jury div.box {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+section.jury div.text {
+	float: left;
+	/*width: 400px;*/
+	width: 60%;
+	margin-left: 100px;
+}
+section.jury div.text h4 {
+	color:#fd002c;
+	margin-bottom: 0 !important;
+}
+section.jury div.text h5 {
+	margin-bottom: 20px !important;
+	font-size:12px;
+	color:#ababab;
+	font-weight: normal;
+}
+section.jury div.text p {
+	color:#333333;
+	font-size:13px;
+	line-height: 18px;
+}
+section.jury div.text span.deco {
+	width:25px;
+	height:5px;
+	background:#fd002c;
+	margin-top:20px;
+	display:block;
+}
+section.jury.aller-plus-loin {
+	background-color: #FF5C60;
+	padding-top: 70px;
+}
+
+/* ----------- INSCRIPTION ----------- */
+section.intro.inscription {
+    padding-top: 165px;
+    background-color: white;
+}
+section.intro.inscription h1 {
+    padding-bottom: 20px;
+}
+section.intro.inscription #choix-formule {
+    padding-left: 320px;
+	margin-top: 10px;
+}
+section.intro.inscription #recap-tarif {
+    padding-left: 430px;
+	margin-top: 80px;
+	margin-bottom: 18px;
+	font-size: 18px;
+}
+section.intro.inscription li {
+	margin-bottom: 42px;
+}
+section.intro.inscription input {
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+    /*padding: 5px 0 4px 24px;*/
+    opacity: 0;
+	float: left;
+}
+section.intro.inscription input + label {
+	height: 35px;
+	padding-top: 15px;
+	display: block;
+	font-size: 17px;
+	padding-left: 110px;
+	background: url(../img/radio_noir.png);
+	background-repeat: no-repeat;
+}
+section.intro.inscription input#radio-choix-exposants:checked + label {
+	background: url(../img/radio_rouge.png);
+	color: #FF1738;
+	background-repeat: no-repeat;
+}
+section.intro.inscription input#radio-choix-prix_photos:checked + label {
+	background: url(../img/radio_bleu.png);
+	color: #00CAD9;
+	background-repeat: no-repeat;
+}
+section.intro.inscription input#radio-choix-jeunes_talents:checked + label {
+	background: url(../img/radio_orange.png);
+	color: #FFBD47;
+	background-repeat: no-repeat;
+}
+section.explication.inscription {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+}
+section.explication.inscription.exposants {
+    background-color: #FF1738;
+}
+section.explication.inscription.prix_photos {
+    background-color: #00CAD9;
+}
+section.explication.inscription.jeunes_talents {
+    background-color: #FFBD47;
+}
+section.explication.inscription #explication-candidature {
+    padding-left: 320px;
+}
+section.explication.inscription #explication-candidature h3 {
+    color: white;
+}
+section.explication.inscription #explication-candidature p {
+    margin-top: 15px;
+    font-size: 13px;
+	line-height: 18px;
+}
+section.formulaire.inscription {
+	background-color: #F9F5F0;
+	padding-bottom: 80px;
+}
+section.formulaire.inscription h1 {
+    padding-bottom: 10px;
+}
+section.formulaire.inscription form {
+	height: 1770px;
+	padding-top: 20px;
+}
+section.formulaire.inscription form .col1 {
+    width: 423px;
+	float: left;
+	padding-top: 30px;
+}
+section.formulaire.inscription form .col2 {
+    width: 423px;
+	float: left;
+	padding-top: 30px;
+	margin-left: 95px;
+}
+section.formulaire.inscription form #separateur-form {
+	clear: both;
+	height: 60px;
+}
+section.formulaire.inscription form label {
+	display: block;
+	margin-bottom: 12px;
+	font-size: 20px;
+	font-weight: bold;
+}
+section.formulaire.inscription form .faux-label {
+	height: 38px;
+}
+section.formulaire.inscription form label .form-indication {
+	font-weight: normal;
+}
+section.formulaire.inscription form input, section.formulaire.inscription form textarea {
+	margin-bottom: 40px;
+	width: 383px;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+section.formulaire.inscription form input[name="nom"] {
+	width: 423px;
+}
+section.formulaire.inscription form input {
+	height: 70px;
+	font-size: 20px;
+}
+
+.ajout-photo {
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+	height: 72px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	color: #303030;
+	line-height: 70px;
+	padding-left: 30px;
+	background-image: url(../img/photo.jpg);
+	background-repeat: no-repeat;
+	background-position: right 20px center;
+}
+.ajout-photo input[type="file"] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+/*section.formulaire.inscription form input::-webkit-input-placeholder {
+   color: white;
+}
+section.formulaire.inscription form input:-moz-placeholder {
+   color: white;
+}
+section.formulaire.inscription form input::-moz-placeholder {
+   color: white;
+}
+section.formulaire.inscription form input:-ms-input-placeholder {  
+   color: white;
+}
+section.formulaire.inscription form input:invalid::-webkit-input-placeholder {
+   color: red;
+}
+section.formulaire.inscription form input:invalid:-moz-placeholder {
+   color: red;
+}
+section.formulaire.inscription form input:invalid::-moz-placeholder {
+   color: red;
+}
+section.formulaire.inscription form input:invalid:-ms-input-placeholder {  
+   color: red;
+}*/
+
+section.formulaire.inscription form textarea {
+	height: 80px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 16px;
+}
+section.formulaire.inscription form #bloc-validation {
+	clear: both;
+	padding-top: 20px;
+	width: 625px;
+	height: 100px;
+}
+section.formulaire.inscription #fi-envoyer {
+	width: 202px;
+	height: 70px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #FF1738;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+section.formulaire.inscription #fi-envoyer:hover {
+	background-color: white;
+	color: #FF1738;
+}
+section.formulaire.inscription .notification-formulaire {
+	display: block;
+	line-height: 75px;
+	margin-right: 35px;
+	font-style: italic;
+	color: #505050;
+	font-size: 15px;
+}
+
+/* -------------- INFOS DOSSIER (paiement, formulaire complété) ------ */
+section.intro.infodossier {
+    padding-top: 165px;
+    background-color: white;
+	padding-bottom: 135px;
+}
+section.intro.infodossier h1 {
+    padding-bottom: 20px;
+	float: left;
+}
+section.intro.infodossier #dossier-enregistre, section.intro.infodossier #paiement-recu {
+	width: 400px;
+	padding-left: 320px;
+	font-size: 18px;
+	color: #505050;
+}
+section.intro.infodossier #dossier-enregistre #message {
+	padding-top: 140px;
+	background: url(../img/drapeaux.jpg) 80px top no-repeat;
+}
+section.intro.infodossier #paiement-recu #message {
+	padding-top: 140px;
+}
+section.intro.infodossier .texte {
+	margin-bottom: 12px;
+}
+section.intro.infodossier a {
+	display: block;
+	color: #505050;
+	margin-top: 70px;
+}
+
+/* --------------- DESINSCRIPTION NEWSLETTER ----------- */
+section.intro.desinscription-nl {
+    padding-top: 165px;
+    background-color: white;
+	padding-bottom: 135px;
+}
+section.intro.desinscription-nl h1 {
+    padding-bottom: 20px;
+	float: left;
+}
+section.intro.desinscription-nl #desinscription-message {
+	padding-top: 140px;
+	width: 400px;
+	padding-left: 320px;
+	font-size: 18px;
+	color: #505050;
+}
+section.intro.desinscription-nl .texte {
+	margin-bottom: 12px;
+}
+
+/* ------------- BACKOFFICE ---------------- */
+
+header #titre-backoffice {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+section.backoffice h3 {
+	margin-bottom: 15px;
+}
+section.intro.backoffice {
+    padding-top: 165px;
+    background-color: white;
+	padding-bottom: 135px;
+}
+section.intro.backoffice h1 {
+    padding-bottom: 50px;
+}
+section.intro.backoffice #envoi-newsletter {
+	margin-bottom: 40px;
+}
+form#envoi-newsletter textarea {
+	width: 600px;
+	height: 200px;
+	padding: 10px;
+}
+
+
+
+section.intro.backoffice #nouvelle-actu {
+	margin-bottom: 40px;
+}
+section.backoffice.actualites #effacer-formulaire {
+	color: blue;
+	font-size: 16px;
+}
+form#nouvelle-actu label {
+	width: 100px;
+	float: left;
+	line-height: 32px;
+}
+form#nouvelle-actu textarea {
+	width: 600px;
+	height: 200px;
+	padding: 10px;
+}
+form#nouvelle-actu input[type="text"] {
+	padding: 4px;
+	width: 612px;
+}
+form#nouvelle-actu input#date {
+	width: 200px;
+}
+form#nouvelle-actu input[type="submit"] {
+	margin-left: 100px;
+}
+section.backoffice.actualites h4 a {
+	font-style: normal;
+	font-size: 14px;
+	text-decoration: underline;
+}
+section.backoffice.actualites h4 a.modification-actu {
+	color: #44d;
+}
+section.backoffice.actualites h4 a.suppression-actu {
+	color: #d44;
+}
+section.backoffice.actualites #historique {
+	margin-top: 80px;
+}
+section.backoffice.actualites #historique h3 {
+	margin-bottom: 30px;
+}
+section.backoffice.actualites h4 {
+	font-style: italic;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+section.backoffice.actualites #historique .bo-actualite {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: solid #c0c0c0 1px;
+	font-size: 14px;
+	color: #404040;
+}
+section.backoffice.actualites #historique .bo-actualite label {
+	color: black;
+	display: inline-block;
+	width: 90px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+section.backoffice.actualites #historique .bo-actualite p.actu-texte {
+	padding-left: 10px;
+}
+
+
+
+section.backoffice.candidatures {
+	
+}
+section.backoffice.candidatures h3 {
+	margin-bottom: 20px;
+}
+.liste-candidats {
+	margin-bottom: 90px;
+}
+.liste-candidats .candidat {
+	border: solid #d0d0d0 1px;
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 50px;
+	font-size: 14px;
+	position: relative;
+}
+.liste-candidats .candidat .profil {
+	
+}
+.liste-candidats .candidat .profil .coordonnees {
+	padding-bottom: 20px;
+}
+.liste-candidats .candidat .profil .bloc-coordonnees {
+	float: left;
+	width: 300px;
+	margin-bottom: 2px;
+}
+.liste-candidats .candidat .profil .bloc-coordonnees label {
+	display: inline-block;
+	width: 60px;
+}
+.liste-candidats .candidat .profil .bloc-coordonnees .valeur {
+	color: #404040;
+}
+.liste-candidats .candidat .profil p.texte {
+	margin-bottom: 20px;
+	padding-left: 10px;
+	margin-top: 4px;
+	color: #404040;
+}
+.liste-candidats .candidat .photos {
+}
+.liste-candidats .candidat .telecharger-photos {
+	position: absolute;
+	right: 15px;
+	bottom: 120px;
+	text-align: right;
+}
+.liste-candidats .candidat .telecharger-photos a {
+	color: red;
+}
+.liste-candidats .candidat .notation {
+	position: absolute;
+	right: 15px;
+	bottom: 13px;
+}
+.liste-candidats .candidat .notation select {
+	margin-left: 15px;
+}
+.liste-candidats .candidat .photos .photo-carree {
+	width: 140px;
+	height: 140px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	margin: 3px;
+}
+.liste-candidats-en-attente {
+	
+}
+.liste-candidats-en-attente .candidat-en-attente {
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+.liste-candidats-en-attente .candidat-en-attente .details-cea {
+	font-size: 14px;
+}
+
+.backoffice.renvoyer-message .outils-coche {
+	margin-bottom: 30px;
+}
+.backoffice.renvoyer-message a {
+	color: blue;
+}
+
+.miniature-existe {
+	color: #a0a0a0;
+	font-size: 11px;
+}
+
+.miniature-generee {
+	color: green;
+}
+
+.miniature-erreur {
+	color: red;
+}
+
+/* --------------- FOOTER ----------------------- */
+footer{
+	width: 100%;
+	height: 310px; /* 460 souhaité - 2x75*/
+	overflow: hidden;
+	padding:75px 0;
+	background-color: #333333;
+	color: #eeeeee;
+}
+footer a {
+	color: #eeeeee;
+}
+footer div#content {
+	width: 950px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+footer ul.verticale {
+	float: left;
+	margin-right: 15px;
+}
+footer ul li, footer ul li a {
+	font-size: 11px;
+	line-height: 18px;
+}
+footer ul li.titre {
+	text-transform: uppercase;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 13px;
+}
+footer ul.menu {
+	width: 200px;
+}
+footer ul li a:hover {
+	color: #FFF;
+}
+footer ul.information {
+	width: 200px;
+}
+footer ul.contacts {
+	width: 200px;
+}
+
+#social {
+	clear: both;
+	width: 950px;
+	height: 160px;
+	border-top: 1px solid #333333; /* pb chelou avec l'alignement du ul en dessous */
+}
+footer ul.reseaux-sociaux {
+	text-align: center;
+	margin: auto;
+	margin-top: 55px;
+}
+footer ul.reseaux-sociaux li {
+	display: inline;
+}
+footer ul.reseaux-sociaux img {
+    display: inline;
+	margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer ul.credits {
+	text-align: center;
+	margin: auto;
+	margin-top: 35px;
+}
+footer ul.credits li.copyright {
+	font-weight: bold;
+}
+footer ul.credits li.auteur {
+	font-weight: bold;
+	color: #737373;
+}
+
+footer ul.newsletter {
+	width: 290px;
+	margin-right: 0 !important;
+}
+footer ul.newsletter li {
+	clear: both;
+	/*border-bottom: 1px solid #717171;*/
+}
+footer ul.newsletter li legend {
+	float: left;
+	padding: 10px 0;
+}
+footer ul.newsletter input {
+	float: left;
+	background: #333333;
+	border:none;
+	margin: 1px;
+	width: 300px;
+	height: 40px;
+	color: #FFF;
+	border-bottom: 1px solid #717171;
+	font-size: 16px;
+}
+footer ul.newsletter input[type="submit"] {
+	border-bottom: none;
+	width: auto;
+	cursor: pointer;
+}
+

@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/page_en_construction_2.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#centrage-vertical {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+}
+
+#boite {
+	margin: auto;
+	padding: 10px 40px 10px 40px;
+	width: 390px;
+	height: 500px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border: 20px solid;
+	border-color: rgba(255, 255, 255, 0.4);
+	font-family: Merriweather Sans;
+	text-align: center;
+	color: #333333;
+	font-size: 14px;
+	line-height: 18px;
+	margin-top: -280px;
+}
+
+#lqi {
+	margin-bottom: 20px;
+	width: 100px;
+}
+
+.text_fr {
+	margin-bottom: 40px;
+}
+
+.lien_email {
+	text-decoration: underline;
+}
+
