@@ -1,2 +1,5 @@
 
 /nbproject
+lib/bdd.php
+lib/email.php
+backoffice/.htpasswd
