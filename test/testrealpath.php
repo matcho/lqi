@@ -1,1 +1,1 @@
-<?php echo realpath('backoffice/.htpasswd'); ?>
+<?php echo realpath('../backoffice/.htpasswd'); ?>

@@ -6,7 +6,6 @@
 <body>
 	<?php
 		$page = "actualites";
-		$annee = isset($_GET['annee']) ? $_GET['annee'] : '2015';
 		$limite = isset($_GET['nolimit']) ? false : 4;
 		include "menu.php"
 	?>
@@ -17,7 +16,7 @@
 			<?php
 			$actualites = array();
 			// depuis la BDD
-			$req = "SELECT * FROM lqi_actualites WHERE YEAR(date) = '$annee' ORDER BY date desc, id desc";
+			$req = "SELECT * FROM lqi_actualites ORDER BY date desc, id desc";
 			if ($limite !== false) {
 				$req .= " LIMIT $limite";
 			}
@@ -25,48 +24,7 @@
 			while ($ligne = mysql_fetch_assoc($res)) {
 				$actualites[] = $ligne;
 			}
-			// JEU DE TEST
-			/*$clefs = array('id', 'date', 'titre_fr', 'titre_en', 'texte_fr', 'texte_en', 'lien', 'image', 'copyright');
-			$actualites[] = array_combine($clefs, array(1, '2015-02-09', 'Second essai d\'actualité', 'News: second attempt', "Rebonjour,
 
-Dans l'email de notification, les apostrophes étaient échappées par erreur; j'espère que cette fois c'est réglé.
-
-Mathias", "Hello again,
-
-In the notification email, quotes were erroneously escaped; I hope it's OK this time.
-
-Mathias", '', 'test-actu.jpg', 'Jean TALUS'));
-			$actualites[] = array_combine($clefs, array(2, '2015-02-09', 'Second essai d\'actualité', 'News: second attempt', "Rebonjour,
-
-Dans l'email de notification, les apostrophes étaient échappées par erreur; j'espère que cette fois c'est réglé.
-
-Mathias", "Hello again,
-
-In the notification email, quotes were erroneously escaped; I hope it's OK this time.
-
-Mathias", 'les_jeunes_talents.php', 'test-actu.jpg', 'Seth LITROSSAN'));
-			$actualites[] = array_combine($clefs, array(3, '2015-01-24', 'Premier essai d\'actualité', 'First attempt for a news', "Bonjour.
-
-Ceci est un premier essai pour une actu en français et en anglais. J'espère de tout cœur que les accents, les apostrophes et autres caractères complexes vont fonctionner du premier coup !
-
-Bien à vous,
-Mathias", "Hello.
-
-This is a first attempt for a new in french and english. I sincerely hope that accents, quotes and other complex characters will directly work !
-
-Tenderly,
-Mathias", 'http://www.tela-botanica.org', 'test-actu.jpg', 'Guy TOUNE'));
-			$actualites[] = array_combine($clefs, array(4, '2015-01-24', 'Premier essai d\'actualité', 'First attempt for a news', "Bonjour.
-
-Ceci est un premier essai pour une actu en français et en anglais. J'espère de tout cœur que les accents, les apostrophes et autres caractères complexes vont fonctionner du premier coup !
-
-Bien à vous,
-Mathias", "Hello.
-
-This is a first attempt for a new in french and english. I sincerely hope that accents, quotes and other complex characters will directly work !
-
-Tenderly,
-Mathias", '', 'test-actu.jpg', 'Otto RHINO'));*/
 			// parcours des actus
 			$nbActus = count($actualites);
 			$cpt = 0;
@@ -78,7 +36,7 @@ Mathias", '', 'test-actu.jpg', 'Otto RHINO'));*/
 			?>
 			<?php if (($limite !== false) && ($nbActus > 0)): ?>
 			<div class="plus-d-actus">
-				<a href="actualites.php?annee=<?php echo $annee ?>&nolimit">
+				<a href="actualites.php?nolimit">
 					<img src="../img/plus-info_blanc.png" />
 				</a>
 			</div>

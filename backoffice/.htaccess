@@ -1,4 +1,4 @@
 AuthName "La Quatrieme Image - backoffice"
 AuthType Basic
-AuthUserFile "/home/laquatri/www/backoffice/.htpasswd"
+AuthUserFile "/home/laquatri/prod/backoffice/.htpasswd"
 Require valid-user

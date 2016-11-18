@@ -45,7 +45,7 @@
 			// Candidats
 			$candidats = array(
 				"exposants" => array(),
-				"prix_photos_" => array(),
+				"prix_photos" => array(),
 				"jeunes_talents" => array()
 			);
 			$candidatsEnAttente = array();
