@@ -167,8 +167,8 @@ A registration fee of 35 euros is applicable.<br />
 
                   <?php endif; ?>
               </p>
-				<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
-				<!--<form action="https://www.paypal.com/cgi-bin/webscr" method="post">-->
+				<!--<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">-->
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 					<!-- Indication du montant HT du panier ou TTC si la TVA n'est pas détaillée -->
 					<input name="amount" type="hidden" value="35" />
 					<input name="currency_code" type="hidden" value="EUR" />
@@ -287,8 +287,8 @@ Applications are made on-line.
                   
                   <?php endif; ?>
               </p>
-				<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
-				<!--<form action="https://www.paypal.com/cgi-bin/webscr" method="post">-->
+				<!--<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">-->
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 					<!-- Indication du montant HT du panier ou TTC si la TVA n'est pas détaillée -->
 					<input name="amount" type="hidden" value="15" />
 					<input name="currency_code" type="hidden" value="EUR" />

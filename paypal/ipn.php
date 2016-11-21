@@ -13,8 +13,8 @@ foreach ($_POST as $key => $value) {
     $req.= "&$key=$value";
 }
 
-$fp = curl_init('https://www.sandbox.paypal.com/cgi-bin/webscr');
-//$fp = curl_init('https://www.paypal.com/cgi-bin/webscr');
+//$fp = curl_init('https://www.sandbox.paypal.com/cgi-bin/webscr');
+$fp = curl_init('https://www.paypal.com/cgi-bin/webscr');
 curl_setopt($fp, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_1);
 curl_setopt($fp, CURLOPT_POST, 1);
 curl_setopt($fp, CURLOPT_RETURNTRANSFER,1);
