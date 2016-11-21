@@ -45,11 +45,11 @@ Submissions can take place by competing in two categories: Photo Award and/or Yo
             	<h2><?php trad("Le jury", "Jury") ?><span id="title_line_h3" class="bg-red"></span></h2>
                 <p>
 				<?php if($langue == 'fr'): ?>
-               La réunion du jury aura lieu à Paris à la Cité des arts de Paris en janvier 2017 et sera présidée par Jean-François Leroy, le directeur du festival photo Visa pour l’Image. </br>
+               La réunion du jury aura lieu à Paris à la Cité des arts de Paris en février 2017 et sera présidée par Jean-François Leroy, le directeur du festival photo Visa pour l’Image. </br>
                </br><a href="https://www.laquatriemeimage.com/pgs/jury.php"><strong>En savoir plus sur le jury</strong></a> 
 				<?php endif; ?>
 				<?php if($langue == 'en'): ?>
-				The Jury will meet on January in Paris at the Cité des Arts. Jean-François Leroy, Director of the Festival Visa pour l&rsquo;Image, is the  President of the Jury.</br>
+				The Jury will meet on Februrary in Paris at the Cité des Arts. Jean-François Leroy, Director of the Festival Visa pour l&rsquo;Image, is the  President of the Jury.</br>
                </br><a href="https://www.laquatriemeimage.com/pgs/jury.php"><strong>More information about the jury</strong></a> 
 				<?php endif; ?>
                 </p>
@@ -70,10 +70,10 @@ Le concours Prix Photo s’adresse à des photographes :<br />
 Le thème est libre. Les photographies présentées peuvent être en noir et blanc ou en couleur. Elles doivent appartenir en totalité ou en partie à une série d’œuvres photographique.<br />
 
 <br />
-<strong>Les inscriptions sont ouvertes du 15 novembre 2016 au 15 janvier 2017. </strong>  <br />
+<strong>Les inscriptions sont ouvertes du 22 novembre 2016 au 30 janvier 2017. </strong>  <br />
 
 <br /><strong>Sélection</strong>  <br />
-Les lauréats du Prix Photo 2017 seront sélectionnés par un jury de professionnels du monde de l’image. Le jury se réunira la deuxième semaine de Décembre 2016 et les candidats sélectionnés seront informés individuellement au plus tard le 16 janvier 2017. Ils devront fournir des fichiers haute définition de leurs photographies avant le 1<sup>er</sup> février 2017 afin de figurer dans le catalogue. Les candidats ne fournissant pas les informations demandées ne seront pas retenus. <br />
+Les lauréats du Prix Photo 2017 seront sélectionnés par un jury de professionnels du monde de l’image. Le jury se réunira le 2 février 2017 et les candidats sélectionnés seront informés individuellement au plus tard le 10 février 2017. Ils devront fournir des fichiers haute définition de leurs photographies avant le 15<sup></sup> février 2017 afin de figurer dans le catalogue. Les candidats ne fournissant pas les informations demandées ne seront pas retenus. <br />
 
 <br/><strong>Les prix</strong>  <br />
 1<sup>er</sup> prix : une résidence d’artiste de 3 mois avec une bourse de 1 300 euros par mois, à la Cité Internationale des Arts de Paris.<br/>
@@ -119,7 +119,7 @@ The competition is open to:<br />
 The candidates will submit a selection of works of their choice. Photographs can be black and white or colour. The candidates must showcase at least one series (partial or total) within their photographic submission.<br />
 
 <br />
-<strong>Call for entries open from 15 november 2016 until 15 january 2017.</strong>  <br />
+<strong>Call for entries open from 22 November 2016 until 30 January 2017.</strong>  <br />
 
 <br /><strong>Selection</strong>  <br />
 
@@ -127,7 +127,7 @@ The works will be reviewed and winners nominated by an independent professional 
 
 
 
-The jury will meet during the second week of December 2016. The four selected candidates will be informed individually by 16 January 2016. They will submit high-definition photos of their works before 1st February 2017.
+The jury will meet the 2<sup>nd</sup> of Februrary. The four selected candidates will be informed individually the 10 februrary 2016. They will submit high-definition photos of their works before 15 February 2017.
 
 Candidates who do not provide the required information will be disqualified.<br />
 
@@ -215,10 +215,10 @@ Le concours Jeunes Talents s’adresse à des photographes :<br />
 Le thème est libre. Les photographies présentées peuvent être en noir et blanc ou en couleur. Elles doivent appartenir en totalité ou en partie à une série d’œuvres photographique.<br />
 
 <br />
-<strong>Les inscriptions sont ouvertes du 15 novembre 2016 au 15 janvier 2017. </strong><br />
+<strong>Les inscriptions sont ouvertes du 22 novembre 2016 au 30 janvier 2017. </strong><br />
 
 <br /><strong>Sélection</strong>  <br />
-Les dossiers seront sélectionnés par la direction artistique du Festival et les candidats retenus seront informés individuellement au plus tard le 16 janvier 2017. Ils devront ensuite fournir des fichiers haute définition de leurs photographies avant le 1<sup>er</sup> février 2017 afin de figurer dans le catalogue.
+Les dossiers seront sélectionnés par la direction artistique du Festival et les candidats retenus seront informés individuellement au plus tard le 10 février 2017. Ils devront ensuite fournir des fichiers haute définition de leurs photographies avant le 15 février 2017 afin de figurer dans le catalogue.
 Les lauréats «Jeunes Talents» verront leur voyage sur Paris (billet A/R), leur hébergement durant la première semaine ainsi que la production de leur exposition pris en charge par l’organisation de l’événement.
 
 Les 4 lauréats «Jeunes Talents» sélectionnés seront invités à exposer pendant les 16 jours du Festival, où une section spécifique les mettra à l’honneur. De même, ils figureront dans le catalogue officiel du Festival, et bénéficieront de toute la communication afférente au Festival.<br />
@@ -254,12 +254,12 @@ The competition is open to:<br />
 The candidates will submit a selection of works of their choice. Photographs can be black and white or colour. The candidates must showcase at least one series (partial or total) within their photographic submission.<br />
 
 <br />
-<strong>Call for entries open from 15 november 2016 until 15 january 2017.</strong><br />
+<strong>Call for entries open from 22 november 2016 until 30 january 2017.</strong><br />
 
 <br /><strong>Selection</strong>  <br />
 
 The works will be reviewed and the winners selected by the artistic direction of the Festival.
-The four selected laureates will be informed individually by 16 January 2017. They will submit high-definition photos of their works before 1st February 2017.
+The four selected laureates will be informed individually by 10 februrary 2017. They will submit high-definition photos of their works before 15 February 2017.
 Candidates who do not provide the required information will be disqualified.
 The four winners of the Young Talent competition will be invited to attend the festival. Their work will be highlighted in a special section during the 16 days of the festival.
 Their travel (roundtrip ticket) and stay during the first week as well as the production of prints for the exhibit will be cared for by the festival organisation.
@@ -372,7 +372,7 @@ Applications are made on-line.
 
 					</p>
 					<h4>Date limite de candidature</h4>
-					<p>Date limite de candidature  Concours Prix Photos et jeunes Talents : <strong> jusqu'au 15 janvier 2017.  </strong> <br/>
+					<p>Date limite de candidature  Concours Prix Photos et jeunes Talents : <strong> jusqu'au 30 janvier 2017.  </strong> <br/>
 
 					</p>
 					<h4>Date de réalisation</h4>
@@ -452,7 +452,7 @@ Applications are made on-line.
 
 					</p>
 					<h4>Entry deadlines</h4>
-					<p><strong> Photo Prizes and Young Talents competition: until january 15, 2017. </strong>  <br/>
+					<p><strong> Photo Prizes and Young Talents competition: until january 30, 2017. </strong>  <br/>
 					</p>
 					<h4>Date of creation</h4>
 					<p>Photos submitted must have been completed or published over the last 4 years (2013).

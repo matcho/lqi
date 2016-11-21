@@ -14,52 +14,16 @@
             </div>
             <div class="coll text">
 				<p class="police-serif">
-					<span class="nom-membre">Christian Bedu</span>
-					<br/>
-					<span class="fonction-membre">
-						<?php echo trad("Président de l'association Images Humaines", "President of association Images Humaines"); ?>
-					</span>
-					<br class="separateur"/>
 					<span class="nom-membre">Nathalie Roudière</span>
 					<br/>
 					<span class="fonction-membre">
-						Coordination
+						<?php echo trad("Présidente de l'association Images Humaines", "President of association Images Humaines"); ?>
 					</span>
 					<br class="separateur"/>
 					<span class="nom-membre">Raed Bawayah</span>
 					<br/>
 					<span class="fonction-membre">
 						<?php echo trad("Directeur artistique", "Artistic director"); ?>
-					</span>
-					<br class="separateur"/>
-					<span class="nom-membre">Géraldine Rippert</span>
-					<br/>
-					<span class="fonction-membre">
-						<?php echo trad("Responsable des partenariats", "Direction of partnerships"); ?>
-					</span>
-					<br class="separateur"/>
-					<span class="nom-membre">Albena Gadjanova</span>
-					<br/>
-					<span class="fonction-membre">
-						<?php echo trad("Chargée des partenariats", "In charge of partnerships"); ?>
-					</span>
-					<br class="separateur"/>
-					<span class="nom-membre">Maud Schweblin</span>
-					<br/>
-					<span class="fonction-membre">
-						<?php echo trad("Responsable de la communication", "Direction of communication"); ?>
-					</span>
-					<br class="separateur"/>
-					<span class="nom-membre">Myriam Lefebvre</span>
-					<br/>
-					<span class="fonction-membre">
-						<?php echo trad("Chargée des photographes", "In charge of photographers"); ?>
-					</span>
-					<br class="separateur"/>
-					<span class="nom-membre">Caroline Impergre</span>
-					<br/>
-					<span class="fonction-membre">
-						<?php echo trad("Responsable pédagogique des ateliers pour enfants", "Educational direction of children workshop"); ?>
 					</span>
 					<br class="separateur"/>
 					<span class="nom-membre">Aurélien Bassemayousse</span>
@@ -72,6 +36,12 @@
 					<br/>
 					<span class="fonction-membre">
 						<?php echo trad("Développeur", "Website developer"); ?>
+					</span>
+                    <br class="separateur"/>
+                    <span class="nom-membre">Valmic Baptista</span>
+					<br/>
+					<span class="fonction-membre">
+						<?php echo trad(" Assistant Développeur", "Assistant website developer"); ?>
 					</span>
 				</p>
             </div>

@@ -18,17 +18,17 @@ include "../lib/bdd.php";
 $link = connexion();
 
 // Récupérer les données
-$nom = $_POST['nom'];
-$prenom = $_POST['prenom'];
-$dn = $_POST['dn'];
-$email = $_POST['email'];
-$cp = $_POST['cp'];
-$adresse = $_POST['adresse'];
-$ville = $_POST['ville'];
-$pays = $_POST['pays'];
-$biographie = $_POST['biographie'];
-$presentation = $_POST['presentation'];
-$idCommande = $_POST['id_commande'];
+$nom = prot($_POST['nom']);
+$prenom = prot($_POST['prenom']);
+$dn = prot($_POST['dn']);
+$email = prot($_POST['email']);
+$cp = prot($_POST['cp']);
+$adresse = prot($_POST['adresse']);
+$ville = prot($_POST['ville']);
+$pays = prot($_POST['pays']);
+$biographie = prot($_POST['biographie']);
+$presentation = prot($_POST['presentation']);
+$idCommande = prot($_POST['id_commande']);
 
 // pour éviter de générer des emails si un pignouf recharge la page
 if ($idCommande != '') {
@@ -73,7 +73,7 @@ if ($idCommande != '') {
 		. "pays='$pays',"
 		. "biographie='$biographie',"
 		. "presentation='" . $presentation . "',"
-		. "photos='$cheminsPhotosTexte'"
+		. "photos='" . prot($cheminsPhotosTexte) . "'"
 		. " WHERE id_commande = '$idCommande'";
 	mysql_query($requeteMaj);
 

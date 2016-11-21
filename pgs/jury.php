@@ -122,20 +122,31 @@ Since September 1989 he has been running the international photojournalism festi
 					<div class="fond-rouge"></div>
                 </a>
                 <div class="text">
-                	<h4><strong>Laura SERANI</strong></h4>
+                	<h4><strong>Michket KRIFA</strong></h4>
 					<?php if($langue == 'fr'): ?>
-				  <h5>Commissaire indépendante et ex-directrice du mois de la Photo à Paris</h5>
-                    <p>Directrice artistique des dernières Rencontres de Bamako, Biennale  africaine de la Photographie, au Mali en 2009 et 2011, après avoir été  Déléguée artistique du Mois de la Photo à Paris en 2008 et directrice du  Si Fest en Italie en 2007 et 2008.<br/>
-                    <br/>Auparavant, elle a dirigé les Galeries photographiques de la Fnac à  Paris et à l&rsquo;étranger, ainsi que la Collection Fnac de 1985 à 2006.<br/>
-                   <br/> Auteur de nombreux ouvrages, parmi lesquels La photographie entre  histoire et poésie (Mazzotta),  La vie en rose de Malick Sidibé (Silvana  Editoriale), Frontières en 2009 et Pour un monde durable en 2011 (catalogues des Rencontres de Bamako, Actes Sud), Inside Niger de Nicola  Lo Calzo (Kehrer Verlag), et Malick Sidibé, (Collection Photo Poche /  Actes Sud).<br/>
-                   <br/> Laura Serani vit à Paris.</p>
+				  <h5>Auteur, Directrice artistique et commissaire en arts visuels pour l’Afrique et le Moyen Orient</h5>
+                  <p>Elle a dirigé de nombreuses expositions et publications thématiques sur l’Iran, (dont <i>Regards persans</i> à l’Espace Electra 2001, <i>Iran regards Croisés</i>à Photo Spana et  Haft, à l’espace Landowski à Boulogne Billancourt en 2003) sur la Tunisie (<i>Effervescence</i>, Insititut des Cultures d'Islam 20165, <i>Dégagements, Tunisie, un an après 2012</i> Institut du Monde Arabe, <i>Enfin libres</i> Parvis de l’hôtel de ville, Paris 2011, <i>Saison tunisienne</i> 1995, <i>Femmes d’images espace privés</i> au Palais Kheirredine 2007), sur l’Algérie ( Algérie, les faits et les effets, 2004) La Palestine, (<i>Le Printemps palestinien</i> 1997, <i>La vie tout simplement</i>, exposition sur le Pont des Arts, 2007).<br/>
+                    
+                   <br/>Elle a conçu de nombreuses expositions et écrits des ouvrages sur les femmes artistes dont <i>Cherchez l’erreur</i>, Institut des Cultures d’Islam, 2015, <i>She who tells the story</i>, MFA Boston, 2013, <i>Women by Women</i>, à FFI à Franckfort, <i>Femmes d’images, fragments d’intimités</i>, Cultures France, exposition itinérante pendant 3 ans, <i>Femmes d’images, espace privé</i>). Commissaire d’expositions monographiques, telles celles autour des œuvres de Youssef Nabil, Zineb Sedira, Abbas, Hassan Hajjaj, Maimouna Guerresi, Jananne Al Ani, Shadi Ghadirian, Fazal Sheikh, David Goldblatt, etc.<br/>
+<br/>Directrice artistique des 8<sup>e</sup> et 9<sup>e</sup> Rencontres de Bamako, Biennale africaine de la Photographie de janvier 2009 à décembre 2013 et commissaire pour le Moyen Orient à Photoquai 2015.<br/>
+<br/>
+Elle est l’auteur et directrice éditoriale de nombreux ouvrages sur la photographie et les arts visuels, dont les derniers en date sont, <i>10 photographers to watch</i>, Canvas ( September 2016) Effervescence, <i>Cherchez l’erreur</i> catalogue de l’exposition presentée à l’ICI en 2015 et 2016, Pour un monde durable, catalogue des 9<sup>e</sup> Rencontres de Bamako et <i>Arab Photography Now, codirigé avec Rose Issa</i>.
+Elle a collaboré avec de nombreuses institutions publiques et privées dont Les Rencontres d’Arles, l’Institut Français, l’Institut du Monde Arabe, la Ville de Paris, la Commission européenne, l’Espace Louis Vuitton, World Press Photo, Documenta, La fondation Gulbenkian, la Centrale électrique, la JAG- Johannesburg Art Gallery. Juré  pour de nombreux prix en photographie et arts visuels.<br/>
+                   <br/>Michket Krifa est franco tunisienne, vit et travaille à Paris.</p>
 					<?php endif; ?>
 					<?php if($langue == 'en'): ?>
-				  <h5>Freelance curator; art director of the Le Mois de la Photo</h5>
-                    <p>Curator, critic and consultant, Laura Serani is the art director of  the two latest Rencontres de Bamako, African biennial of photography,  held in Mali in 2009 and 2011.<br/>
-                     <br/>Artistic director for the 2008 edition of  the Mois de la Photo in Paris, director of the Si Fest in Italy, in  2007 and 2008, previously she was in charge of the Collection and  of  the Fnac Galleries  (in Europe, Brazil and Taiwan).<br/>
-                    <br/>She is the author of several books, including: La fotografia tra  storia e poesia (Mazzotta), Malick Sidibé, La vie en rose (Silvana  Editoriale), Borders in 2009 as well as For a sustainable world in 2011  (catalogs of the Rencontres de Bamako, Actes Sud), Inside Niger of  Nicola Lo Calzo (Kehrer Verlag) and Malick Sidibé (Collection Photo  Poche / Actes Sud).<br/>
-                  <br/>Laura Serani lives in Paris.</p>
+				  <h5>Artistic Director, Les Rencontres de Bamako</h5>
+                    <p>Michket Krifa is an independent curator, author and consultant for visual arts in the Middle East and Africa. She lives and works in Paris and has, since 2009, been the artistic director of the 8th and 9th Bamako Encounters, African Biennale of Photography.<br/>
+
+<br/>The following is a list of events Michket Krifa has curated:<br/>
+
+The first Iranian photography exhibition in Europe<i>Regards persans</i> (Iran- Espace Electra 2001), <i>Printemps Palestinien</i> (80 events in 1998, AFAA), <i>La saison tunisienne</i>(Curator for photography-France 1995), <i>Algeria, Fact and effects</i> Paris 2003, Bamako 2005), <i>Women by Women</i> ( FFI Frankfort 2004), <i>Femmes d’images</i> Fragments d’intimités (women arab visual artists - Cultures France,2007- 2010), <i>Femmes d’images - espaces privés</i> ( Tunisian women visual artists- Musée de la ville de Tunis, 2008).<br/>
+
+<br/>
+Monographs include Youssef Nabil (RIP Arles 2003), Zineb Sedira, Jananne Al Ani, Raed Saadeh (RIP, Arles 2002).<br/>
+
+<br/>Michket Krifa collaborates with many institutions and has organised events around the Middle East and African photography in Europe and abroad. <br/>
+<br/>Michket Krifa has written many essays and articles on photography and has edited books and catalogues.</p>
 					<?php endif; ?>
                     <span class="deco"></span>
               </div>

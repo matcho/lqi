@@ -74,7 +74,7 @@
 				<?php if ($langue == 'fr'): ?>
                 <p>
 					Candidature pour participer au concours en vue de gagner l'un
-					des 4 prix photos La Quatrième Image 2015, décerné par notre jury :
+					des 4 prix photos La Quatrième Image 2017, décerné par notre jury :
 					<br/>1<sup>er</sup> prix: résidence photo de 3 mois à la Cité Internationale
 					des Arts de Paris avec une bourse de 1300 euros par mois,
 					<br/>2<sup>e</sup> prix : 3000 euros,
@@ -83,11 +83,9 @@
                 </p>
                 <p>
 					Tous les lauréats exposeront pendant le salon du 2 avril
-					2017 au 17a avril (inclus), et la production de leur
+					2017 au 17 avril (inclus), et la production de leur
 					exposition (tirages et encadrements) sera prise en charge par
-					l’organisation. Les lauréats seront invités à la remise
-					officielle des prix XXX. 
-					<br/>Frais d'inscription non remboursables. Les candidats
+					l’organisation. <br/>Frais d'inscription non remboursables. Les candidats
 					retenus s'engagent à fournir des photos haute définition à
 					la demande des organisateurs pour l'édition du livre photo du salon.
                 </p>
@@ -95,9 +93,10 @@
 				<?php if ($langue == 'en'): ?>
 				<p>
 					Application for the competition for winning one of the 4
-					Photo Prizes La Quatrième Image 2015, awarded by our jury. 
-					<br/>1<sup>st</sup> prize : 3 months photography residency at Cité Internationale
-					des Arts de Paris, with grant   of 1300 EUR per month
+					Photo Prizes La Quatrième Image 2017, awarded by our jury. 
+					<br/>
+					1<sup>st</sup> prize : 3 months photography residency at Cité Internationale
+					des Arts de Paris, with grant of 1.300 EUR per month
 					<br/>2<sup>nd</sup> prize: 3.000 EUR 
 					<br/>3<sup>rd</sup> prize : 1.000 EUR
 					<br/>4<sup>th</sup> prize: Exhibition at LA QUATRIEME IMAGE Photo fair in Paris
@@ -106,9 +105,7 @@
 					The 4 winners will exhibit during La Quatrième Image photo
 					fair, from the 2<sup>nd</sup> of april to the 17 2017 (included),
 					and production of their exhibition (prints and frames) will
-					be will be borne by the organization. The winners will be
-					invited to the official awards ceremony XXX.
-					<br/>Registration fees are not refundable. The winners commit
+					be will be borne by the organization.<br/>Registration fees are not refundable. The winners commit
 					to providing high-resolution photos, on request of the organizers,
 					for editing the Catalogue of the fair.
 				</p>
@@ -133,9 +130,7 @@
 					Les candidats retenus s'engagent à fournir des photos haute
 					définition à la demande des organisateurs pour l'édition du
 					livre photo du salon. Ils s'engagent à produire les tirages
-					et les encadrements des photos qui seront exposées. Les stands
-					en U ont une surface d'environ 12m<sup>2</sup> et sont éclairés par 3 spots.
-                </p>
+				et les encadrements des photos qui seront exposées. </p>
 				<?php endif; ?>
 				<?php if ($langue == 'en'): ?>
 				<p>
@@ -149,9 +144,7 @@
 					Successful applicants commit to providing high-resolution
 					photos, on request of the organizers, for editing the Catalogue
 					of the fair. They commit to producing the prints and frames
-					for the photos that will be exhibited. The U-shaped exhibition
-					booth are about 12m<sup>2</sup> and lighted by 3 spots.
-				</p>
+				for the photos that will be exhibited. </p>
 				<?php endif; ?>
             </div>
         </div>
