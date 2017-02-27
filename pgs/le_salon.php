@@ -646,11 +646,20 @@ Les détails( dates et horaires) seront communiqués plus tard.<br/>
 				<a href="http://www.polkamagazine.com" target="_blank">
 					<div id="logo-polka"></div>
 				</a>
-				
 				<a href="http://www.institutpolonais.fr" target="_blank">
-					<div id="logo-arts-factory"></div>
+					<div id="logo-institut-polonais"></div>
 				</a>
-				
+			</div>
+			<div class="logos-partenaires">
+				<a href="#" target="_blank">
+					<div id="logo-zrf"></div>
+				</a>
+				<a href="http://www.les-treilles.com/en" target="_blank">
+					<div id="logo-treilles"></div>
+				</a>
+				<a href="http://www.centrecultureldubresil.fr/site" target="_blank">
+					<div id="logo-ccb"></div>
+				</a>
 			</div>
 		</div>
 	</section>
