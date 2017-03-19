@@ -168,7 +168,7 @@ Monographs include Youssef Nabil (RIP Arles 2003), Zineb Sedira, Jananne Al Ani,
                     <br/>En 2004, Dimitri était rédacteur en chef de l&rsquo;agence photo de Reza,  Webistan. De 1998 à 2004, il a notamment réalisé des reportages en Asie  centrale et au Caucase en tant que journaliste indépendant. Ses  reportages ont été publiés dans la presse française et internationale.<br/>
 					<?php endif; ?>
 					<?php if($langue == 'en'): ?>
-				  <h5>Claire Berger-Vachon is head of the international relations division of the Paris Town Hall at the Cultural Services</h5>
+				  <h5>Journalist and Director of Photographie for Polka Magazine</h5>
                     <p>Dimitri Beck is the Photo Directir of the Paris based photojournalism  magazine, Polka. Dimitri has been part of the executive management of  Polka since the beginning of the company in 2008, contributing to the  development of the magazine, gallery and website. During his spare time  Dimitri gives lectures on photojournalism at conferences and educational  institutes.<br/>
                     <br/>Prior to working at Polka, Dimitri was the Director and the editor of  the Aina Photo Agency based in the Afghan capital Kabul from September  2004 to December 2006, where he was also the Editor-in-chief for the  Anglo-French feature magazine Les Nouvelles de Kaboul – New Afghanistan.  His thirst to travel to Afghanistan was inspired when he was working as  editor-in-chief of Reza Deghati&rsquo;s photo agency &ldquo;Webistan&rdquo;.<br/>
                     <br/>He started out as an independent journalist filing reports to French  and international media outlets from trips he did in the Caucasus area  and across Central Asia in particular.</p>

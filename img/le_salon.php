@@ -12,7 +12,7 @@
     	<div id="content">
     		<h1>La quatrième image<span id="title_line"></span></h1>
             <ul id="nav_concour">
-            	<li><a data-contenu="concept" href="#" class="active"><?php trad("Le Festival 2017", "2017 Festival") ?></a></li>
+            	<li><a data-contenu="concept" href="#" class="active">Le concept</a></li>
 				<li><a data-contenu="edition_2015" href="#"><?php trad("L'édition 2015", "2015 edition") ?></a></li>
                 <li><a data-contenu="edition_2014" href="#"><?php trad("L'édition 2014", "2014 edition") ?></a></li>
 				<li><a data-contenu="residence" href="#"><?php trad("La Résidence photographique", "The photographic residency") ?></a></li>
@@ -22,55 +22,32 @@
 				<p class="doublecol">
 					<?php if($langue == 'fr'): ?>				
 S’il est un art permettant de rassembler, de se faire rencontrer connaisseurs passionnés et flâneurs en recherche d’émotions, c’est bien la photographie.
-Créée en 2013 avec le soutien de la Mairie de Paris, de la Mairie du 4<sup>e</sup> et de la MEP, LA QUATRIÈME IMAGE est une rencontre internationale de la photographie, ouverte au public, gratuite, dont l’ambition est d’ouvrir le spectre de cette scène culturelle. Elle met à l’honneur les jeunes talents issus de tous horizons.
+Créée en 2013 avec le soutien de la Mairie de Paris, de la Mairie du 4e et de la MEP, La Quatrième Image est une rencontre internationale de la photographie, ouverte au public, gratuite, dont l’ambition est d’ouvrir le spectre de cette scène culturelle. Elle met à l’honneur les jeunes talents issus de tous horizons.
 					<?php endif; ?>
 					<?php if($langue == 'en'): ?>
 					Photography is an art form which allows both keen amateurs and consummate experts in search of emotions to meet together and share their passion.
-Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement de Paris and the Maison Européenne de la Photographie, LA QUATRIEME IMAGE is a free international photographic event open to the public whose purpose is to widen access to this cultural platform and open the door to new visuals landscapes.
+Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement de Paris and the Maison Européenne de la Photographie, La Quatrième Image is a free international photographic event open to the public whose purpose is to widen access to this cultural platform and open the door to new visuals landscapes.
 					<?php endif; ?>
                     
 				</p>
                 <p class="colg">
 					<?php if($langue == 'fr'): ?>
-                	<br /> <strong> UNE EXPOSITION INTERNATIONALE</strong> <br />
-  Une trentaine de photographes sont sélectionnés parmi plusieurs centaines de candidatures en provenance des quatre coins du monde. Leurs œuvres sont présentées pendant 16 jours à l’Espace des Blancs Manteaux à Paris.  <br />
-    <br /> <strong> UN PAYS INVITÉ D'HONNEUR </strong> <br />
-    En 2017, La Quatrième Image accueillera <strong>la Pologne</strong> en tant qu’invitée d’honneur. La scène photographique de ce pays est en effet, très active, avec notamment de jeunes talents très créatifs. 6 photographes seront sélectionnés et exposés. Les artistes seront également visibles sur leurs stands pour exposer nombre de leurs tirages.<br />
-<br /> <strong>UN PRIX PHOTO</strong> <br />
-                    Un jury de professionnels de l’image récompense quatre lauréats. Le 1er Prix, parrainé par la Mairie de Paris, consiste en une résidence de trois mois à la Cité des Arts de Paris, assortie d’une bourse. Les lauréats des 2<sup>e</sup>, 3<sup>e</sup> et 4<sup>e</sup> prix se voient remettre respectivement 3 000 €, 1 000 € et 500 €. Tous sont exposés pendant le festival.<br />
-                    
+                	L'or, l'argent, et le bronze, à la manière des projecteurs d'un spectacle, forment un faisceau lumineux, seul espace visible aux yeux du public, qui plonge le reste de la scène dans l'obscurité. C'est l'effet écran. Nous avons décidé de percer ce voile opaque en nous intéressant à cette photo restée en dehors de la lumière, mais qui pourtant se distingue des autres. La Quatrième Image donne l'occasion de braquer ces projecteurs dans une autre direction et d'éclairer le reste de la scène.   <br />
+                    <br /> Les « quatrièmes images » que nous présentons, ont droit aussi à leur podium. Au côté des habituels médaillés, La Quatrième Image propose de mettre en valeur faire la part belle à ces talents cachés, généralement méconnus du grand public. Vous retrouverez à l'Espace des Blancs-Manteaux certains de ces photographes, restés parfois dans  
 					<?php endif; ?>
 					<?php if($langue == 'en'): ?>
-                	<br /> <strong>AN INTERNATIONAL EXHIBITION</strong> <br />
-                    Some 30 photographers are selected from several hundred candidates from all over the globe. These photographers’ work is presented for sixteen days at the Espace des Blancs-Manteaux in Paris.<br />
-                    <br /> <strong>A GUEST OF HONOR</strong> <br />
-                    In 2017 La Quatrième Image will welcome </strong>Poland</strong> as a guest of honour. The Polish photographic community is very active and is comprised of many young talents. Six photographers will be selected and will expose their works. The artists will also be present in their booths to present their photographs to the public.<br />
-                    <br /> <strong>PHOTO AWARD</strong> <br />
-                    A jury of photography professionals will reward four laureates. The first prize, sponsored by the Mairie of Paris, is a three-month residency at the Cité Internationale des Arts of Paris along with a scholarship. The second, third and fourth laureates respectively receive prizes of 3,000; 1,000 and 500 euros. All laureates exhibit their works during the festival.
-                    
+                	Gold, silver and bronze shine like a spotlight on a single space, funnelling the public's attention onto a luminous beam that plunges the rest of the stage into darkness. This is the screen effect. We have made it our goal to penetrate this obscurity by bringing to the forefront the photographic domain that usually remains hidden from the glare of the mainstream media. La Quatrième Image endeavours to turn the spotlight in another direction, allowing it to illuminate the rest of the stage. <br />
+                    <br /> The fourth images that we present are equally entitled to exposure. La Quatrième Image's aim is to demonstrate the importance of giving prominence to these hidden talents, generally little known to the wider public. At Paris's Espace des Blancs-Manteaux, many of these photographers, sometimes still hidden in the shadows, are provided with a means to present their fourth images, their unique insights into modern humanity.  
 					<?php endif; ?>
 				</p>
 				<p class="cold">
 					<?php if($langue == 'fr'): ?>
-                    <br /> <strong>UN CONCOURS JEUNES TALENTS</strong> <br />
-                    Le festival tient tout particulièrement, à promouvoir la photographie émergente. Quatre Jeunes Talents  sont  sélectionnés et invités à venir présenter leur travail pendant toute la durée du festival. Pour concourir : il faut être âgé de moins de 26 ans, étudiant en école d’art ou de photographie, professionnel débutant ou amateur.<br />  
-                    <br /> <strong>UNE OPPORTUNITÉ D’ÉCHANGES AVEC DES EXPERTS </strong> <br />
-                    Animées par des professionnels du monde de l’image, des lectures de portfolios sont ouvertes à tous gratuitement. Des débats et tables rondes sont organisés tout au long de l’événement.<br />
-                    <br /> <strong>UNE DIMENSION ÉDUCATIVE ET D’OUVERTURE</strong> <br />
-                    La Quatrième Image propose également des actions de médiation culturelles. Ces actions visent à être des vecteurs de lien social, d’éducation et de créativité, à destination du public et en particulier des enfants. Elles sont gratuites. Elles se déclinent sous forme d’ateliers et de visites animés par des médiateurs expérimentés.
-                    
-                    
-                    
-                    		<?php endif; ?>
+                	l'ombre, qui donnent à voir leurs « quatrièmes images » empreintes d'un humanisme actuel. Artistes de terrain, photographes engagés, ils nous dévoilent leur vision du contemporain. Leur contemporain est un quotidien souvent difficile, une joie passagère, un ciel plein de rêve.   <br />
+                    <br /> La Quatrième image offre une tribune à ces photographes, ce salon se veut le coup de projecteur qui les révèle au public. Ils sont les Quatrièmes. Et leur humanisme les distingue des autres. Entre invités prestigieux et révélations artistiques, notre évènement a pour volonté de rassembler, d'élargir le spectre de la scène photographique et de faire se rencontrer des sensibilités du monde entier. 
+					<?php endif; ?>
 					<?php if($langue == 'en'): ?>
-                	 <br /> <strong>A COMPETITION OF YOUNG TALENTS</strong> <br />
-                     Aiming to promote emerging photography, four young talents are selected and invited to present their work during the entire festival. In order to enter this competition they must be under twenty-six years of age, be students of an art or photography school, be young professionals or passionate amateurs.<br />
-                      <br /> <strong>AN OPPORTUNITY TO EXCHANGE WITH PROFESSIONNALS</strong> <br />
-                      Led by photo experts, portfolios reviews are open to all upon free registration. Conferences and round tables are organized throughout the festival. <br />
-                      <br /> <strong>AN EDUCATIONAL DIMENSION</strong> <br />
-                      LA QUATRIEME IMAGE also offers opportunities of cultural mediation. These initiatives seek to enrich social ties, education and creativity. They are aimed at the public and more specifically children. They are free and take the form of workshops and guided visits by experienced mediators.
-                      
-                      
+                	These committed photographers, these true artists, grace us with their visions of contemporary existence. Contemporary existences encompassing day to day struggles, ephemeral joys and depths of dreamlike transcendence. <br />
+                    <br /> La Quatrième Image provides a platform for these photographers and the salon assumes the role of a spotlight for them. They are the fourth and it is their singular perception of humanity that renders their visual contribution unique. Against a backdrop of artistic discoveries and distinguished guests, our event aims to light up the darkened corners of the photographic stage and unite the world's creative sensibilities.
 					<?php endif; ?>
                 </p>
             </div>
@@ -257,7 +234,49 @@ Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement
 			while ($ligne = mysql_fetch_assoc($res)) {
 				$actualites[] = $ligne;
 			}
+			
+			// JEU DE TEST
+			/*$clefs = array('id', 'date', 'titre_fr', 'titre_en', 'texte_fr', 'texte_en', 'lien', 'image');
+			$actualites[] = array_combine($clefs, array(1, '2015-02-09', 'Second essai d\'actualité', 'News: second attempt', "Rebonjour,
 
+Dans l'email de notification, les apostrophes étaient échappées par erreur; j'espère que cette fois c'est réglé.
+
+Mathias", "Hello again,
+
+In the notification email, quotes were erroneously escaped; I hope it's OK this time.
+
+Mathias", '', 'test-actu.jpg'));
+			$actualites[] = array_combine($clefs, array(2, '2015-02-09', 'Second essai d\'actualité', 'News: second attempt', "Rebonjour,
+
+Dans l'email de notification, les apostrophes étaient échappées par erreur; j'espère que cette fois c'est réglé.
+
+Mathias", "Hello again,
+
+In the notification email, quotes were erroneously escaped; I hope it's OK this time.
+
+Mathias", 'les_jeunes_talents.php', 'test-actu.jpg'));
+			$actualites[] = array_combine($clefs, array(3, '2015-01-24', 'Premier essai d\'actualité', 'First attempt for a news', "Bonjour.
+
+Ceci est un premier essai pour une actu en français et en anglais. J'espère de tout cœur que les accents, les apostrophes et autres caractères complexes vont fonctionner du premier coup !
+
+Bien à vous,
+Mathias", "Hello.
+
+This is a first attempt for a new in french and english. I sincerely hope that accents, quotes and other complex characters will directly work !
+
+Tenderly,
+Mathias", 'http://www.tela-botanica.org', 'test-actu.jpg'));
+			$actualites[] = array_combine($clefs, array(4, '2015-01-24', 'Premier essai d\'actualité', 'First attempt for a news', "Bonjour.
+
+Ceci est un premier essai pour une actu en français et en anglais. J'espère de tout cœur que les accents, les apostrophes et autres caractères complexes vont fonctionner du premier coup !
+
+Bien à vous,
+Mathias", "Hello.
+
+This is a first attempt for a new in french and english. I sincerely hope that accents, quotes and other complex characters will directly work !
+
+Tenderly,
+Mathias", '', 'test-actu.jpg'));*/
 		?>
 		<div id="content">
 			<h2><?php trad("Actualités", "News") ?><span id="title_line"></span></h2>
@@ -318,7 +337,7 @@ Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement
 				<a href="participer.php">
 					<h2><?php trad("Participer", "Participate") ?><span id="title_line"></span></h1>
 					<div class="surimg">
-						<span class="sur-copyright">© Stephen Dupont</span>
+						<span class="sur-copyright">© Matjaž KRIVIC</span>
 					</div>
 					<img src="../img/salon/participer.jpg" />
 					<h4>Découvrez les modalités d'inscription au salon</h4>
@@ -333,7 +352,7 @@ Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement
 				<a href="jury.php">
 					<h2><?php trad("Le Jury", "The Jury") ?><span id="title_line"></span></h1>
 					<div class="surimg">
-						<span class="sur-copyright">© Hiroshi Watanabe</span>
+						<span class="sur-copyright">© Laura HOSPES</span>
 					</div>
 					<img src="../img/salon/le-jury.jpg" />
 					<h4>Découvrez les membres du jury 2017</h4>
@@ -549,11 +568,9 @@ Les détails( dates et horaires) seront communiqués plus tard.<br/>
 			<br class="clear" />
 		</div>
 	</section>
-	<!-- Suppression des vidéos Valmic
 	<section class="lesalon videos content">
 		<div id="content">
 			<h2><?php trad("Les vidéos", "Videos") ?><span id="title_line"></span></h2>
-			
 			<div id="container-videos">
 				<div id="videos-gauche">
 					<img src="../img/gauche_noir.png" class="defiler-gauche" />
@@ -613,7 +630,7 @@ Les détails( dates et horaires) seront communiqués plus tard.<br/>
 							Raed Bawayah présente la deuxième édition du salon La Quatrième Image.
 						</p>
 					</a>
-				</div>
+				</div>-->
 				<div id="videos-droite">
 					<img src="../img/droite_noir.png" class="defiler-droite" />
 				</div>
@@ -646,24 +663,18 @@ Les détails( dates et horaires) seront communiqués plus tard.<br/>
 				<a href="http://www.polkamagazine.com" target="_blank">
 					<div id="logo-polka"></div>
 				</a>
-				
+				<!--<a href="">
+					<div id="logo-mois-photo"></div>
+				</a>
+				<a href="">
+					<div id="logo-bresil"></div>
+				</a>-->
 				<a href="http://www.institutpolonais.fr" target="_blank">
-					<div id="logo-institut-polonais"></div>
+					<div id="logo-arts-factory"></div>
 				</a>
-			</div>
-			<div class="logos-partenaires">
-				<a href="#" target="_blank">
-					<div id="logo-zrf"></div>
-				</a>
-				<a href="http://www.les-treilles.com/en" target="_blank">
-					<div id="logo-treilles"></div>
-				</a>
-				<a href="http://www.centrecultureldubresil.fr/site" target="_blank">
-					<div id="logo-ccb"></div>
-				</a>
-                <a href="https://maison-heinrich-heine.org" target="_blank">
-					<div id="logo-maison"></div>
-				</a>
+				
+
+
 			</div>
 		</div>
 	</section>

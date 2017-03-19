@@ -88,7 +88,7 @@ Les lauréats figureront dans une section dédiée du catalogue officiel du Fest
 Le dépôt des dossiers se fait en ligne uniquement.<br />
 
 <br /><strong>Chaque candidat doit fournir :</strong>  <br />
-– 5 à 10 clichés pris ou publiés au cours des 4 dernières années (2013),<br />
+– 5  clichés pris ou publiés au cours des 4 dernières années (2013),<br />
 – une courte biographie,<br />
 – un texte court de présentation du projet.<br />
 
@@ -154,7 +154,7 @@ Applications are made on-line.
 
 <br /><strong>Each candidate must submit</strong>  <br />
 
-    - 5 to 10 pictures taken or published during the past four years (2013),<br />
+    - 5 pictures taken or published during the past four years (2013),<br />
    - A short biography and<br />
    - A short description of your project.<br />
 
@@ -195,7 +195,7 @@ A registration fee of 35 euros is applicable.<br />
 					<!-- Indication du numéro de la commande (très important) -->
 					<input name="custom" type="hidden" value="<?php echo $idCommande ?>||prix_photos" />
 					<!-- Bouton pour valider le paiement -->
-					<input class="bouton inscrire blue_achat" type="submit" value="<?php trad("Je m'inscris", "I apply")?>" />
+					<input class="bouton inscrire blue_achat" type="submit" disabled="disabled" value="<?php trad("Je m'inscris", "I apply")?>" />
 				</form>
             </div>
             <div class="categories jeunes_talents">
@@ -227,7 +227,7 @@ Les 4 lauréats «Jeunes Talents» sélectionnés seront invités à exposer pen
 Le dépôt des dossiers se fait en ligne uniquement.<br />
 
 <br /><strong>Chaque candidat doit fournir :</strong>  <br />
-– 5 à 10 clichés pris ou publiés au cours des 4 dernières années (2013),<br />
+– 5 clichés pris ou publiés au cours des 4 dernières années (2013),<br />
 – une courte biographie,<br />
 – un texte court de présentation du projet.<br />
 
@@ -272,7 +272,7 @@ Applications are made on-line.
 <br />
 
 <br /><strong>Each candidate must submit</strong>  <br />
-- 5 to 10 pictures taken or published during the past four years (2013),<br />
+- 5 pictures taken or published during the past four years (2013),<br />
                  - A short biography and<br />
                   - A short description of your project.<br />
                   
@@ -315,7 +315,7 @@ Applications are made on-line.
 					<!-- Indication du numéro de la commande (très important) -->
 					<input name="custom" type="hidden" value="<?php echo $idCommande ?>||jeunes_talents" />
 					<!-- Bouton pour valider le paiement -->
-					<input class="bouton inscrire yellow_achat" type="submit" value="<?php trad("Je m'inscris", "I apply")?>" />
+					<input class="bouton inscrire yellow_achat" disabled="disabled" type="submit" value="<?php trad("Je m'inscris", "I apply")?>" />
 			  </form>
             </div>
         </div>

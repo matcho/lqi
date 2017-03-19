@@ -27,7 +27,7 @@
 			</ul>
             <nav>
                 <ul>
-                    <li><a href="pgs/le_salon.php"><?php trad("Le salon", "Photo fair") ?></a></li>
+                    <li><a href="pgs/le_salon.php"><?php trad("Le festival", "The Festival") ?></a></li>
                     <li><a href="pgs/participer.php"><?php trad("Participer", "Participate") ?></a></li>
                     <li><a class=rouge" href="pgs/exposants.php"><?php trad("Les exposants", "Exhibitors") ?></a></li>
                     <li><a class="bleu" href="pgs/le_prix_photo.php"><?php trad("Le Prix Photo", "Photo Prizes") ?></a></li>
@@ -42,13 +42,13 @@
                 <div id="slide">
                     <div id="texte_home_01" class="box_slide">
 						<a href="pgs/le_salon.php">
-							<h2><?php trad("Édition 2015", "2015 edition") ?></h2>
+							<h2><?php trad("Édition 2017", "2017 edition") ?></h2>
 							<!--<?php trad("En savoir plus", "Read more") ?>-->
 						</a>
                     </div>
                     <div id="texte_home_02" class="box_slide hidden">
 						<a href="pgs/le_salon.php">
-							<h2><?php trad("Le salon", "Photo fair") ?></h2>
+							<h2><?php trad("Le Festival", "The Festival") ?></h2>
 							<?php if ($langue == 'fr'): ?>
 							<h3>Un événement exceptionnel pour les passionnés de la photographie</h3>
 							<?php endif; ?>
@@ -61,22 +61,36 @@
                     <div id="texte_home_03" class="box_slide hidden">
 						<a href="pgs/les_jeunes_talents.php">
 							<h2><?php trad("Les Jeunes Talents", "Young talents") ?></h2>
-							<h3>SAHRAOUI Fethi / LAVIGNE Maroesjka /  VALLE Miriam / WOJCIECHOWSKA Wiktoria</h3>
+							<?php if ($langue == 'fr'): ?>
+							<h3>Les inscriptions sont ouvertes du 22 novembre 2016 au 30 janvier 2017</h3>
+							<?php endif; ?>
+							<?php if ($langue == 'en'): ?>
+							<h3>Call for entries open from 22 november 2016 until 30 january 2017</h3>
+							<?php endif; ?>
 							<!--<?php trad("En savoir plus", "Read more") ?>-->
 						</a>
                     </div>
                     <div id="texte_home_04" class="box_slide hidden">
 						<a href="pgs/le_prix_photo.php">
 							<h2><?php trad("Le Prix Photo", "Photo Prizes") ?></h2>
-							<h3>DONDYUK Maxim / GELDHOF Mathilde / GOLDGRUBER Michael / HYLAND Gillian</h3>
+							<?php if ($langue == 'fr'): ?>
+							<h3>Les inscriptions sont ouvertes du 22 novembre 2016 au 30 janvier 2017</h3>
+							<?php endif; ?>
+							<?php if ($langue == 'en'): ?>
+							<h3>Call for entries open from 22 november 2016 until 30 january 2017</h3>
+							<?php endif; ?>
 							<!--<?php trad("En savoir plus", "Read more") ?></a>-->
 						</a>
                     </div>
                     <div id="texte_home_05" class="box_slide hidden">
-						<a href="pgs/exposants.php">
-							<h2><?php trad("Les exposants", "Exhibitors") ?></h2>
-							<h3><?php echo trad("44 artistes internationaux", "44 international artists") ?></h3>
-							<!--<?php trad("En savoir plus", "Read more") ?>-->
+						<a href="pgs/participer.php">
+							<h2><?php trad("Participer", "Participate") ?></h2>
+							<?php if ($langue == 'fr'): ?>
+							<h3>Prix Photo et Jeunes Talents</h3>
+							<?php endif; ?>
+							<?php if ($langue == 'en'): ?>
+							<h3>PhotoPrice & Young Talents</h3>
+							<?php endif; ?>
 						</a>
                     </div>
                 </div>

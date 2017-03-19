@@ -1,12 +1,12 @@
 <?php
-	include "entete.php";
-	include "../lib/bdd.php";
+	include "pgs/entete.php";
+	include "lib/bdd.php";
 	$link = connexion();
 ?>
 <body>
 	<?php
 		$page = "salon";
-		include "menu.php"
+		include "pgs/menu.php"
 	?>
     <section class="lesalon intro content">
     	<div id="content">
@@ -257,7 +257,49 @@ Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement
 			while ($ligne = mysql_fetch_assoc($res)) {
 				$actualites[] = $ligne;
 			}
+			
+			// JEU DE TEST
+			/*$clefs = array('id', 'date', 'titre_fr', 'titre_en', 'texte_fr', 'texte_en', 'lien', 'image');
+			$actualites[] = array_combine($clefs, array(1, '2015-02-09', 'Second essai d\'actualité', 'News: second attempt', "Rebonjour,
 
+Dans l'email de notification, les apostrophes étaient échappées par erreur; j'espère que cette fois c'est réglé.
+
+Mathias", "Hello again,
+
+In the notification email, quotes were erroneously escaped; I hope it's OK this time.
+
+Mathias", '', 'test-actu.jpg'));
+			$actualites[] = array_combine($clefs, array(2, '2015-02-09', 'Second essai d\'actualité', 'News: second attempt', "Rebonjour,
+
+Dans l'email de notification, les apostrophes étaient échappées par erreur; j'espère que cette fois c'est réglé.
+
+Mathias", "Hello again,
+
+In the notification email, quotes were erroneously escaped; I hope it's OK this time.
+
+Mathias", 'les_jeunes_talents.php', 'test-actu.jpg'));
+			$actualites[] = array_combine($clefs, array(3, '2015-01-24', 'Premier essai d\'actualité', 'First attempt for a news', "Bonjour.
+
+Ceci est un premier essai pour une actu en français et en anglais. J'espère de tout cœur que les accents, les apostrophes et autres caractères complexes vont fonctionner du premier coup !
+
+Bien à vous,
+Mathias", "Hello.
+
+This is a first attempt for a new in french and english. I sincerely hope that accents, quotes and other complex characters will directly work !
+
+Tenderly,
+Mathias", 'http://www.tela-botanica.org', 'test-actu.jpg'));
+			$actualites[] = array_combine($clefs, array(4, '2015-01-24', 'Premier essai d\'actualité', 'First attempt for a news', "Bonjour.
+
+Ceci est un premier essai pour une actu en français et en anglais. J'espère de tout cœur que les accents, les apostrophes et autres caractères complexes vont fonctionner du premier coup !
+
+Bien à vous,
+Mathias", "Hello.
+
+This is a first attempt for a new in french and english. I sincerely hope that accents, quotes and other complex characters will directly work !
+
+Tenderly,
+Mathias", '', 'test-actu.jpg'));*/
 		?>
 		<div id="content">
 			<h2><?php trad("Actualités", "News") ?><span id="title_line"></span></h2>
@@ -320,7 +362,7 @@ Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement
 					<div class="surimg">
 						<span class="sur-copyright">© Stephen Dupont</span>
 					</div>
-					<img src="../img/salon/participer.jpg" />
+					<img src="img/salon/participer.jpg" />
 					<h4>Découvrez les modalités d'inscription au salon</h4>
 					<p>
 						Vous souhaitez exposer vos photographies ? Vous souhaitez
@@ -335,7 +377,7 @@ Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement
 					<div class="surimg">
 						<span class="sur-copyright">© Hiroshi Watanabe</span>
 					</div>
-					<img src="../img/salon/le-jury.jpg" />
+					<img src="img/salon/le-jury.jpg" />
 					<h4>Découvrez les membres du jury 2017</h4>
 					<p>
 						Depuis 2013, des professionnels du monde de l'art, des journalistes,
@@ -382,12 +424,12 @@ Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement
 	<section class="lesalon programmes content">
 		<div id="content">
 			<div class="contenu-programme" data-idx="1">
-				<a href="exposants.php">
+				<a href="pgs/exposants.php">
 					<h2 class="hover-red"><?php trad("Les exposants", "Exhibitors") ?><span id="title_line"></span></h2>
 				</a>
 				<div class="colg">
 					<?php if($langue == 'fr'): ?>
-					<a href="exposants.php">
+					<a href="pgs/exposants.php">
 						<p>
 							La Quatrième Image en 2015 a offert au public l’occasion de rencontrer plus de 44 exposants, 
                             photographes indépendants de 18 nationalités différentes.
@@ -395,7 +437,7 @@ Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement
 					</a>
 					<?php endif; ?>
 					<?php if($langue == 'en'): ?>
-					<a href="exposants.php">
+					<a href="pgs/exposants.php">
 						<p>
                             La Quatrième Image has become a point of reference in the photographic landscape. 
                             It is a unique opportunity to meet up with professionals and to enhance your network. 
@@ -414,21 +456,21 @@ Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement
 						<li><a data-idx="3" href="#"></a></li>
 					</ul>
 				</div>
-				<a href="exposants.php" class="lien-img">
+				<a href="pgs/exposants.php" class="lien-img">
 					<div class="surimg">
 						<span class="sur-copyright">© Stéphanie Buret</span>
 					</div>
-					<img class="cold" src="../img/salon/les-exposants-edinger.jpg" />
+					<img class="cold" src="img/salon/les-exposants-edinger.jpg" />
 				</a>
 			</div>
 
 			<div class="contenu-programme" data-idx="2" style="display:none;">
-					<a href="le_prix_photo.php">
+					<a href="pgs/le_prix_photo.php">
 						<h2 class="hover-blue"><?php trad("Les prix photo", "Photo prizes") ?><span id="title_line"></span></h2>
 					</a>
 					<div class="colg">
                     <?php if($langue == 'fr'): ?>
-						<a href="le_prix_photo.php">
+						<a href="pgs/le_prix_photo.php">
 							<p>
 								Le concours est ouvert aux photographes professionnels 
                                 ou amateurs, de toutes nationalités, 
@@ -437,7 +479,7 @@ Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement
 							</a>
                             
                     <?php if($langue == 'en'): ?>
-                    <a href="le_prix_photo.php">
+                    <a href="pgs/le_prix_photo.php">
 							<p>
 								The competition is open to all photographers, 
                                 whether professional or non-professional, 
@@ -446,10 +488,10 @@ Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement
 						</a>
 						<span class="annee-couleur blue">2015</span>
 						<ul>
-							<li><a href="le_prix_photo.php?nom=sarello">Maxim DONDYUK</a></li>
-							<li><a href="le_prix_photo.php?nom=strokins">Mathilde GELDHOF</a></li>
-							<li><a href="le_prix_photo.php?nom=strano">Michael GOLDGRUBER</a></li>
-							<li><a href="le_prix_photo.php?nom=arcenillas">Gillian HYLAND</a></li>
+							<li><a href="pgs/le_prix_photo.php?nom=sarello">Maxim DONDYUK</a></li>
+							<li><a href="pgs/le_prix_photo.php?nom=strokins">Mathilde GELDHOF</a></li>
+							<li><a href="pgs/le_prix_photo.php?nom=strano">Michael GOLDGRUBER</a></li>
+							<li><a href="pgs/le_prix_photo.php?nom=arcenillas">Gillian HYLAND</a></li>
 						</ul>
 						<ul class="controle controle-noir">
 							<li><a data-idx="1" href="#"></a></li>
@@ -457,20 +499,20 @@ Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement
 							<li><a data-idx="3" href="#"></a></li>
 						</ul>
 					</div>
-					<a href="le_prix_photo.php" class="lien-img">
+					<a href="pgs/le_prix_photo.php" class="lien-img">
 						<div class="surimg">
 							<span class="sur-copyright">© Michael GOLDGRUBER</span>
 						</div>
-						<img class="cold" src="../img/salon/prix-photo.jpg" />
+						<img class="cold" src="img/salon/prix-photo.jpg" />
 					</a>
 			</div>
 			<div class="contenu-programme" data-idx="3" style="display:none;">
-				<a href="les_jeunes_talents.php">
+				<a href="pgs/les_jeunes_talents.php">
 					<h2 class="hover-yellow"><?php trad("Les jeunes talents", "Young talents") ?><span id="title_line"></span></h2>
 				</a>
 				<div class="colg">
 					<?php if($langue == 'fr'): ?>
-					<a href="les_jeunes_talents.php">
+					<a href="pgs/les_jeunes_talents.php">
 						<p>
 							Le concours JEUNES TALENTS s’adresse aux photographes 
                             âgés de 18 à 25 ans à la date  d’inscription. 
@@ -480,7 +522,7 @@ Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement
                         </a>
 					<?php endif; ?>
 					<?php if($langue == 'en'): ?>
-					<a href="les_jeunes_talents.php">
+					<a href="pgs/les_jeunes_talents.php">
 						<p>
 							The Young Talents competition is open to all photographers aged 18-25 on the application date. 
                             Submission is open to non-professionals and professionals beginning their career, 
@@ -490,10 +532,10 @@ Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement
                     <?php endif; ?>
 					<span class="annee-couleur yellow">2015</span>
 					<ul>
-						<li><a href="les_jeunes_talents.php?nom=buser-suero">Fethi SAHRAOUI</a></li>
-						<li><a href="les_jeunes_talents.php?nom=chekachkov">Maroesjka LAVIGNE</a></li>
-						<li><a href="les_jeunes_talents.php?nom=kohlerova">Miriam VALLE</a></li>
-						<li><a href="les_jeunes_talents.php?nom=simion">Wiktoria WOJCIECHOWSKA</a></li>
+						<li><a href="pgs/les_jeunes_talents.php?nom=buser-suero">Fethi SAHRAOUI</a></li>
+						<li><a href="pgs/les_jeunes_talents.php?nom=chekachkov">Maroesjka LAVIGNE</a></li>
+						<li><a href="pgs/les_jeunes_talents.php?nom=kohlerova">Miriam VALLE</a></li>
+						<li><a href="pgs/les_jeunes_talents.php?nom=simion">Wiktoria WOJCIECHOWSKA</a></li>
 					</ul>
 					<ul class="controle controle-noir">
 						<li><a data-idx="1" href="#"></a></li>
@@ -501,11 +543,11 @@ Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement
 						<li><a data-idx="3" href="#" class="active"></a></li>
 					</ul>
 				</div>
-				<a href="les_jeunes_talents.php" class="lien-img">
+				<a href="pgs/les_jeunes_talents.php" class="lien-img">
 					<div class="surimg">
 						<span class="sur-copyright">© Maroesjka LAVIGNE</span>
 					</div>
-					<img class="cold" src="../img/salon/les-jeunes-talents.jpg" />
+					<img class="cold" src="img/salon/les-jeunes-talents.jpg" />
 				</a>
 			</div>
 		</div>
@@ -535,7 +577,7 @@ Les détails( dates et horaires) seront communiqués plus tard.<br/>
 				<?php endif; ?>
 			</div>
 			<div class="cold">
-				<a href="ateliers_pedagogiques.php">
+				<a href="pgs/ateliers_pedagogiques.php">
 				<?php if($langue == 'fr'): ?>
 					<h4>Les ateliers<br/>pédagogiques</h4>
 					<p><strong>La Quatrième Image</strong> propose également des <strong>actions de médiation culturelles</strong>.  Ces actions visent à être des vecteurs de lien social, d&rsquo;éducation et  de créativité, à destination du public et en particulier des enfants.  Elles sont gratuites. Elles se déclinent sous forme d&rsquo;ateliers et de  visites animés par des médiateurs expérimentés.<br/></p>
@@ -549,19 +591,17 @@ Les détails( dates et horaires) seront communiqués plus tard.<br/>
 			<br class="clear" />
 		</div>
 	</section>
-	<!-- Suppression des vidéos Valmic
 	<section class="lesalon videos content">
 		<div id="content">
 			<h2><?php trad("Les vidéos", "Videos") ?><span id="title_line"></span></h2>
-			
 			<div id="container-videos">
 				<div id="videos-gauche">
-					<img src="../img/gauche_noir.png" class="defiler-gauche" />
+					<img src="img/gauche_noir.png" class="defiler-gauche" />
 				</div>
 				<div class="video-bloc" data-idx="1">
-					<a href="videos.php?video=1" class="lien-vid">
+					<a href="pgs/videos.php?video=1" class="lien-vid">
 						<div class="survid"></div>
-						<img src="../img/salon/felicia_simion.jpg" class="video-miniature" />
+						<img src="img/salon/felicia_simion.jpg" class="video-miniature" />
 						<h4>Interview</h4>
 						<p>
 							Rencontre avec Felicia Simion qui présente sa démarche artistique.
@@ -569,9 +609,9 @@ Les détails( dates et horaires) seront communiqués plus tard.<br/>
 					</a>
 				</div>
 				<div class="video-bloc central" data-idx="2">
-					<a href="videos.php?video=2" class="lien-vid">
+					<a href="pgs/videos.php?video=2" class="lien-vid">
 						<div class="survid"></div>
-						<img src="../img/salon/igor_chekachkov.jpg" class="video-miniature" />
+						<img src="img/salon/igor_chekachkov.jpg" class="video-miniature" />
 						<h4>Interview</h4>
 						<p>
 							Rencontre avec Igor Chekachkov qui présente sa démarche artistique.
@@ -613,9 +653,9 @@ Les détails( dates et horaires) seront communiqués plus tard.<br/>
 							Raed Bawayah présente la deuxième édition du salon La Quatrième Image.
 						</p>
 					</a>
-				</div>
+				</div>-->
 				<div id="videos-droite">
-					<img src="../img/droite_noir.png" class="defiler-droite" />
+					<img src="img/droite_noir.png" class="defiler-droite" />
 				</div>
 				<br class="clear" />
 			</div>
@@ -648,22 +688,9 @@ Les détails( dates et horaires) seront communiqués plus tard.<br/>
 				</a>
 				
 				<a href="http://www.institutpolonais.fr" target="_blank">
-					<div id="logo-institut-polonais"></div>
+					<div id="logo-arts-factory"></div>
 				</a>
-			</div>
-			<div class="logos-partenaires">
-				<a href="#" target="_blank">
-					<div id="logo-zrf"></div>
-				</a>
-				<a href="http://www.les-treilles.com/en" target="_blank">
-					<div id="logo-treilles"></div>
-				</a>
-				<a href="http://www.centrecultureldubresil.fr/site" target="_blank">
-					<div id="logo-ccb"></div>
-				</a>
-                <a href="https://maison-heinrich-heine.org" target="_blank">
-					<div id="logo-maison"></div>
-				</a>
+				
 			</div>
 		</div>
 	</section>
@@ -705,15 +732,15 @@ Les détails( dates et horaires) seront communiqués plus tard.<br/>
 						<li><a data-idx="2" href="#"></a></li>
 					</ul>
 				</div>
-				<img class="cold" src="../img/salon/espace-blancs-manteaux.jpg" data-idx="0" />
-				<img class="cold" src="../img/salon/espace-blancs-manteaux-1.jpg" data-idx="1" style="display: none;" />
-				<img class="cold" src="../img/salon/espace-blancs-manteaux-2.jpg" data-idx="2" style="display: none;" />
+				<img class="cold" src="img/salon/espace-blancs-manteaux.jpg" data-idx="0" />
+				<img class="cold" src="img/salon/espace-blancs-manteaux-1.jpg" data-idx="1" style="display: none;" />
+				<img class="cold" src="img/salon/espace-blancs-manteaux-2.jpg" data-idx="2" style="display: none;" />
 			</div>
 		</div>
 	</section>
 
     <?php
-		include "pied.php";
+		include "pgs/pied.php";
 		deconnexion($link);
 	?>
     
