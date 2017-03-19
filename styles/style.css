@@ -736,6 +736,13 @@ section.lesalon.partenaires .logos-partenaires #logo-artistik-rezo {
 section.lesalon.partenaires .logos-partenaires #logo-artistik-rezo:hover {
 	background-image: url('../img/logos/logo_part_artistik_rezo.png');
 }
+section.lesalon.partenaires .logos-partenaires #logo-maison-amerique-latine {
+	background-image: url('../img/logos/logo_part_maison_amerique_latine_nb.jpg');
+	width: 164px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-maison-amerique-latine:hover {
+	background-image: url('../img/logos/logo_part_maison_amerique_latine.jpg');
+}
 
 
 

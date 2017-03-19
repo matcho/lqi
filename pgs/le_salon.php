@@ -675,6 +675,9 @@ Les détails( dates et horaires) seront communiqués plus tard.<br/>
                 <a href="http://www.artistikrezo.com" target="_blank">
 					<div id="logo-artistik-rezo"></div>
 				</a>
+                <!--<a href="http://mal217.org" target="_blank">
+					<div id="logo-maison-amerique-latine"></div>
+				</a>-->
 			</div>
 		</div>
 	</section>
