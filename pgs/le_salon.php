@@ -652,7 +652,7 @@ Les détails( dates et horaires) seront communiqués plus tard.<br/>
 				</a>
 			</div>
 			<div class="logos-partenaires">
-				<a href="http://www.fundacjarydet.pl" target="_blank">
+				<a href="http://fundacjarydet.pl/?lang=en" target="_blank">
 					<div id="logo-zrf"></div>
 				</a>
 				<a href="http://www.les-treilles.com/en" target="_blank">
