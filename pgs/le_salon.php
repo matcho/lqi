@@ -652,7 +652,7 @@ Les détails( dates et horaires) seront communiqués plus tard.<br/>
 				</a>
 			</div>
 			<div class="logos-partenaires">
-				<a href="#" target="_blank">
+				<a href="http://www.fundacjarydet.pl" target="_blank">
 					<div id="logo-zrf"></div>
 				</a>
 				<a href="http://www.les-treilles.com/en" target="_blank">
@@ -662,7 +662,18 @@ Les détails( dates et horaires) seront communiqués plus tard.<br/>
 					<div id="logo-ccb"></div>
 				</a>
                 <a href="https://maison-heinrich-heine.org" target="_blank">
-					<div id="logo-maison"></div>
+					<div id="logo-maison-heine"></div>
+				</a>
+                <a href="http://www.picto.fr" target="_blank">
+					<div id="logo-picto"></div>
+				</a>
+			</div>
+			<div class="logos-partenaires">
+                <a href="https://eu.impossible-project.com" target="_blank">
+					<div id="logo-impossible-project"></div>
+				</a>
+                <a href="http://www.artistikrezo.com" target="_blank">
+					<div id="logo-artistik-rezo"></div>
 				</a>
 			</div>
 		</div>

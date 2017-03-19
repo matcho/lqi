@@ -607,7 +607,7 @@ section.lesalon.actualites .lire-suite {
 section.lesalon.partenaires {
 	padding-top: 40px;
 	padding-bottom: 60px;
-	height: 380px;
+	height: 530px;
 	/*background-color: #fafafa;*/
 }
 /* préchargement logos couleur */
@@ -682,18 +682,10 @@ section.lesalon.partenaires .logos-partenaires #logo-institut-polonais {
 section.lesalon.partenaires .logos-partenaires #logo-institut-polonais:hover {
 	background-image: url('../img/logos/logo_part06.png');
 }
-section.lesalon.partenaires .logos-partenaires #logo-ccb {
-	background-image: url('../img/logos/logo_part_ccb_nb.png');
-	width: 130px;
-	margin-right: 0;
-}
-section.lesalon.partenaires .logos-partenaires #logo-ccb:hover {
-	background-image: url('../img/logos/logo_part_ccb.png');
-}
 section.lesalon.partenaires .logos-partenaires #logo-treilles {
 	background-image: url('../img/logos/logo_part_treilles_nb.png');
 	opacity: 0.6;
-	width: 90px;
+	width: 80px;
 }
 section.lesalon.partenaires .logos-partenaires #logo-treilles:hover {
 	background-image: url('../img/logos/logo_part_treilles.png');
@@ -702,12 +694,52 @@ section.lesalon.partenaires .logos-partenaires #logo-treilles:hover {
 section.lesalon.partenaires .logos-partenaires #logo-zrf {
 	background-image: url('../img/logos/logo_part_zrf_nb.png');
 	opacity: 0.5;
-	width: 180px;
+	width: 150px;
 }
 section.lesalon.partenaires .logos-partenaires #logo-zrf:hover {
 	background-image: url('../img/logos/logo_part_zrf.png');
 	opacity: 1;
 }
+section.lesalon.partenaires .logos-partenaires #logo-ccb {
+	background-image: url('../img/logos/logo_part_ccb_nb.png');
+	width: 100px;
+	margin-right: 20px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-ccb:hover {
+	background-image: url('../img/logos/logo_part_ccb.png');
+}
+section.lesalon.partenaires .logos-partenaires #logo-maison-heine {
+	background-image: url('../img/logos/logo_part_maison_heine_nb.png');
+	width: 170px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-maison-heine:hover {
+	background-image: url('../img/logos/logo_part_maison_heine.png');
+}
+section.lesalon.partenaires .logos-partenaires #logo-picto {
+	background-image: url('../img/logos/logo_part_picto_nb.png');
+	width: 150px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-picto:hover {
+	background-image: url('../img/logos/logo_part_picto.png');
+}
+section.lesalon.partenaires .logos-partenaires #logo-impossible-project {
+	background-image: url('../img/logos/logo_part_impossible_project_nb.png');
+	width: 150px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-impossible-project:hover {
+	background-image: url('../img/logos/logo_part_impossible_project.png');
+}
+section.lesalon.partenaires .logos-partenaires #logo-artistik-rezo {
+	background-image: url('../img/logos/logo_part_artistik_rezo_nb.png');
+	width: 164px;
+}
+section.lesalon.partenaires .logos-partenaires #logo-artistik-rezo:hover {
+	background-image: url('../img/logos/logo_part_artistik_rezo.png');
+}
+
+
+
+
 section.lesalon.partenaires .logos-partenaires #logo-polka {
 	background-image: url('../img/logos/logo_part07_nb.png');
 	width: 138px;
