@@ -3,3 +3,4 @@ info.php
 lib/bdd.php
 lib/email.php
 backoffice/.htpasswd
+paypal/log.txt
