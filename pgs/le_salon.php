@@ -675,6 +675,9 @@ Les détails( dates et horaires) seront communiqués plus tard.<br/>
                 <a href="http://www.artistikrezo.com" target="_blank">
 					<div id="logo-artistik-rezo"></div>
 				</a>
+                <a href="http://www.radiocampusparis.org" target="_blank">
+					<div id="logo-radio-campus-paris"></div>
+				</a>
                 <!--<a href="http://mal217.org" target="_blank">
 					<div id="logo-maison-amerique-latine"></div>
 				</a>-->
