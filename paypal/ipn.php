@@ -110,5 +110,4 @@ if (strcmp(trim($res), "VERIFIED") == 0) {
     mail($notif_to, "Paiement invalide", "$detailsPaypal\n\nREQ: $req\n\n\n\nRES: $res", $notif_from);
 }
 
-deconnexion($link);
 ?>

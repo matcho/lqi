@@ -88,7 +88,6 @@ if ($idCommande != '') {
 	mail($notif_to, "Un nouveau candidat a complété son dossier", "Il s'agit de $prenom $nom ($email).", $notif_from);
 }
 
-	deconnexion($link);
 ?>
 
 			<h1><?php echo $idCommande != '' ? 'Merci' : 'Erreur' ?><span id="title_line"></span></h1>

@@ -253,8 +253,8 @@ Created with the support of the Mairie de Paris, the Mairie du 4e arrondissement
 			$actualites = array();
 			// depuis la BDD
 			$req = "SELECT * FROM lqi_actualites ORDER BY date desc LIMIT 6";
-			$res = requete($req);
-			while ($ligne = mysql_fetch_assoc($res)) {
+			$res = $link->query($req);
+			while ($ligne = $res->fetch()) {
 				$actualites[] = $ligne;
 			}
 			
@@ -741,7 +741,6 @@ Les détails( dates et horaires) seront communiqués plus tard.<br/>
 
     <?php
 		include "pgs/pied.php";
-		deconnexion($link);
 	?>
     
     

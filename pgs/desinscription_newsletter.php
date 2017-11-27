@@ -7,13 +7,13 @@
 	$message = "Adresse email non reconnue.";
 	if ($email != null) {
 		$req = "SELECT * FROM lqi_newsletter WHERE email='$email';";
-		$res = requete($req);
-		$ligne = mysql_fetch_assoc($res);
+		$res = $link->query($req);
+		$ligne = $res->fetch();
 		// Vérification de l'existence de cette adresse dans la BDD
 		if ($ligne && $ligne['email'] != '') {
 			// Mise à jour - désinscription
 			$req = "UPDATE lqi_newsletter SET abonnement=0 WHERE email='$email';";
-			requete($req);
+			$link->query($req);
 			$message = "Votre adresse $email a bien été désinscrite de la newsletter.";
 		}
 	}
@@ -38,7 +38,6 @@
 	</section>
 	<?php
 		include "pied.php";
-		deconnexion($link);
 	?>
 </body>
 </html>

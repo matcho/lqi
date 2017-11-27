@@ -27,8 +27,8 @@
 			$destinataires = array();
 			$emailsDestinataires = array();
 			$req = "SELECT * FROM lqi_newsletter WHERE abonnement=1;";
-			$res = requete($req);
-			while ($ligne = mysql_fetch_assoc($res)) {
+			$res = $link->query($req);
+			while ($ligne = $res->fetch()) {
 				$destinataires[] = $ligne;
 				$emailsDestinataires[] = $ligne['email'];
 			}
@@ -38,8 +38,8 @@
 			// Désabonnés
 			$desabonnes = array();
 			$req = "SELECT * FROM lqi_newsletter WHERE abonnement=0;";
-			$res = requete($req);
-			while ($ligne = mysql_fetch_assoc($res)) {
+			$res = $link->query($req);
+			while ($ligne = $res->fetch()) {
 				$desabonnes[] = $ligne;
 			}
 			$nbDesabonnes = count($desabonnes);
@@ -96,8 +96,5 @@
 			?>
 		</div>
 	</section>
-	<?php
-		deconnexion($link);
-	?>
 </body>
 </html>

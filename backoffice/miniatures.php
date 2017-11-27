@@ -10,8 +10,8 @@ include "../pgs/entete.php";
 $link = connexion();
 
 $req = "SELECT nom, prenom, photos, biographie, presentation FROM lqi_inscrits WHERE id_commande='$id';";
-$res = requete($req);
-$ligne = mysql_fetch_assoc($res);
+$res = $link->query($req);
+$ligne = $res->fetch();
 if (! $ligne) {
 	echo "Aucune donnée pour l'id fourni";
 	exit;

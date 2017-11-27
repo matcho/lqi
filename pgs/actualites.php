@@ -20,8 +20,8 @@
 			if ($limite !== false) {
 				$req .= " LIMIT $limite";
 			}
-			$res = requete($req);
-			while ($ligne = mysql_fetch_assoc($res)) {
+			$res = $link->query($req);
+			while ($ligne = $res->fetch()) {
 				$actualites[] = $ligne;
 			}
 
@@ -45,7 +45,6 @@
     </section>
     <?php
 		include "pied.php";
-		deconnexion($link);
 	?>
     
     

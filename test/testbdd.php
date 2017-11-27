@@ -22,7 +22,5 @@ if (!$link) {
 	echo "<h3>TEST INSERTION</h3>";
 	$texte = "Ça a été à deux doigts d'être bô !";
 	$req = "UPDATE lqi_inscrits SET biographie='" . prot($texte) . "' WHERE id_commande='413aef158f5af6a9fb01bf20efd6e620f6947cc9';";
-	requete($req);
+	$link->query($req);
 }
-deconnexion($link);
-?>

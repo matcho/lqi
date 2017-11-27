@@ -8,9 +8,7 @@ if ($id == null) {
 }
 
 $req = "DELETE FROM lqi_actualites WHERE id='$id';";
-$ok = requete($req);
-
-deconnexion($link);
+$ok = $link->query($req);
 
 // réponse JSON
 header("Content-type: application/json; charset=utf-8");

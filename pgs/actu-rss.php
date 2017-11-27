@@ -26,8 +26,8 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
 	$actualites = array();
 	// depuis la BDD
 	$req = "SELECT * FROM lqi_actualites ORDER BY date desc";
-	$res = requete($req);
-	while ($ligne = mysql_fetch_assoc($res)) {
+	$res = $link->query($req);
+	while ($ligne = $res->fetch()) {
 		$actualites[] = $ligne;
 	}
 
@@ -42,6 +42,3 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
 	<?php endforeach; ?>
 	</channel>
 </rss>
-<?
-deconnexion($link);
-?>

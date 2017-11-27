@@ -4,32 +4,22 @@
  * données - penser à changer de nom
  */
 
-// à cause du "deprecated" de mysql_connect @TODO remplacer par PDO un jour
-ini_set("error_reporting", E_ALL ^ E_DEPRECATED);
-
 // Connexion à la BD
 function connexion() {
-	$hostname = "";
-	$username = "";
+	$hostname = "laquatribddwp.mysql.db";
+	$username = "laquatribddwp";
 	$password = "";
-	$database = "";
-	$link = mysql_connect($hostname, $username, $password);
-	mysql_select_db($database);
-	mysql_query("SET NAMES utf8");
+	$database = "laquatribddwp";
+	$options = array(
+		PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
+	);
+	$link = new PDO("mysql:host=$hostname;dbname=$database", $username, $password, $options);
 
 	return $link;
 }
 
-function requete($req) {
-	return mysql_query($req);
-}
-
 function prot($str) {
-	return mysql_real_escape_string($str);
-}
-
-function deconnexion($link) {
-	mysql_close($link);
+	return PDO::quote($str);
 }
 
 // Template minimal
@@ -41,4 +31,3 @@ function renduTemplate($template, $vars = array()) {
 	ob_end_clean();
 	return $templateRendu;
 }
-?>

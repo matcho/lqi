@@ -7,10 +7,10 @@
 	$idActu = isset($_GET['id-actu']) && $_GET['id-actu'] != '' ? $_GET['id-actu'] : null;
 	$action = isset($_POST['action']) ? $_POST['action'] : null;
 
-	$titre_fr = isset($_POST['titre_fr']) ? mysql_real_escape_string($_POST['titre_fr']) : '';
-	$titre_en = isset($_POST['titre_en']) ? mysql_real_escape_string($_POST['titre_en']) : '';
-	$texte_fr = isset($_POST['texte_fr']) ? mysql_real_escape_string($_POST['texte_fr']) : '';
-	$texte_en = isset($_POST['texte_en']) ? mysql_real_escape_string($_POST['texte_en']) : '';
+	$titre_fr = isset($_POST['titre_fr']) ? ($_POST['titre_fr']) : '';
+	$titre_en = isset($_POST['titre_en']) ? ($_POST['titre_en']) : '';
+	$texte_fr = isset($_POST['texte_fr']) ? ($_POST['texte_fr']) : '';
+	$texte_en = isset($_POST['texte_en']) ? ($_POST['texte_en']) : '';
 	$date = isset($_POST['date']) ? $_POST['date'] : '';
 	// date du jour par défaut
 	if ($date == '') {
@@ -49,7 +49,7 @@
 				}
 				// Insertion en BDD
 				$requeteInsertion = "INSERT INTO lqi_actualites VALUES(DEFAULT, '$date', '$titre_fr', '$titre_en', '$texte_fr', '$texte_en', '$lien', '$nouveauNom', '$copyright')";
-				requete($requeteInsertion);
+				$link->query($requeteInsertion);
 				// Notification à l'admin
 				$contenu = "Une nouvelle actualité a été enregistrée.\n\n"
 					. "Titre (fr): " . stripslashes($titre_fr) . "\n"
@@ -61,15 +61,15 @@
 			} elseif ($action == "modifier-actu") { // MODIFICATION
 				// Mise à jour BDD
 				$requeteMaJ = "UPDATE lqi_actualites SET date='$date', titre_fr='$titre_fr', titre_en='$titre_en', texte_fr='$texte_fr', texte_en='$texte_en', lien='$lien', copyright='$copyright' WHERE id='$idActu'";
-				requete($requeteMaJ);
+				$link->query($requeteMaJ);
 				// pas besoin d'email à l'admin... @TODO peut-être que si ?
 			}
 
 			// Actualités
 			$actualites = array();
 			$req = "SELECT * FROM lqi_actualites ORDER BY date DESC, id DESC;";
-			$res = requete($req);
-			while ($ligne = mysql_fetch_assoc($res)) {
+			$res = $link->query($req);
+			while ($ligne = $res->fetch()) {
 				$actualites[] = $ligne;
 			}
 
@@ -151,8 +151,5 @@
 			</div>
 		</div>
 	</section>
-	<?php
-		deconnexion($link);
-	?>
 </body>
 </html>

@@ -29,8 +29,8 @@
           <?php
 			// vérification de l'existence de l'identifiant de commande
 			$req = "SELECT * FROM lqi_inscrits WHERE id_commande='" . prot($idCommande) . "';";
-			$res = requete($req);
-			$ligne = mysql_fetch_assoc($res);
+			$res = $link->query($req);
+			$ligne = $res->fetch();
 			if ((! $ligne) || ($ligne['id_commande'] == "")) {
 				trad("Le numéro de commande n'est pas reconnu",
 					"Unknown command number");
@@ -224,7 +224,6 @@
     </section>
     <?php
 		include "pied.php";
-		deconnexion($link);
 	?>
 </body>
 </html>

@@ -9,11 +9,8 @@ if ($note == '') {
 }
 
 $req = "UPDATE lqi_inscrits SET note=$note WHERE id_commande='$id';";
-$ok = requete($req);
-
-deconnexion($link);
+$ok = $link->query($req);
 
 // réponse JSON
 header("Content-type: application/json; charset=utf-8");
 echo $ok === false ? 'false' : 'true';
-?>

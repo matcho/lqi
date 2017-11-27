@@ -50,8 +50,8 @@
 			);
 			$candidatsEnAttente = array();
 			$req = "SELECT * FROM lqi_inscrits ORDER BY note desc;";
-			$res = requete($req);
-			while ($ligne = mysql_fetch_assoc($res)) {
+			$res = $link->query($req);
+			while ($ligne = $res->fetch()) {
 				if ($ligne['inscription_complete'] == '1') {
 					$candidats[$ligne['categorie']][] = $ligne;
 				} else {
@@ -88,8 +88,5 @@
 			</div>
 		</div>
 	</section>
-	<?php
-		deconnexion($link);
-	?>
 </body>
 </html>

@@ -25,9 +25,9 @@
 			<?php
 			// récupération de la liste des candidats n'ayant pas rempli le dossier
 			$req = "SELECT * FROM lqi_inscrits WHERE inscription_complete = 0 ORDER BY pp_email;";
-			$res = requete($req);
+			$res = $link->query($req);
 			$candidats = array();
-			while ($ligne = mysql_fetch_assoc($res)) {
+			while ($ligne = $res->fetch()) {
 				$candidats[$ligne['id_commande']] = $ligne;
 			}
 			?>
@@ -86,8 +86,5 @@
 
 		</div>
 	</section>
-	<?php
-		deconnexion($link);
-	?>
 </body>
 </html>
