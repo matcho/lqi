@@ -2,17 +2,28 @@
 <body>
 	<?php
 		$page = "exposants";
-		$annee = isset($_GET['annee']) ? $_GET['annee'] : '2015';
-		include "menu.php"
+		$annee = isset($_GET['annee']) ? $_GET['annee'] : '2017';
+		include "menu.php";
 	?>
     <section class="exposants intro content">
     	<div id="content">
     		<h1><?php trad("Les exposants", "Exhibitors"); ?><span id="title_line"></span></h1>
             <ul id="nav_concour">
+            	<li><a href="#" data-annee="2017"<?php echo ($annee == '2017' ? ' class="active"' : '') ?>>2017</a></li>
             	<li><a href="#" data-annee="2015"<?php echo ($annee == '2015' ? ' class="active"' : '') ?>>2015</a></li>
             	<li><a href="#" data-annee="2014"<?php echo ($annee == '2014' ? ' class="active"' : '') ?>>2014</a></li>
             	<li><a href="#" data-annee="2013"<?php echo ($annee == '2013' ? ' class="active"' : '') ?>>2013</a></li>
             </ul>
+				<!-- @TODO_AURELIEN Remplir la description pour 2017 -->
+			<div id="presentation" data-annee="2017"<?php echo ($annee != '2017' ? ' style="display: none;"' : '') ?>>
+                <p class="colspe">
+                	Devenu une référence dans le paysage photographique, le salon international de photographie La Quatrième Image favorise la rencontre entre des photographes, venus du monde entier et sélectionnés par la Direction Artistique du salon, avec le public. Occasion d’échanges interculturels autour du média photographique, le festival reçoit
+                </p>
+				</p>
+				<p>
+                	plus de 18 000 visiteurs, amateurs avertis ou néophytes, galeristes, presse généraliste ou spécialisée… C’est aussi la possibilité pour les exposants de vendre leur travail. Environ 40  exposants sont sélectionnés chaque année parmi plusieurs centaines de candidature, et figurent dans le livre photo, catalogue du salon
+                </p>
+            </div>
 			<div id="presentation" data-annee="2015"<?php echo ($annee != '2015' ? ' style="display: none;"' : '') ?>>
                 <p class="colspe">
                 	Devenu une référence dans le paysage photographique, le salon international de photographie La Quatrième Image favorise la rencontre entre des photographes, venus du monde entier et sélectionnés par la Direction Artistique du salon, avec le public. Occasion d’échanges interculturels autour du média photographique, le festival reçoit
@@ -41,6 +52,13 @@
             </div>
         </div>
     </section>
+    <section class="exposants liste content" data-annee="2017"<?php echo ($annee != '2017' ? ' style="display: none;"' : '') ?>>
+    	<div id="content">
+            <h1>Liste des exposants 2017<span id="title_line"></span></h1>
+			<?php include "galeries/exposants_2017_liste.php"; ?>
+			<br class="clear" />
+        </div>
+    </section>
     <section class="exposants liste content" data-annee="2015"<?php echo ($annee != '2015' ? ' style="display: none;"' : '') ?>>
     	<div id="content">
             <h1>Liste des exposants 2015<span id="title_line"></span></h1>
@@ -61,6 +79,26 @@
 			<?php include "galeries/exposants_2013_liste.php"; ?>
 			<br class="clear" />
         </div>
+    </section>
+    <section class="exposants diaporama content" data-annee="2017"<?php echo ($annee != '2017' ? ' style="display: none;"' : '') ?>>
+    	<div id="content">
+			<div class="conteneur-diaporama">
+				<div class="image">
+					<?php include "galeries/exposants_2017_images.html"; ?>
+				</div>
+				<div class="commandes">
+					<a class="lien-plein-ecran" href="diaporama.php?&auteur=exposants_2017&retour=exposants.php?annee=2017">
+						<img class="plein-ecran" src="../img/plein-ecran.png" />
+					</a>
+					<span class="decompte"><span class="numero-photo">1</span> / <span class="total-photos"></span></span>
+					<div class="fleches">
+						<img class="fleche-gauche" src="../img/gauche_noir.png" />
+						<img class="fleche-droite" src="../img/droite_noir.png" />
+					</div>
+				</div>
+			</div>
+			<?php include "galeries/exposants_2017_commentaires.php"; ?>
+    	</div>
     </section>
     <section class="exposants diaporama content" data-annee="2015"<?php echo ($annee != '2015' ? ' style="display: none;"' : '') ?>>
     	<div id="content">
