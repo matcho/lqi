@@ -7,7 +7,13 @@ $dossierUpload = "../upload/actualites/";
 $cheminImage = $dossierUpload . $a['image'];
 $jour = substr($a['date'], 8, 2);
 $mois = substr($a['date'], 5, 2);
+$annee = substr($a['date'], 0, 4);
+$anneeCourante = date("Y");
+
 $date = $jour . '/' . $mois;
+if ($annee != $anneeCourante) {
+	$date .= '/' . $annee;
+}
 ?>
 
 <a id="actu-<?php echo $a['id'] ?>" class="ancre-actu">coucou l'ancre</a>
