@@ -7,7 +7,7 @@
 		if ($annee == '2017') {
 			// @TODO_AURELIEN mettre le nom d'artiste par défaut de 2017 ici,
 			// figurant dans "data-nom", ligne 6 du fichier 2017/le_prix_photo.php
-			$nom = 'dondyuk';
+			$nom = 'plotkinova';
 		}
 		if ($annee == '2015') {
 			$nom = 'dondyuk';

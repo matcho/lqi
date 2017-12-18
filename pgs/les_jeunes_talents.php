@@ -7,7 +7,7 @@
 		if ($annee == '2017') {
 			// @TODO_AURELIEN mettre le nom d'artiste par défaut de 2017 ici,
 			// figurant dans "data-nom", ligne 6 du fichier 2017/les_jeunes_talents.php
-			$nom = 'sahraoui';
+			$nom = 'gruber';
 		}
 		if ($annee == '2015') {
 			$nom = 'sahraoui';

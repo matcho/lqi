@@ -3,64 +3,64 @@
 <div class="prix_photos annee" data-annee="2017" <?php echo $annee != '2017' ? 'style="display: none;"' : ''?>>
 	<section class="jeunes_talents bandeau content">
 		<div id="content">
-			<div class="entete-photographe" data-nom="sahraoui" <?php echo $nom != 'sahraoui' ? 'style="display:none;"' : '' ?>>
-				<img class="portrait" src="../img/jeunes talents/Fethi Sahraoui/00.jpg" />
+			<div class="entete-photographe" data-nom="gruber" <?php echo $nom != 'gruber' ? 'style="display:none;"' : '' ?>>
+				<img class="portrait" src="../img/jeunes talents/antonia gruber/00.jpg" />
 				<span class="titre-categorie">Jeune Talent 2017</span>
-				<h1>Fethi SAHRAOUI</h1>
+				<h1>Antonia GRUBER</h1>
 				<ul class="controle controle-petit">
-					<li><a data-nom="sahraoui" href="#" class="active"></a></li>
-					<li><a data-nom="lavigne" href="#"></a></li>
-					<li><a data-nom="valle" href="#"></a></li>
-					<li><a data-nom="wojciechowska" href="#"></a></li>
+					<li><a data-nom="gruber" href="#" class="active"></a></li>
+					<li><a data-nom="hattingh" href="#"></a></li>
+					<li><a data-nom="palka" href="#"></a></li>
+					<li><a data-nom="victoria" href="#"></a></li>
 				</ul>
 				<br class="clear" />
 			</div>
-			<div class="entete-photographe" data-nom="lavigne" <?php echo $nom != 'lavigne' ? 'style="display:none;"' : '' ?>>
-				<img class="portrait" src="../img/jeunes talents/Maroesjka Lavigne/00.jpg" />
+			<div class="entete-photographe" data-nom="hattingh" <?php echo $nom != 'hattingh' ? 'style="display:none;"' : '' ?>>
+				<img class="portrait" src="../img/jeunes talents/minien hattingh/00.jpg" />
 				<span class="titre-categorie">Jeune Talent 2017</span>
-				<h1>Maroesjka LAVIGNE</h1>
+				<h1>Minien HATTINGH</h1>
 				<ul class="controle controle-petit">
-					<li><a data-nom="sahraoui" href="#"></a></li>
-					<li><a data-nom="lavigne" href="#" class="active"></a></li>
-					<li><a data-nom="valle" href="#"></a></li>
-					<li><a data-nom="wojciechowska" href="#"></a></li>
+					<li><a data-nom="gruber" href="#"></a></li>
+					<li><a data-nom="hattingh" href="#" class="active"></a></li>
+					<li><a data-nom="palka" href="#"></a></li>
+					<li><a data-nom="victoria" href="#"></a></li>
 				</ul>
 				<br class="clear" />
 			</div>
-			<div class="entete-photographe" data-nom="valle" <?php echo $nom != 'valle' ? 'style="display:none;"' : '' ?>>
-				<img class="portrait" src="../img/jeunes talents/Miriam Valle/00.jpg" />
+			<div class="entete-photographe" data-nom="palka" <?php echo $nom != 'palka' ? 'style="display:none;"' : '' ?>>
+				<img class="portrait" src="../img/jeunes talents/karol palka/00.jpg" />
 				<span class="titre-categorie">Jeune Talent 2017</span>
-				<h1>Miriam VALLE</h1>
+				<h1>Karol PALKA</h1>
 				<ul class="controle controle-petit">
-					<li><a data-nom="sahraoui" href="#"></a></li>
-					<li><a data-nom="lavigne" href="#"></a></li>
-					<li><a data-nom="valle" href="#" class="active"></a></li>
-					<li><a data-nom="wojciechowska" href="#"></a></li>
+					<li><a data-nom="gruber" href="#"></a></li>
+					<li><a data-nom="hattingh" href="#"></a></li>
+					<li><a data-nom="palka" href="#" class="active"></a></li>
+					<li><a data-nom="victoria" href="#"></a></li>
 				</ul>
 				<br class="clear" />
 			</div>
-			<div class="entete-photographe" data-nom="wojciechowska" <?php echo $nom != 'wojciechowska' ? 'style="display:none;"' : '' ?>>
-				<img class="portrait" src="../img/jeunes talents/Wiktoria Wojciechowska/00.jpg" />
+			<div class="entete-photographe" data-nom="victoria" <?php echo $nom != 'victoria' ? 'style="display:none;"' : '' ?>>
+				<img class="portrait" src="../img/jeunes talents/dennese victoria/00.jpg" />
 				<span class="titre-categorie">Jeune Talent 2017</span>
-				<h1>Wiktoria WOJCIECHOWSKA</h1>
+				<h1>Dennese VICTORIA</h1>
 				<ul class="controle controle-petit">
-					<li><a data-nom="sahraoui" href="#"></a></li>
-					<li><a data-nom="lavigne" href="#"></a></li>
-					<li><a data-nom="valle" href="#"></a></li>
-					<li><a data-nom="wojciechowska" href="#" class="active"></a></li>
+					<li><a data-nom="gruber" href="#"></a></li>
+					<li><a data-nom="hattingh" href="#"></a></li>
+					<li><a data-nom="palka" href="#"></a></li>
+					<li><a data-nom="victoria" href="#" class="active"></a></li>
 				</ul>
 				<br class="clear" />
 			</div>
 		</div>
 	</section>
-	<section class="jeunes_talents diaporama content" data-nom="sahraoui" <?php echo $nom != 'sahraoui' ? 'style="display:none;"' : '' ?>>
+	<section class="jeunes_talents diaporama content" data-nom="gruber" <?php echo $nom != 'gruber' ? 'style="display:none;"' : '' ?>>
 		<div id="content">
 			<div class="conteneur-diaporama">
 				<div class="image">
-					<?php include "galeries/fethi_sahraoui_images.html" ?>
+					<?php include "galeries/antonia_gruber_images.html" ?>
 				</div>
 				<div class="commandes">
-					<a class="lien-plein-ecran" href="diaporama.php?&auteur=fethi_sahraoui&retour=les_jeunes_talents.php?annee=2017|nom=sahraoui">
+					<a class="lien-plein-ecran" href="diaporama.php?&auteur=antonia_gruber&retour=les_jeunes_talents.php?annee=2017|nom=gruber">
 						<img class="plein-ecran" src="../img/plein-ecran.png" />
 					</a>
 					<span class="decompte"><span class="numero-photo">1</span> / <span class="total-photos"></span></span>
@@ -71,35 +71,35 @@
 				</div>
 			</div>
 			<div class="commentaire-diaporama" data-idx="0">
-				<h1>Fethi SAHRAOUI</h1>
+				<h1>Antonia GRUBER</h1>
 				<h4></h4>
 				<p>
 
 				</p>
 			</div>
 			<div class="commentaire-diaporama" data-idx="1" style="display: none;">
-				<h1>Fethi SAHRAOUI</h1>
+				<h1>Antonia GRUBER</h1>
 				<h4></h4>
 				<p>
 
 				</p>
 			</div>
 			<div class="commentaire-diaporama" data-idx="2" style="display: none;">
-				<h1>Fethi SAHRAOUI</h1>
+				<h1>Antonia GRUBER</h1>
 				<h4></h4>
 				<p>
 
 				</p>
 			</div>
 			<div class="commentaire-diaporama" data-idx="3" style="display: none;">
-				<h1>Fethi SAHRAOUI</h1>
+				<h1>Antonia GRUBER</h1>
 				<h4></h4>
 				<p>
 
 				</p>
 			</div>
 			<div class="commentaire-diaporama" data-idx="4" style="display: none;">
-				<h1>Fethi SAHRAOUI</h1>
+				<h1>Antonia GRUBER</h1>
 				<h4></h4>
 				<p>
 
@@ -107,14 +107,14 @@
 			</div>
 		</div>
 	</section>
-	<section class="jeunes_talents diaporama content" data-nom="lavigne" <?php echo $nom != 'lavigne' ? 'style="display:none;"' : '' ?>>
+	<section class="jeunes_talents diaporama content" data-nom="hattingh" <?php echo $nom != 'hattingh' ? 'style="display:none;"' : '' ?>>
 		<div id="content">
 			<div class="conteneur-diaporama">
 				<div class="image">
-					<?php include "galeries/maroesjka_lavigne_images.html" ?>
+					<?php include "galeries/minien_hattingh_images.html" ?>
 				</div>
 				<div class="commandes">
-					<a class="lien-plein-ecran" href="diaporama.php?&auteur=maroesjka_lavigne&retour=les_jeunes_talents.php?annee=2017|nom=lavigne">
+					<a class="lien-plein-ecran" href="diaporama.php?&auteur=minien_hattingh&retour=les_jeunes_talents.php?annee=2017|nom=hattingh">
 						<img class="plein-ecran" src="../img/plein-ecran.png" />
 					</a>
 					<span class="decompte"><span class="numero-photo">1</span> / <span class="total-photos"></span></span>
@@ -125,35 +125,35 @@
 				</div>
 			</div>
 			<div class="commentaire-diaporama" data-idx="0">
-				<h1>Maroesjka LAVIGNE</h1>
+				<h1>Minien HATTINGH</h1>
 				<h4></h4>
 				<p>
 
 				</p>
 			</div>
 			<div class="commentaire-diaporama" data-idx="1" style="display: none;">
-				<h1>Maroesjka LAVIGNE</h1>
+				<h1>Minien HATTINGH</h1>
 				<h4></h4>
 				<p>
 
 				</p>
 			</div>
 			<div class="commentaire-diaporama" data-idx="2" style="display: none;">
-				<h1>Maroesjka LAVIGNE</h1>
+				<h1>Minien HATTINGH</h1>
 				<h4></h4>
 				<p>
 
 				</p>
 			</div>
 			<div class="commentaire-diaporama" data-idx="3" style="display: none;">
-				<h1>Maroesjka LAVIGNE</h1>
+				<h1>Minien HATTINGH</h1>
 				<h4></h4>
 				<p>
 
 				</p>
 			</div>
 			<div class="commentaire-diaporama" data-idx="4" style="display: none;">
-				<h1>Maroesjka LAVIGNE</h1>
+				<h1>Minien HATTINGH</h1>
 				<h4></h4>
 				<p>
 
@@ -161,14 +161,14 @@
 			</div>
 		</div>
 	</section>
-	<section class="jeunes_talents diaporama content" data-nom="valle" <?php echo $nom != 'valle' ? 'style="display:none;"' : '' ?>>
+	<section class="jeunes_talents diaporama content" data-nom="palka" <?php echo $nom != 'palka' ? 'style="display:none;"' : '' ?>>
 		<div id="content">
 			<div class="conteneur-diaporama">
 				<div class="image">
-					<?php include "galeries/miriam_valle_images.html" ?>
+					<?php include "galeries/karol_palka_images.html" ?>
 				</div>
 				<div class="commandes">
-					<a class="lien-plein-ecran" href="diaporama.php?&auteur=miriam_valle&retour=les_jeunes_talents.php?annee=2017|nom=valle">
+					<a class="lien-plein-ecran" href="diaporama.php?&auteur=karol_palka&retour=les_jeunes_talents.php?annee=2017|nom=palka">
 						<img class="plein-ecran" src="../img/plein-ecran.png" />
 					</a>
 					<span class="decompte"><span class="numero-photo">1</span> / <span class="total-photos"></span></span>
@@ -179,35 +179,35 @@
 				</div>
 			</div>
 			<div class="commentaire-diaporama" data-idx="0">
-				<h1>Miriam VALLE</h1>
+				<h1>Karol PALKA</h1>
 				<h4></h4>
 				<p>
 
 				</p>
 			</div>
 			<div class="commentaire-diaporama" data-idx="1" style="display: none;">
-				<h1>Miriam VALLE</h1>
+				<h1>Karol PALKA</h1>
 				<h4></h4>
 				<p>
 
 				</p>
 			</div>
 			<div class="commentaire-diaporama" data-idx="2" style="display: none;">
-				<h1>Miriam VALLE</h1>
+				<h1>Karol PALKA</h1>
 				<h4></h4>
 				<p>
 
 				</p>
 			</div>
 			<div class="commentaire-diaporama" data-idx="3" style="display: none;">
-				<h1>Miriam VALLE</h1>
+				<h1>Karol PALKA</h1>
 				<h4></h4>
 				<p>
 
 				</p>
 			</div>
 			<div class="commentaire-diaporama" data-idx="4" style="display: none;">
-				<h1>Miriam VALLE</h1>
+				<h1>Karol PALKA</h1>
 				<h4></h4>
 				<p>
 
@@ -215,14 +215,14 @@
 			</div>
 		</div>
 	</section>
-	<section class="jeunes_talents diaporama content" data-nom="wojciechowska" <?php echo $nom != 'wojciechowska' ? 'style="display:none;"' : '' ?>>
+	<section class="jeunes_talents diaporama content" data-nom="victoria" <?php echo $nom != 'victoria' ? 'style="display:none;"' : '' ?>>
 		<div id="content">
 			<div class="conteneur-diaporama">
 				<div class="image">
-					<?php include "galeries/wiktoria_wojciechowska_images.html" ?>
+					<?php include "galeries/dennese_victoria_images.html" ?>
 				</div>
 				<div class="commandes">
-					<a class="lien-plein-ecran" href="diaporama.php?&auteur=wiktoria_wojciechowska&retour=les_jeunes_talents.php?annee=2017|nom=wojciechowska">
+					<a class="lien-plein-ecran" href="diaporama.php?&auteur=dennese_victoria&retour=les_jeunes_talents.php?annee=2017|nom=victoria">
 						<img class="plein-ecran" src="../img/plein-ecran.png" />
 					</a>
 					<span class="decompte"><span class="numero-photo">1</span> / <span class="total-photos"></span></span>
@@ -233,35 +233,35 @@
 				</div>
 			</div>
 			<div class="commentaire-diaporama" data-idx="0">
-				<h1>Wiktoria WOJCIECHOWSKA</h1>
+				<h1>Dennese VICTORIA</h1>
 				<h4></h4>
 				<p>
 
 				</p>
 			</div>
 			<div class="commentaire-diaporama" data-idx="1" style="display: none;">
-				<h1>Wiktoria WOJCIECHOWSKA</h1>
+				<h1>Dennese VICTORIA</h1>
 				<h4></h4>
 				<p>
 
 				</p>
 			</div>
 			<div class="commentaire-diaporama" data-idx="2" style="display: none;">
-				<h1>Wiktoria WOJCIECHOWSKA</h1>
+				<h1>Dennese VICTORIA</h1>
 				<h4></h4>
 				<p>
 
 				</p>
 			</div>
 			<div class="commentaire-diaporama" data-idx="3" style="display: none;">
-				<h1>Wiktoria WOJCIECHOWSKA</h1>
+				<h1>Dennese VICTORIA</h1>
 				<h4></h4>
 				<p>
 
 				</p>
 			</div>
 			<div class="commentaire-diaporama" data-idx="4" style="display: none;">
-				<h1>Wiktoria WOJCIECHOWSKA</h1>
+				<h1>Dennese VICTORIA</h1>
 				<h4></h4>
 				<p>
 
